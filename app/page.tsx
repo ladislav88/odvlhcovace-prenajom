@@ -115,23 +115,90 @@ export default function Home() {
             Naše Odvlhčovače
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[1, 2, 3, 4].map((i) => (
-              <div key={i} className="bg-gray-50 p-6 rounded-lg border border-gray-200">
-                <div className="bg-gray-200 h-48 rounded-lg mb-4 flex items-center justify-center">
-                  <span className="text-gray-400 text-sm">Obrázok odvlhčovača {i}</span>
-                </div>
-                <h3 className="text-lg font-semibold mb-2">Odvlhčovač Typ {i}</h3>
-                <p className="text-gray-600 text-sm mb-4">
-                  Profesionálny odvlhčovač vhodný pre rôzne typy priestorov.
-                </p>
-                <Link
-                  href="/prenajom-odvlhcovaca"
-                  className="text-blue-600 hover:text-blue-700 font-semibold text-sm"
-                >
-                  Viac informácií →
-                </Link>
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <div className="bg-gray-200 h-48 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-400 text-sm">Rohnson</span>
               </div>
-            ))}
+              <h3 className="text-lg font-semibold mb-2">Priemyselný odvlhčovač</h3>
+              <p className="text-gray-600 text-sm mb-2">
+                Profesionálny odvlhčovač značky Rohnson s vysokým výkonom. Vhodný pre veľké priestory.
+              </p>
+              <ul className="text-gray-600 text-xs space-y-1 mb-4">
+                <li>✓ Vysoký výkon odvlhčovania</li>
+                <li>✓ Pre veľké priestory</li>
+                <li>✓ Prachový filter</li>
+                <li>✓ Automatické vypnutie</li>
+              </ul>
+              <Link
+                href="/prenajom-odvlhcovaca"
+                className="text-blue-600 hover:text-blue-700 font-semibold text-sm"
+              >
+                Viac informácií →
+              </Link>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <div className="bg-gray-200 h-48 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-400 text-sm">Rohnson</span>
+              </div>
+              <h3 className="text-lg font-semibold mb-2">Pre veľké priestory</h3>
+              <p className="text-gray-600 text-sm mb-2">
+                Ideálny pre odvlhčovanie veľkých bytov, domov a komerčných priestorov v Trenčíne a okolí.
+              </p>
+              <ul className="text-gray-600 text-xs space-y-1 mb-4">
+                <li>✓ Vysoký prietok vzduchu</li>
+                <li>✓ Nastavenie vlhkosti</li>
+                <li>✓ Časovač</li>
+                <li>✓ Systém proti zamrznutiu</li>
+              </ul>
+              <Link
+                href="/odvlhcovac-do-bytu"
+                className="text-blue-600 hover:text-blue-700 font-semibold text-sm"
+              >
+                Viac informácií →
+              </Link>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <div className="bg-gray-200 h-48 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-400 text-sm">Rohnson</span>
+              </div>
+              <h3 className="text-lg font-semibold mb-2">Po zatopení</h3>
+              <p className="text-gray-600 text-sm mb-2">
+                Rýchle a efektívne riešenie pre odvlhčovanie po záplavách a zatopeniach.
+              </p>
+              <ul className="text-gray-600 text-xs space-y-1 mb-4">
+                <li>✓ Vysoký výkon odvlhčovania</li>
+                <li>✓ Široký rozsah teplôt</li>
+                <li>✓ Veľký zásobník</li>
+                <li>✓ Kolieska pre ľahký presun</li>
+              </ul>
+              <Link
+                href="/odvlhcovac-po-zatopeni"
+                className="text-blue-600 hover:text-blue-700 font-semibold text-sm"
+              >
+                Viac informácií →
+              </Link>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+              <div className="bg-gray-200 h-48 rounded-lg mb-4 flex items-center justify-center">
+                <span className="text-gray-400 text-sm">Rohnson</span>
+              </div>
+              <h3 className="text-lg font-semibold mb-2">Do pivnice</h3>
+              <p className="text-gray-600 text-sm mb-2">
+                Efektívne odvlhčovanie pivníc a podzemných priestorov s vysokou vlhkosťou.
+              </p>
+              <ul className="text-gray-600 text-xs space-y-1 mb-4">
+                <li>✓ Tichá prevádzka</li>
+                <li>✓ Ekologické chladivo</li>
+                <li>✓ Praktická rukoväť</li>
+                <li>✓ Automatická prevádzka</li>
+              </ul>
+              <Link
+                href="/odvlhcovac-do-pivnice"
+                className="text-blue-600 hover:text-blue-700 font-semibold text-sm"
+              >
+                Viac informácií →
+              </Link>
+            </div>
           </div>
         </div>
       </section>

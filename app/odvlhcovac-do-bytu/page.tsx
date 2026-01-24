@@ -61,6 +61,13 @@ export default function OdvlhcovacDoBytu() {
             </ul>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
+              Priemyselné odvlhčovače Rohnson pre byty
+            </h3>
+            <p className="text-gray-700 mb-4 text-lg">
+              Ponúkame prenájom priemyselných odvlhčovačov značky <strong>Rohnson</strong>, ktoré sú vhodné aj pre odvlhčovanie bytov. Zariadenia majú kompaktné rozmery, tichú prevádzku a vysokú účinnosť odvlhčovania. Nastavenie vlhkosti a časovač umožňujú presné riadenie podľa vašich potrieb.
+            </p>
+
+            <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
               Ako funguje prenájom odvlhčovača do bytu?
             </h3>
             <p className="text-gray-700 mb-4 text-lg">

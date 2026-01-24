@@ -61,6 +61,9 @@ export default function OdvlhcovacPoZatopeni() {
             <p className="text-gray-700 mb-4 text-lg">
               Poskytujeme kompletnú službu vrátane rýchlej dopravy odvlhčovača, odborného poradenstva a technickej podpory. Naše zariadenia sú vhodné pre odvlhčovanie bytov, domov, kancelárií a iných priestorov postihnutých zatopením.
             </p>
+            <p className="text-gray-700 mb-4 text-lg">
+              Používame profesionálne priemyselné odvlhčovače značky <strong>Rohnson</strong> s vysokým výkonom, ktoré sú ideálne pre rýchle a efektívne odvlhčovanie po záplavách. Zariadenia majú vysoký prietok vzduchu a sú vhodné pre veľké priestory.
+            </p>
           </div>
         </div>
       </section>

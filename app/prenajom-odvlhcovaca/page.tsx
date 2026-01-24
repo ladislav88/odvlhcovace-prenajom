@@ -51,6 +51,52 @@ export default function PrenajomOdvlhcovaca() {
             <p className="text-gray-700 mb-4 text-lg">
               Odvlhčovač je nevyhnutný v prípade zatopenia, nadmernej vlhkosti v pivnici, vlhkých stien v byte alebo akéhokoľvek iného problému s vlhkosťou. Naše zariadenia efektívne odstraňujú vlhkosť zo vzduchu a pomáhajú predchádzať vzniku plesní a nepríjemných pachov.
             </p>
+
+            <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
+              Naše zariadenia
+            </h3>
+            <p className="text-gray-700 mb-4 text-lg">
+              Ponúkame prenájom profesionálnych priemyselných odvlhčovačov značky <strong>Rohnson</strong>, ktoré sú ideálne pre odvlhčovanie veľkých priestorov a náročné aplikácie v Trenčíne a okolí.
+            </p>
+
+            <div className="bg-gray-50 p-6 rounded-lg my-6">
+              <h4 className="text-xl font-semibold mb-4 text-gray-900">Technické špecifikácie</h4>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <h5 className="font-semibold mb-2 text-gray-900">Výkon a kapacita</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• Vysoký výkon odvlhčovania</li>
+                    <li>• Vhodný pre veľké priestory</li>
+                    <li>• Vysoký prietok vzduchu</li>
+                    <li>• Veľký zásobník na kondenzát</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 className="font-semibold mb-2 text-gray-900">Technické parametre</h5>
+                  <ul className="space-y-1 text-gray-700 text-sm">
+                    <li>• Efektívny príkon</li>
+                    <li>• Tichá prevádzka</li>
+                    <li>• Široký rozsah prevádzkových teplôt</li>
+                    <li>• Kompaktné rozmery</li>
+                    <li>• Praktická manipulácia</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-blue-50 p-6 rounded-lg my-6">
+              <h4 className="text-xl font-semibold mb-4 text-gray-900">Funkcie a výhody</h4>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-gray-700">
+                <li>✓ Nastavenie vlhkosti</li>
+                <li>✓ Časovač</li>
+                <li>✓ Automatické vypnutie pri naplnení zásobníka</li>
+                <li>✓ Systém proti zamrznutiu</li>
+                <li>✓ Prachový filter</li>
+                <li>✓ Ekologické chladivo</li>
+                <li>✓ Praktická rukoväť a kolieska</li>
+                <li>✓ Jednoduchá obsluha</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
