@@ -21,7 +21,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+421XXXXXXXXX"
+              href="tel:+421911911876"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-lg"
             >
               📞 Zavolajte nám
@@ -221,10 +221,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="tel:+421XXXXXXXXX"
+              href="tel:+421911911876"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-lg"
             >
-              📞 +421 XXX XXX XXX
+              📞 +421 911 911 876
             </a>
             <a
               href="mailto:info@odvlhcovaceprenajom.sk"

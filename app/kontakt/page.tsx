@@ -42,10 +42,10 @@ export default function Kontakt() {
                 <div>
                   <h3 className="text-lg font-semibold mb-2 text-gray-900">Telefón</h3>
                   <a
-                    href="tel:+421XXXXXXXXX"
+                    href="tel:+421911911876"
                     className="text-blue-600 hover:text-blue-700 text-lg font-medium"
                   >
-                    📞 +421 XXX XXX XXX
+                    📞 +421 911 911 876
                   </a>
                   <p className="text-gray-600 text-sm mt-1">
                     Dostupné počas pracovných dní 8:00 - 18:00
@@ -109,7 +109,7 @@ export default function Kontakt() {
                     id="phone"
                     name="phone"
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                    placeholder="+421 XXX XXX XXX"
+                    placeholder="+421 911 911 876"
                   />
                 </div>
                 <div>

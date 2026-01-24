@@ -10,10 +10,10 @@ export default function CTA() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="tel:+421XXXXXXXXX"
+            href="tel:+421911911876"
             className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors text-lg"
           >
-            📞 +421 XXX XXX XXX
+            📞 +421 911 911 876
           </a>
           <a
             href="mailto:info@odvlhcovaceprenajom.sk"

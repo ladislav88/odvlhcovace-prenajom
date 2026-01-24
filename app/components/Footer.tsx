@@ -30,7 +30,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Kontakt</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>Tel: <a href="tel:+421XXXXXXXXX" className="hover:text-white transition-colors">+421 XXX XXX XXX</a></li>
+              <li>Tel: <a href="tel:+421911911876" className="hover:text-white transition-colors">+421 911 911 876</a></li>
               <li>Email: <a href="mailto:info@odvlhcovaceprenajom.sk" className="hover:text-white transition-colors">info@odvlhcovaceprenajom.sk</a></li>
             </ul>
           </div>
