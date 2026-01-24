@@ -29,6 +29,17 @@ export default function Kontakt() {
               </h2>
               <div className="space-y-6">
                 <div>
+                  <h3 className="text-lg font-semibold mb-2 text-gray-900">Spoločnosť</h3>
+                  <p className="text-gray-700 font-medium">ALCO.SK, s.r.o.</p>
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2 text-gray-900">Adresa</h3>
+                  <p className="text-gray-700">
+                    Malé Stankovce 237<br />
+                    913 11 Trenčianske Stankovce
+                  </p>
+                </div>
+                <div>
                   <h3 className="text-lg font-semibold mb-2 text-gray-900">Telefón</h3>
                   <a
                     href="tel:+421XXXXXXXXX"
@@ -120,6 +131,34 @@ export default function Kontakt() {
                   Odoslať správu
                 </button>
               </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">
+            Firemné údaje
+          </h2>
+          <div className="bg-gray-50 p-6 rounded-lg mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <h3 className="font-semibold mb-2 text-gray-900">IČO / DIČ</h3>
+                <p className="text-gray-700">IČO: 45601259</p>
+                <p className="text-gray-700">IČ-DPH: SK2023064032</p>
+                <p className="text-gray-600 text-sm mt-2">Spoločnosť je platcom DPH</p>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2 text-gray-900">Bankové spojenie</h3>
+                <p className="text-gray-700">Tatra banka, a.s.</p>
+                <p className="text-gray-700">IBAN: SK8011000000002929839541</p>
+              </div>
+            </div>
+            <div className="mt-4 pt-4 border-t border-gray-200">
+              <p className="text-gray-600 text-sm">
+                Spoločnosť ALCO.SK, s.r.o. je zapísaná v Obchodnom registri Okresného súdu Trenčín, Oddiel: Sro, Vložka číslo: 23214/R.
+              </p>
             </div>
           </div>
         </div>
