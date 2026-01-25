@@ -4,35 +4,43 @@ import CTA from "./components/CTA";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Prenájom Odvlhčovačov - Trenčín a Okolie | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov pre Trenčín a okolie. Rýchla dostupnosť, profesionálna služba a kvalitné zariadenia. Kontaktujte nás ešte dnes!",
+  title: "Prenájom Odvlhčovačov - Trenčiansky Kraj | Odvlhčovače na Prenájom",
+  description: "Prenájom odvlhčovačov pre Trenčiansky kraj. Profesionálna služba a kvalitné zariadenia. Kontaktujte ma ešte dnes!",
 };
 
 export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-50 to-blue-100 py-12 md:py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-blue-50 to-blue-100 py-16 md:py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="text-center lg:text-left">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-              Zbavte sa vlhkosti <span className="text-blue-600">raz a navždy</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight tracking-tight">
+              Prenájom odvlhčovačov – <span className="text-blue-600">Trenčiansky kraj</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed">
-              Profesionálny prenájom výkonných odvlhčovačov pre Trenčín a okolie. Riešime problémy s vlhkosťou rýchlo, efektívne a bez zbytočných nákladov. <strong>Váš domov zaslúži zdravé prostredie!</strong>
+            <p className="text-xl md:text-2xl text-gray-700 mb-6 leading-relaxed">
+              Odvlhčenie pivníc, bytov a priestorov po zatopení
             </p>
+            <div className="mb-8">
+              <p className="text-2xl md:text-3xl font-bold text-blue-600 mb-2">
+                7 € / deň
+              </p>
+              <p className="text-gray-600 text-lg">
+                minimálne 7 dní
+              </p>
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
                 href="tel:+421911911876"
-                className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-all text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-all text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-center"
               >
-                📞 Zavolajte nám teraz
+                Zavolať
               </a>
               <a
-                href="#kontakt"
-                className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-all text-lg border-2 border-blue-600 shadow-md hover:shadow-lg"
+                href="mailto:info@odvlhcovaceprenajom.sk"
+                className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-all text-lg border-2 border-blue-600 shadow-md hover:shadow-lg text-center"
               >
-                Kontaktujte nás
+                Napísať
               </a>
             </div>
           </div>
@@ -45,6 +53,15 @@ export default function Home() {
               priority
             />
           </div>
+        </div>
+      </section>
+
+      {/* Price Section */}
+      <section className="py-8 px-4 sm:px-6 lg:px-8 bg-white border-b border-gray-200">
+        <div className="max-w-7xl mx-auto text-center">
+          <p className="text-xl md:text-2xl text-gray-700">
+            <span className="font-semibold">Cena prenájmu:</span> <span className="text-blue-600 font-bold text-2xl md:text-3xl">7 € / deň</span> <span className="text-gray-600">(min. 7 dní)</span>
+          </p>
         </div>
       </section>
 
@@ -68,7 +85,7 @@ export default function Home() {
               </div>
               <div className="text-4xl mb-3">⚡</div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Rýchla pomoc kedykoľvek</h3>
-              <p className="text-gray-600 leading-relaxed">V núdzových situáciách sme tu pre vás do 24 hodín. Čím skôr začnete s odvlhčovaním, tým menej škôd vznikne. V Trenčíne a okolí sme dostupní rýchlo a spoľahlivo.</p>
+              <p className="text-gray-600 leading-relaxed">V núdzových situáciách som tu pre vás. Čím skôr začnete s odvlhčovaním, tým menej škôd vznikne. V Trenčianskom kraji som dostupný rýchlo a spoľahlivo.</p>
             </div>
             <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-white rounded-lg shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1">
               <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
@@ -95,53 +112,6 @@ export default function Home() {
               <div className="text-4xl mb-3">💎</div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Výhodnejšie ako kúpa</h3>
               <p className="text-gray-600 leading-relaxed">Prečo kupovať drahé zariadenie, keď ho potrebujete len na pár dní? Náš prenájom je výhodný, transparentný a bez skrytých poplatkov. Ušetríte tisíce eur!</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Pricing Table */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900">
-            Jednoduché a férové ceny
-          </h2>
-          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Bez skrytých poplatkov, bez zbytočných formalít. Platíte len za to, čo skutočne potrebujete. Všetko vrátane dopravy a odvozu!
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            <div className="bg-white p-6 rounded-lg shadow-md border-2 border-gray-200">
-              <h3 className="text-xl font-semibold mb-4">Kratší prenájom</h3>
-              <div className="text-3xl font-bold text-blue-600 mb-4">od 15€/deň</div>
-              <ul className="space-y-2 text-gray-600 mb-6">
-                <li>✓ 1-7 dní</li>
-                <li>✓ Všetky typy odvlhčovačov</li>
-                <li>✓ Doprava a odvoz</li>
-              </ul>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md border-2 border-blue-600 transform scale-105">
-              <div className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold inline-block mb-4">
-                NAJOBLÚBENEJŠIE
-              </div>
-              <h3 className="text-xl font-semibold mb-4">Stredný prenájom</h3>
-              <div className="text-3xl font-bold text-blue-600 mb-4">od 12€/deň</div>
-              <ul className="space-y-2 text-gray-600 mb-6">
-                <li>✓ 8-14 dní</li>
-                <li>✓ Všetky typy odvlhčovačov</li>
-                <li>✓ Doprava a odvoz</li>
-                <li>✓ Technická podpora</li>
-              </ul>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md border-2 border-gray-200">
-              <h3 className="text-xl font-semibold mb-4">Dlhodobý prenájom</h3>
-              <div className="text-3xl font-bold text-blue-600 mb-4">od 10€/deň</div>
-              <ul className="space-y-2 text-gray-600 mb-6">
-                <li>✓ 15+ dní</li>
-                <li>✓ Všetky typy odvlhčovačov</li>
-                <li>✓ Doprava a odvoz</li>
-                <li>✓ Technická podpora</li>
-                <li>✓ Zľava na dlhodobý prenájom</li>
-              </ul>
             </div>
           </div>
         </div>
@@ -180,8 +150,8 @@ export default function Home() {
               <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 2
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Doručíme k vám</h3>
-              <p className="text-gray-600 leading-relaxed">Rýchlo a spoľahlivo doručíme odvlhčovač priamo na vašu adresu v Trenčíne a okolí.</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Prevzatie zariadenia</h3>
+              <p className="text-gray-600 leading-relaxed">Odvlhčovač si môžete prevziať osobne v Trenčianskych Stankovciach po dohode telefonicky. Poradím vám s nastavením a obsluhou zariadenia.</p>
             </div>
             <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
               <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
@@ -217,7 +187,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Ako rýchlo môžete doručiť odvlhčovač?</h3>
               <p className="text-gray-600 leading-relaxed">
-                Pre Trenčín a okolie zvyčajne do 24 hodín od objednávky. V núdzových prípadoch (napr. po zatopení) sa snažíme doručiť ešte rýchlejšie. Vaša situácia je pre nás prioritou!
+                Odvlhčovač si môžete prevziať osobne v Trenčianskych Stankovciach po dohode telefonicky. V núdzových prípadoch (napr. po zatopení) sa snažím byť flexibilný. Vaša situácia je pre mňa prioritou!
               </p>
             </div>
             <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
@@ -243,7 +213,7 @@ export default function Home() {
             Potrebujete pomoc? Sme tu pre vás!
           </h2>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Máte otázky alebo potrebujete poradiť? Radi vám pomôžeme s výberom správneho riešenia pre váš priestor v Trenčíne a okolí. Zavolajte nám ešte dnes a dohodneme sa na najlepšom riešení.
+            Máte otázky alebo potrebujete poradiť? Rád vám pomôžem s výberom správneho riešenia pre váš priestor v Trenčianskom kraji. Zavolajte mi ešte dnes a dohodneme sa na najlepšom riešení.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

@@ -3,8 +3,8 @@ import Image from "next/image";
 import CTA from "../components/CTA";
 
 export const metadata: Metadata = {
-  title: "Odvlhčovač do Bytu - Trenčín a Okolie | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov do bytu pre Trenčín a okolie. Riešenie pre vlhké byty a problémy s vlhkosťou. Profesionálna služba a kvalitné zariadenia.",
+  title: "Odvlhčovač do Bytu - Trenčiansky Kraj | Odvlhčovače na Prenájom",
+  description: "Prenájom odvlhčovačov do bytu pre Trenčiansky kraj. Riešenie pre vlhké byty a problémy s vlhkosťou. Profesionálna služba a kvalitné zariadenia.",
 };
 
 export default function OdvlhcovacDoBytu() {
@@ -12,7 +12,7 @@ export default function OdvlhcovacDoBytu() {
     <>
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
             Zdravý domov bez vlhkosti
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
@@ -84,10 +84,10 @@ export default function OdvlhcovacDoBytu() {
               Ako funguje prenájom odvlhčovača do bytu?
             </h3>
             <p className="text-gray-700 mb-4 text-lg">
-              Kontaktujte nás a my vám doručíme vhodný odvlhčovač na vašu adresu v Trenčíne a okolí. Zariadenie vám pomôžeme nainštalovať a nastaviť podľa vašich potrieb. Po dokončení odvlhčovania zariadenie odvezieme späť.
+              Kontaktujte ma a dohodneme sa na prevzatí vhodného odvlhčovača v Trenčianskych Stankovciach. Poradím vám s nastavením a obsluhou zariadenia podľa vašich potrieb.
             </p>
             <p className="text-gray-700 mb-4 text-lg">
-              Naša služba je dostupná pre všetky byty v Trenčíne a okolí. Poskytujeme flexibilné podmienky prenájmu a odbornú podporu počas celého obdobia prenájmu.
+              Moja služba je dostupná pre všetky byty v Trenčianskom kraji. Poskytujem flexibilné podmienky prenájmu a odbornú podporu počas celého obdobia prenájmu.
             </p>
           </div>
         </div>

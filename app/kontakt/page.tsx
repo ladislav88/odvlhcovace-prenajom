@@ -11,63 +11,100 @@ export default function Kontakt() {
     <>
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
             Kontakt
           </h1>
           <p className="text-xl text-gray-700 mb-8">
-            Kontaktujte nás pre prenájom odvlhčovačov v Trenčíne a okolí. Radi vám pomôžeme s výberom správneho zariadenia.
+            Kontaktujte ma pre prenájom odvlhčovačov v Trenčianskom kraji. Rád vám pomôžem s výberom správneho zariadenia.
           </p>
         </div>
       </section>
 
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            <div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg">
               <h2 className="text-2xl font-bold mb-6 text-gray-900">
                 Kontaktné informácie
               </h2>
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-lg font-semibold mb-2 text-gray-900">Spoločnosť</h3>
-                  <p className="text-gray-700 font-medium">ALCO.SK, s.r.o.</p>
+              <div className="space-y-5">
+                <div className="flex items-start gap-3">
+                  <div className="bg-blue-100 p-2 rounded-lg">
+                    <span className="text-2xl">🏢</span>
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-1">Spoločnosť</h3>
+                    <p className="text-gray-900 font-semibold text-lg">ALCO.SK, s.r.o.</p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2 text-gray-900">Adresa</h3>
-                  <p className="text-gray-700">
-                    Malé Stankovce 237<br />
-                    913 11 Trenčianske Stankovce
-                  </p>
+                <div className="flex items-start gap-3">
+                  <div className="bg-blue-100 p-2 rounded-lg">
+                    <span className="text-2xl">📍</span>
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-1">Adresa</h3>
+                    <p className="text-gray-700">
+                      Malé Stankovce 237<br />
+                      913 11 Trenčianske Stankovce
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2 text-gray-900">Telefón</h3>
-                  <a
-                    href="tel:+421911911876"
-                    className="text-blue-600 hover:text-blue-700 text-lg font-medium"
-                  >
-                    📞 +421 911 911 876
-                  </a>
-                  <p className="text-gray-600 text-sm mt-1">
-                    Dostupné počas pracovných dní 8:00 - 18:00
-                  </p>
+                <div className="flex items-start gap-3">
+                  <div className="bg-blue-100 p-2 rounded-lg">
+                    <span className="text-2xl">📞</span>
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-1">Telefón</h3>
+                    <a
+                      href="tel:+421911911876"
+                      className="text-blue-600 hover:text-blue-700 font-semibold text-lg block mb-1"
+                    >
+                      +421 911 911 876
+                    </a>
+                    <p className="text-gray-600 text-sm">
+                      Dostupné počas pracovných dní 8:00 - 18:00
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2 text-gray-900">Email</h3>
-                  <a
-                    href="mailto:info@odvlhcovaceprenajom.sk"
-                    className="text-blue-600 hover:text-blue-700 text-lg font-medium"
-                  >
-                    ✉️ info@odvlhcovaceprenajom.sk
-                  </a>
-                  <p className="text-gray-600 text-sm mt-1">
-                    Odpovedáme do 24 hodín
-                  </p>
+                <div className="flex items-start gap-3">
+                  <div className="bg-blue-100 p-2 rounded-lg">
+                    <span className="text-2xl">✉️</span>
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-1">Email</h3>
+                    <a
+                      href="mailto:info@odvlhcovaceprenajom.sk"
+                      className="text-blue-600 hover:text-blue-700 font-semibold text-lg block mb-1"
+                    >
+                      info@odvlhcovaceprenajom.sk
+                    </a>
+                    <p className="text-gray-600 text-sm">
+                      Odpovedám do 24 hodín
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <h3 className="text-lg font-semibold mb-2 text-gray-900">Oblasť pôsobnosti</h3>
-                  <p className="text-gray-700">
-                    Trenčín a okolie
-                  </p>
+                <div className="flex items-start gap-3">
+                  <div className="bg-blue-100 p-2 rounded-lg">
+                    <span className="text-2xl">🌍</span>
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-1">Oblasť pôsobnosti</h3>
+                    <p className="text-gray-700 font-medium">
+                      Trenčiansky kraj
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3 pt-3 border-t border-gray-200">
+                  <div className="bg-green-100 p-2 rounded-lg">
+                    <span className="text-2xl">🚗</span>
+                  </div>
+                  <div>
+                    <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-1">Prevzatie osobne</h3>
+                    <p className="text-gray-700">
+                      Trenčianske Stankovce<br />
+                      <span className="text-sm text-gray-600">Po dohode telefonicky</span>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -171,21 +208,21 @@ export default function Kontakt() {
           </h2>
           <div className="space-y-4">
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Ako rýchlo odpoviete na môj dotaz?</h3>
+              <h3 className="text-lg font-semibold mb-2">Ako rýchlo odpoviem na váš dotaz?</h3>
               <p className="text-gray-600">
-                Na emailové dotazy odpovedáme do 24 hodín. Telefónne dotazy riešime okamžite počas pracovných hodín.
+                Na emailové dotazy odpovedám do 24 hodín. Telefónne dotazy riešim okamžite počas pracovných hodín.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Ako rýchlo môžete doručiť odvlhčovač?</h3>
+              <h3 className="text-lg font-semibold mb-2">Ako získam odvlhčovač?</h3>
               <p className="text-gray-600">
-                Pre Trenčín a okolie zvyčajne do 24 hodín od objednávky. V núdzových prípadoch môžeme doručiť aj rýchlejšie.
+                Odvlhčovač si môžete prevziať osobne v Trenčianskych Stankovciach po dohode telefonicky. Kontaktujte ma a dohodneme sa na najvhodnejšom čase.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Pracujete aj cez víkendy?</h3>
+              <h3 className="text-lg font-semibold mb-2">Som dostupný aj cez víkendy?</h3>
               <p className="text-gray-600">
-                V núdzových prípadoch (napr. po zatopení) sme dostupní aj cez víkendy. Kontaktujte nás a dohodneme sa.
+                V núdzových prípadoch (napr. po zatopení) som dostupný aj cez víkendy. Kontaktujte ma a dohodneme sa.
               </p>
             </div>
           </div>

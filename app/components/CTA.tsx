@@ -6,18 +6,18 @@ export default function CTA() {
           Potrebujete odvlhčovač? Kontaktujte nás ešte dnes!
         </h2>
         <p className="text-blue-100 mb-6 text-lg">
-          Rýchla dostupnosť pre Trenčín a okolie. Profesionálna služba a kvalitné zariadenia.
+          Profesionálna služba a kvalitné zariadenia pre Trenčiansky kraj.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="tel:+421911911876"
-            className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors text-lg"
+            className="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-blue-50 transition-colors text-lg"
           >
             📞 +421 911 911 876
           </a>
           <a
             href="mailto:info@odvlhcovaceprenajom.sk"
-            className="bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors text-lg border-2 border-white"
+            className="bg-blue-700 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-800 transition-colors text-lg border-2 border-white"
           >
             ✉️ info@odvlhcovaceprenajom.sk
           </a>

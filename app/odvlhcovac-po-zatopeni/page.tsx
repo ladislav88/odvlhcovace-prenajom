@@ -3,8 +3,8 @@ import Image from "next/image";
 import CTA from "../components/CTA";
 
 export const metadata: Metadata = {
-  title: "Odvlhčovač po Zatopení - Trenčín a Okolie | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov po zatopení pre Trenčín a okolie. Rýchla dostupnosť do 24 hodín. Profesionálna pomoc pri odvlhčovaní po záplavách.",
+  title: "Odvlhčovač po Zatopení - Trenčiansky Kraj | Odvlhčovače na Prenájom",
+  description: "Prenájom odvlhčovačov po zatopení pre Trenčiansky kraj. Profesionálna pomoc pri odvlhčovaní po záplavách.",
 };
 
 export default function OdvlhcovacPoZatopeni() {
@@ -12,11 +12,11 @@ export default function OdvlhcovacPoZatopeni() {
     <>
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
             Rýchla pomoc po zatopení
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Každá minúta sa počíta! Čím skôr začnete s odvlhčovaním, tým menej škôd vznikne. Prenájom výkonných odvlhčovačov pre Trenčín a okolie – dostupní do 24 hodín, v núdzových prípadoch ešte rýchlejšie.
+            Každá minúta sa počíta! Čím skôr začnete s odvlhčovaním, tým menej škôd vznikne. Prenájom výkonných odvlhčovačov pre Trenčiansky kraj – v núdzových prípadoch som flexibilný.
           </p>
         </div>
       </section>
@@ -28,7 +28,7 @@ export default function OdvlhcovacPoZatopeni() {
               Zatopenie? Nezúfajte – máme riešenie!
             </h2>
             <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Po zatopení je každá minúta dôležitá. Čím skôr začnete s odvlhčovaním, tým menej škôd vznikne a tým rýchlejšie sa váš domov vráti do normálu. Ponúkame rýchly prenájom výkonných odvlhčovačov pre Trenčín a okolie s dostupnosťou do 24 hodín – v núdzových prípadoch sme tu ešte rýchlejšie!
+              Po zatopení je každá minúta dôležitá. Čím skôr začnete s odvlhčovaním, tým menej škôd vznikne a tým rýchlejšie sa váš domov vráti do normálu. Ponúkam rýchly prenájom výkonných odvlhčovačov pre Trenčiansky kraj – v núdzových prípadoch som flexibilný!
             </p>
             <p className="text-gray-700 mb-4 text-lg leading-relaxed">
               Naše profesionálne odvlhčovače efektívne odstraňujú vlhkosť zo stien, podláh a vzduchu, čím pomáhajú obnoviť váš domov alebo podnik do pôvodného stavu. Chráňte svoj majetok a zdravie svojej rodiny – nečakajte, kým sa problémy zhoršia!
@@ -70,7 +70,7 @@ export default function OdvlhcovacPoZatopeni() {
               Ako postupovať po zatopení?
             </h3>
             <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-6">
-              <li>Kontaktujte nás čo najskôr - dostupnosť do 24 hodín pre Trenčín a okolie</li>
+              <li>Kontaktujte ma čo najskôr - v núdzových prípadoch som flexibilný</li>
               <li>Odstráňte stojacu vodu a vyčistite priestor</li>
               <li>Nainštalujeme odvlhčovač na vhodné miesto</li>
               <li>Odvlhčovač pracuje kontinuálne až do úplného odvlhčenia</li>
@@ -83,7 +83,7 @@ export default function OdvlhcovacPoZatopeni() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6 items-center">
               <div>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  Poskytujeme kompletnú službu vrátane rýchlej dopravy odvlhčovača, odborného poradenstva a technickej podpory. Naše zariadenia sú vhodné pre odvlhčovanie bytov, domov, kancelárií a iných priestorov postihnutých zatopením.
+                  Poskytujem odborné poradenstvo a technickú podporu. Zariadenia sú vhodné pre odvlhčovanie bytov, domov, kancelárií a iných priestorov postihnutých zatopením.
                 </p>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
                   Používame profesionálne priemyselné odvlhčovače značky <strong>Rohnson</strong> s vysokým výkonom až 51 litrov/deň, ktoré sú ideálne pre rýchle a efektívne odvlhčovanie po záplavách. Zariadenia majú vysoký prietok vzduchu 450 m³/h a sú vhodné pre veľké priestory. Vďaka možnosti pripojenia hadičkou priamo do kanalizácie môže zariadenie pracovať nepretržite bez potreby vyprazdňovania zásobníka.

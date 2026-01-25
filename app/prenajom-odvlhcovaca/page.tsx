@@ -3,8 +3,8 @@ import Image from "next/image";
 import CTA from "../components/CTA";
 
 export const metadata: Metadata = {
-  title: "Prenájom Odvlhčovača - Trenčín a Okolie | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov pre Trenčín a okolie. Rýchla dostupnosť, profesionálna služba a kvalitné zariadenia. Kontaktujte nás pre najlepšiu ponuku.",
+  title: "Prenájom Odvlhčovača - Trenčiansky Kraj | Odvlhčovače na Prenájom",
+  description: "Prenájom odvlhčovačov pre Trenčiansky kraj. Profesionálna služba a kvalitné zariadenia. Kontaktujte ma pre najlepšiu ponuku.",
 };
 
 export default function PrenajomOdvlhcovaca() {
@@ -12,11 +12,11 @@ export default function PrenajomOdvlhcovaca() {
     <>
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
             Prenájom Odvlhčovača
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Riešte problémy s vlhkosťou jednoducho a efektívne. Profesionálny prenájom výkonných odvlhčovačov pre Trenčín a okolie. Kvalitné zariadenia, rýchla dostupnosť a pokoj pre vás.
+            Riešte problémy s vlhkosťou jednoducho a efektívne. Profesionálny prenájom výkonných odvlhčovačov pre Trenčiansky kraj. Kvalitné zariadenia a pokoj pre vás.
           </p>
         </div>
       </section>
@@ -31,7 +31,7 @@ export default function PrenajomOdvlhcovaca() {
               Či už máte problém s vlhkosťou v byte, dome, pivnici alebo komerčnom priestore – my máme riešenie! Ponúkame profesionálny prenájom výkonných odvlhčovačov pre domácnosti aj podniky v Trenčíne a okolí. Naše zariadenia sú ideálne pre akýkoľvek priestor postihnutý nadmernou vlhkosťou.
             </p>
             <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Všetky naše odvlhčovače sú pravidelne kontrolované a udržiavané v perfektnom stave. Zabezpečujeme vám maximálnu účinnosť, spoľahlivosť a pokoj. Poskytujeme kompletnú službu vrátane dopravy, inštalácie a odvozu zariadenia – vy sa nemusíte o nič starať.
+              Všetky odvlhčovače sú pravidelne kontrolované a udržiavané v perfektnom stave. Zabezpečujem vám maximálnu účinnosť, spoľahlivosť a pokoj. Poradím vám s nastavením a obsluhou zariadenia.
             </p>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
@@ -41,7 +41,7 @@ export default function PrenajomOdvlhcovaca() {
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-3">✓</span>
-                  <span><strong>Rýchla dostupnosť</strong> – Pre Trenčín a okolie sme tu do 24 hodín. V núdzových prípadoch ešte rýchlejšie!</span>
+                  <span><strong>Rýchla dostupnosť</strong> – V Trenčianskom kraji som tu pre vás. V núdzových prípadoch som flexibilný!</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-3">✓</span>
@@ -53,7 +53,7 @@ export default function PrenajomOdvlhcovaca() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-3">✓</span>
-                  <span><strong>Odborná podpora</strong> – Počas celého prenájmu sme tu pre vás. Radi poradíme a pomôžeme.</span>
+                  <span><strong>Odborná podpora</strong> – Počas celého prenájmu som tu pre vás. Rád poradím a pomôžem.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-3">✓</span>
@@ -61,7 +61,7 @@ export default function PrenajomOdvlhcovaca() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-3">✓</span>
-                  <span><strong>Kompletná služba</strong> – Doprava, inštalácia, odvoz. Všetko vyriešime za vás!</span>
+                  <span><strong>Jednoduchá služba</strong> – Prevzatie osobne v Trenčianskych Stankovciach. Poradím s nastavením!</span>
                 </li>
               </ul>
             </div>

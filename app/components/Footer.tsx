@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Odvlhčovače na Prenájom</h3>
             <p className="text-gray-400 text-sm">
-              Profesionálny prenájom odvlhčovačov pre Trenčín a okolie.
+              Profesionálny prenájom odvlhčovačov pre Trenčiansky kraj.
             </p>
           </div>
           <div>

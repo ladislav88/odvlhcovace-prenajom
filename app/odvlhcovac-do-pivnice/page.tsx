@@ -3,8 +3,8 @@ import Image from "next/image";
 import CTA from "../components/CTA";
 
 export const metadata: Metadata = {
-  title: "Odvlhčovač do Pivnice - Trenčín a Okolie | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov do pivnice pre Trenčín a okolie. Efektívne riešenie pre vlhké pivnice. Profesionálna služba a kvalitné zariadenia.",
+  title: "Odvlhčovač do Pivnice - Trenčiansky Kraj | Odvlhčovače na Prenájom",
+  description: "Prenájom odvlhčovačov do pivnice pre Trenčiansky kraj. Efektívne riešenie pre vlhké pivnice. Profesionálna služba a kvalitné zariadenia.",
 };
 
 export default function OdvlhcovacDoPivnice() {
@@ -12,7 +12,7 @@ export default function OdvlhcovacDoPivnice() {
     <>
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
             Zbavte sa vlhkosti v pivnici raz a navždy
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
@@ -33,7 +33,7 @@ export default function OdvlhcovacDoPivnice() {
                   Pivnice sú často postihnuté nadmernou vlhkosťou, ktorá môže spôsobiť vznik plesní, poškodenie vašich cenných uskladnených vecí a nepríjemné pachy. Nečakajte, kým sa problémy zhoršia – naše výkonné odvlhčovače sú špeciálne vhodné pre efektívne odvlhčovanie pivníc a iných podzemných priestorov.
                 </p>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  Ponúkame prenájom profesionálnych odvlhčovačov do pivnice pre Trenčín a okolie. Naše zariadenia efektívne odstraňujú vlhkosť zo vzduchu a pomáhajú udržať optimálnu vlhkosť v pivnici, čím chráni vaše uskladnené veci, predlžuje životnosť konštrukcie a zabezpečuje zdravé prostredie.
+                  Ponúkam prenájom profesionálnych odvlhčovačov do pivnice pre Trenčiansky kraj. Zariadenia efektívne odstraňujú vlhkosť zo vzduchu a pomáhajú udržať optimálnu vlhkosť v pivnici, čím chráni vaše uskladnené veci, predlžuje životnosť konštrukcie a zabezpečuje zdravé prostredie.
                 </p>
               </div>
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
@@ -83,7 +83,7 @@ export default function OdvlhcovacDoPivnice() {
               Ako funguje prenájom odvlhčovača do pivnice?
             </h3>
             <p className="text-gray-700 mb-4 text-lg">
-              Kontaktujte nás a my vám doručíme vhodný odvlhčovač na vašu adresu v Trenčíne a okolí. Zariadenie nainštalujeme a nastavíme podľa vašich potrieb. Po dokončení odvlhčovania zariadenie odvezieme späť.
+              Kontaktujte ma a dohodneme sa na prevzatí vhodného odvlhčovača v Trenčianskych Stankovciach. Poradím vám s nastavením a obsluhou zariadenia podľa vašich potrieb.
             </p>
           </div>
         </div>
