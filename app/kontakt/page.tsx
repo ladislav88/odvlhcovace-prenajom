@@ -38,40 +38,41 @@ export default function Kontakt() {
               </div>
             </div>
 
-            {/* Email */}
+            {/* Email and Address - Side by Side */}
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
-              <div className="flex items-start gap-4">
-                <svg className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-                <div className="flex-1">
-                  <h2 className="text-xl font-semibold text-gray-900 mb-2">Email</h2>
-                  <a
-                    href="mailto:info@odvlhcovaceprenajom.sk"
-                    className="text-blue-600 hover:text-blue-700 font-medium"
-                  >
-                    info@odvlhcovaceprenajom.sk
-                  </a>
-                  <p className="text-gray-600 text-sm mt-2">
-                    Odpoveď do 24 hodín
-                  </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {/* Email - Left */}
+                <div className="flex items-start gap-4">
+                  <svg className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  <div className="flex-1">
+                    <h2 className="text-xl font-semibold text-gray-900 mb-2">Email</h2>
+                    <a
+                      href="mailto:info@odvlhcovaceprenajom.sk"
+                      className="text-blue-600 hover:text-blue-700 font-medium"
+                    >
+                      info@odvlhcovaceprenajom.sk
+                    </a>
+                    <p className="text-gray-600 text-sm mt-2">
+                      Odpoveď do 24 hodín
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </div>
 
-            {/* Address */}
-            <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
-              <div className="flex items-start gap-4">
-                <svg className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-                <div className="flex-1">
-                  <h2 className="text-xl font-semibold text-gray-900 mb-2">Prevzatie zariadenia</h2>
-                  <p className="text-gray-700">
-                    Trenčianske Stankovce 237<br />
-                    <span className="text-gray-600 text-sm">Po dohode telefonicky</span>
-                  </p>
+                {/* Address - Right */}
+                <div className="flex items-start gap-4">
+                  <svg className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <div className="flex-1">
+                    <h2 className="text-xl font-semibold text-gray-900 mb-2">Prevzatie zariadenia</h2>
+                    <p className="text-gray-700">
+                      Trenčianske Stankovce 237<br />
+                      <span className="text-gray-600 text-sm">Po dohode telefonicky</span>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

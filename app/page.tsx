@@ -11,55 +11,61 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-50 to-blue-100 py-16 md:py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-          <div className="text-center lg:text-left">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight tracking-tight">
-              Prenájom odvlhčovačov v Trenčíne
-            </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 mb-6 leading-relaxed">
-              Rýchle riešenie vlhkosti po zatopení, pri stavbe alebo v pivnici
-            </h2>
-            <p className="text-xl md:text-2xl text-gray-700 mb-6 leading-relaxed">
-              Odvlhčovač urýchľuje vysychanie stavebných materiálov a znižuje riziko vzniku plesní. Vhodné pre novostavby, rekonštrukcie a havarijné stavy.
-            </p>
-            <div className="mb-8">
-              <p className="text-2xl md:text-3xl font-bold text-blue-600 mb-2">
-                7 € / deň
+      <section className="relative w-full h-[600px] md:h-[700px] overflow-hidden">
+        {/* Background Image - Mirrored */}
+        <div className="absolute inset-0 w-full h-full">
+          <Image
+            src="/images/banner1-65d937a1-b951-411e-a1c5-9b350f935197.png"
+            alt="Profesionálny odvlhčovač Rohnson"
+            fill
+            className="object-cover scale-x-[-1]"
+            priority
+          />
+        </div>
+        {/* Overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/20"></div>
+        {/* Content Overlay */}
+        <div className="relative z-10 h-full flex items-center">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div className="max-w-2xl text-white">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight tracking-tight drop-shadow-lg">
+                Prenájom odvlhčovačov v Trenčíne
+              </h1>
+              <h2 className="text-2xl md:text-3xl font-semibold mb-6 leading-relaxed drop-shadow-md">
+                Rýchle riešenie vlhkosti po zatopení, pri stavbe alebo v pivnici
+              </h2>
+              <p className="text-xl md:text-2xl mb-6 leading-relaxed drop-shadow-md">
+                Odvlhčovač urýchľuje vysychanie stavebných materiálov a znižuje riziko vzniku plesní. Vhodné pre novostavby, rekonštrukcie a havarijné stavy.
               </p>
-              <p className="text-gray-600 text-lg">
-                minimálne 7 dní
-              </p>
+              <div className="mb-8">
+                <p className="text-2xl md:text-3xl font-bold text-blue-300 mb-2 drop-shadow-lg">
+                  7 € / deň
+                </p>
+                <p className="text-gray-200 text-lg drop-shadow-md">
+                  minimálne 7 dní
+                </p>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href="tel:+421911911876"
+                  className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-all text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center justify-center gap-3"
+                >
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  Zavolať – rýchla dohoda odberu
+                </a>
+                <a
+                  href="mailto:info@odvlhcovaceprenajom.sk"
+                  className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-all text-lg border-2 border-white shadow-md hover:shadow-lg flex items-center justify-center gap-3"
+                >
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  Napísať email
+                </a>
+              </div>
             </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a
-                href="tel:+421911911876"
-                className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-all text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center justify-center gap-3"
-              >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                Zavolať – rýchla dohoda odberu
-              </a>
-              <a
-                href="mailto:info@odvlhcovaceprenajom.sk"
-                className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-all text-lg border-2 border-blue-600 shadow-md hover:shadow-lg flex items-center justify-center gap-3"
-              >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-                Napísať email
-              </a>
-            </div>
-          </div>
-          <div className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-            <Image
-              src="/images/banner1-65d937a1-b951-411e-a1c5-9b350f935197.png"
-              alt="Profesionálny odvlhčovač Rohnson"
-              fill
-              className="object-cover"
-              priority
-            />
           </div>
         </div>
       </section>
