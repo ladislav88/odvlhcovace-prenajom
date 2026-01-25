@@ -27,18 +27,18 @@ export default function Home() {
         {/* Content Overlay */}
         <div className="relative z-10 h-full flex items-center py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-            <div className="text-white max-w-2xl">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight tracking-tight drop-shadow-lg">
-                <span className="block whitespace-nowrap">Prenájom odvlhčovačov</span>
-                <span className="block">v Trenčíne</span>
-              </h1>
-              <h2 className="text-2xl md:text-3xl font-semibold mb-6 leading-relaxed drop-shadow-md">
-                Rýchle riešenie vlhkosti po zatopení,&nbsp;pri stavbe alebo v pivnici
-              </h2>
-              <p className="text-xl md:text-2xl mb-6 leading-relaxed drop-shadow-md">
-                Odvlhčovač urýchľuje vysychanie stavebných materiálov a znižuje riziko vzniku plesní. Vhodné pre novostavby, rekonštrukcie a havarijné stavy.
-              </p>
-              <div className="flex flex-col sm:flex-row items-start sm:items-end gap-4 sm:gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-end">
+              <div className="text-white">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight tracking-tight drop-shadow-lg">
+                  <span className="block whitespace-nowrap">Prenájom odvlhčovačov</span>
+                  <span className="block">v Trenčíne</span>
+                </h1>
+                <h2 className="text-2xl md:text-3xl font-semibold mb-6 leading-relaxed drop-shadow-md">
+                  Rýchle riešenie vlhkosti po zatopení,&nbsp;pri stavbe alebo v pivnici
+                </h2>
+                <p className="text-xl md:text-2xl mb-6 leading-relaxed drop-shadow-md">
+                  Odvlhčovač urýchľuje vysychanie stavebných materiálov a znižuje riziko vzniku plesní. Vhodné pre novostavby, rekonštrukcie a havarijné stavy.
+                </p>
                 <div>
                   <p className="text-2xl md:text-3xl font-bold text-blue-300 mb-2 drop-shadow-lg">
                     7 € / deň
@@ -47,11 +47,13 @@ export default function Home() {
                     minimálne 7 dní
                   </p>
                 </div>
+              </div>
+              <div className="flex justify-end lg:justify-start">
                 <a
                   href="tel:+421911911876"
-                  className="bg-blue-600/90 backdrop-blur-sm text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-all text-base shadow-sm hover:shadow-md flex items-center justify-center gap-2"
+                  className="bg-blue-600/90 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-600 transition-all text-lg shadow-lg hover:shadow-xl flex items-center justify-center gap-3"
                 >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                   Zavolajte pre rýchly odber
