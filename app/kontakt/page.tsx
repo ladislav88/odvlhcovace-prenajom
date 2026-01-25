@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Kontakt - Prenájom Odvlhčovačov Trenčín | Odvlhčovače na Prenájom",
@@ -74,6 +75,18 @@ export default function Kontakt() {
                     </p>
                   </div>
                 </div>
+              </div>
+            </div>
+
+            {/* Image */}
+            <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
+              <div className="relative h-[400px] rounded-lg overflow-hidden shadow-lg">
+                <Image
+                  src="/images/dehumider-5da5fb3c-fe76-4d23-be3d-f9ce215aa4f9.png"
+                  alt="Odvlhčovač v akcii - riešenie problému s vlhkosťou a plesňami"
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
 
