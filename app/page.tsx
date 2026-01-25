@@ -12,13 +12,13 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="relative w-full h-[550px] md:h-[650px] overflow-hidden">
-        {/* Background Image - Mirrored */}
+        {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <Image
             src="/images/dehunider2-5032ab91-4ca7-4396-ba79-a5783b87a4f1.jpg"
             alt="Odvlhčovač v akcii - riešenie problému s vlhkosťou"
             fill
-            className="object-cover scale-x-[-1]"
+            className="object-cover"
             priority
           />
         </div>
