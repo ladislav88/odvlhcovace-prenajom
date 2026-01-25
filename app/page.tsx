@@ -128,53 +128,6 @@ export default function Home() {
 
       <CTA />
 
-      {/* Benefits Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
-            Prečo prenájom odvlhčovačov?
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-white rounded-lg shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1">
-              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
-                <Image
-                  src="/images/odvlhcovac1-cfcd4dcc-1c2c-4747-a1ef-865033e6baa4.png"
-                  alt="Rýchla pomoc"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Rýchla dostupnosť</h3>
-              <p className="text-gray-600 leading-relaxed">Rýchla dostupnosť pre Trenčín a okolie. Dohoda o prenájme je možná aj počas víkendov. Čím skôr sa začne s odvlhčovaním, tým menej škôd vznikne.</p>
-            </div>
-            <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-white rounded-lg shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1">
-              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
-                <Image
-                  src="/images/nadoba-93659314-af07-466c-a3fb-2e0f43c0e0e5.png"
-                  alt="Profesionálne zariadenia"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Profesionálne zariadenia</h3>
-              <p className="text-gray-600 leading-relaxed">K dispozícii sú overené, výkonné odvlhčovače značky Rohnson. Zariadenia sú pred prenájmom skontrolované a majú výkon odvlhčovania až 51 litrov/deň.</p>
-            </div>
-            <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-white rounded-lg shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1">
-              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
-                <Image
-                  src="/images/vbyte-25d62767-f919-4fe4-a8e1-0ae27d81752a.png"
-                  alt="Výhodné ceny"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Výhodnejšie ako kúpa</h3>
-              <p className="text-gray-600 leading-relaxed">Prenájom odvlhčovačov je výhodnejší ako kúpa zariadenia na krátke obdobie. Ceny sú transparentné, bez skrytých poplatkov. Úspora oproti kúpe dosahuje tisíce eur.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* New Construction Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -268,45 +221,96 @@ export default function Home() {
           <div className="space-y-6">
             <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Ako dlho trvá odvlhčovanie?</h3>
+              <p className="text-gray-600 leading-relaxed mb-3">
+                Odvlhčovanie je postupný proces, ktorý prebieha niekoľko dní. Zariadenie sa v praxi používa nepretržite minimálne 7 dní, aby sa vlhkosť odstránila nielen zo vzduchu, ale aj z materiálov ako omietky, potery a murivo.
+              </p>
               <p className="text-gray-600 leading-relaxed">
-                Čas závisí od veľkosti priestoru a úrovne vlhkosti. Viditeľné zlepšenie je zvyčajne po 24-48 hodinách, úplné odvlhčenie trvá typicky 3-7 dní. Výkonné zariadenia pracujú efektívne a rýchlo.
+                Krátkodobé zapnutie rieši len povrchovú vlhkosť a problém sa môže po vypnutí zariadenia opäť vrátiť.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Prečo je minimálna doba prenájmu 7 dní?</h3>
+              <p className="text-gray-600 leading-relaxed mb-3">
+                Štandardná doba odvlhčovania je 7 dní a viac. Táto doba zabezpečuje:
+              </p>
+              <ul className="list-disc list-inside text-gray-600 leading-relaxed space-y-1 ml-4">
+                <li>rovnomerné vysychanie konštrukcií</li>
+                <li>trvalý výsledok bez návratu vlhkosti</li>
+                <li>zmysluplné použitie výkonného odvlhčovača</li>
+              </ul>
+              <p className="text-gray-600 leading-relaxed mt-3">
+                Kratší prenájom by vo väčšine prípadov nepriniesol stabilný efekt.
               </p>
             </div>
             <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Ako rýchlo je možné získať odvlhčovač?</h3>
               <p className="text-gray-600 leading-relaxed">
-                Odvlhčovač je možné prevziať osobne v Trenčianskych Stankovciach po dohode telefonicky. V núdzových prípadoch (napr. po zatopení) je dohoda možná aj počas víkendov.
+                Odvlhčovač je možné prevziať osobne po dohode. Rýchla dostupnosť je zabezpečená pre Trenčín a okolie. V prípade havárie, napríklad po zatopení, je dohoda možná aj počas víkendov.
               </p>
             </div>
             <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Je potrebná záloha?</h3>
               <p className="text-gray-600 leading-relaxed">
-                Áno, záloha je požadovaná pri prevzatí zariadenia, čo je štandardná prax pri prenájme. Zvyšná suma sa platí po vrátení zariadenia. Podmienky sú transparentné a dohodnuté vopred.
+                Pri prevzatí zariadenia sa vyžaduje vratná záloha. Výška zálohy a podmienky prenájmu sú dohodnuté vopred a sú transparentné.
               </p>
             </div>
             <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Je možné prenajať odvlhčovač na dlhšie obdobie?</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Áno, prenájom je možné na dlhšie obdobie. Čím dlhšie obdobie, tým výhodnejšia cena. Dohoda o podmienkach prenájmu je možná podľa potrieb.
+              <p className="text-gray-600 leading-relaxed mb-3">
+                Áno. Odvlhčovače sa často používajú niekoľko týždňov, najmä pri novostavbách alebo rozsiahlejších rekonštrukciách. Dlhší prenájom je vhodný pri:
               </p>
+              <ul className="list-disc list-inside text-gray-600 leading-relaxed space-y-1 ml-4">
+                <li>vysychaní omietok a poterov</li>
+                <li>príprave priestorov pred maľovaním</li>
+                <li>trvalých problémoch s vlhkosťou</li>
+              </ul>
             </div>
             <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Ako dlho treba odvlhčovať novostavbu po omietkach?</h3>
+              <p className="text-gray-600 leading-relaxed mb-3">
+                Po omietkach a poteroch je bežné odvlhčovanie 2–4 týždne, v závislosti od:
+              </p>
+              <ul className="list-disc list-inside text-gray-600 leading-relaxed space-y-1 ml-4 mb-3">
+                <li>veľkosti priestoru</li>
+                <li>typu materiálov</li>
+                <li>množstva zvyškovej stavebnej vlhkosti</li>
+              </ul>
               <p className="text-gray-600 leading-relaxed">
-                Odvlhčenie novostavby po omietkach zvyčajne trvá 2–4 týždne, v závislosti od veľkosti priestoru a počtu odvlhčovačov. Pri správnom nastavení zariadenia sa omietky vyschnú rýchlejšie a rovnomernie, čo umožní pokračovať v stavebných prácach bez oneskorenia.
+                Správne nastavený odvlhčovač urýchľuje schnutie a umožňuje pokračovať v stavebných prácach bez zbytočných prestojov.
               </p>
             </div>
             <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Je odvlhčovač vhodný aj po maľovaní?</h3>
+              <p className="text-gray-600 leading-relaxed mb-3">
+                Áno. Odvlhčovanie po maľovaní pomáha:
+              </p>
+              <ul className="list-disc list-inside text-gray-600 leading-relaxed space-y-1 ml-4 mb-3">
+                <li>rovnomernému vysychaniu farby</li>
+                <li>zníženiu vlhkosti v podklade</li>
+                <li>prevencii vzniku plesní pod náterom</li>
+              </ul>
               <p className="text-gray-600 leading-relaxed">
-                Áno, odvlhčovač je vhodný aj po maľovaní. Odstraňuje nadmernú vlhkosť zo vzduchu, čím zabezpečuje lepšie schnutie farby a predchádza vzniku plesní pod vrstvou farby. Prenájom odvlhčovačov pre Trenčín a okolie je k dispozícii.
+                Použitie odvlhčovača je vhodné najmä v uzavretých alebo málo vetraných priestoroch.
               </p>
             </div>
             <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Je možné odvlhčovať aj v zime?</h3>
               <p className="text-gray-600 leading-relaxed">
-                Áno, odvlhčovače pracujú v teplotnom rozsahu 5–35°C, takže sú vhodné aj pre odvlhčenie novostavby v zime. V chladnejších mesiacoch je odvlhčovanie dôležitejšie, pretože prirodzené vetranie je obmedzené a vlhkosť sa hromadí v priestoroch.
+                Áno. Zariadenia sú určené na prevádzku približne v rozsahu 5–35 °C. V zimných mesiacoch je odvlhčovanie často ešte dôležitejšie, keďže prirodzené vetranie je obmedzené a vlhkosť sa hromadí v interiéri.
               </p>
+            </div>
+            <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">V akých prípadoch sa odvlhčovač najčastejšie používa?</h3>
+              <p className="text-gray-600 leading-relaxed mb-3">
+                Odvlhčovače sa používajú najmä:
+              </p>
+              <ul className="list-disc list-inside text-gray-600 leading-relaxed space-y-1 ml-4">
+                <li>po zatopení alebo havárii vody</li>
+                <li>v pivniciach a suterénoch</li>
+                <li>v bytoch s vysokou vlhkosťou</li>
+                <li>v novostavbách po omietkach a poteroch</li>
+                <li>pred maľovaním alebo pokládkou podláh</li>
+              </ul>
             </div>
           </div>
         </div>
