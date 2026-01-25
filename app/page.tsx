@@ -15,8 +15,8 @@ export default function Home() {
         {/* Background Image - Mirrored */}
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/images/banner1-65d937a1-b951-411e-a1c5-9b350f935197.png"
-            alt="Profesionálny odvlhčovač Rohnson"
+            src="/images/Depositphotos_443854266_XL-55d1bc85-b8b3-4269-b6de-e359dbdbe8f7.png"
+            alt="Odvlhčovač v akcii - riešenie problému s vlhkosťou"
             fill
             className="object-cover scale-x-[-1]"
             priority
@@ -67,26 +67,16 @@ export default function Home() {
       {/* Explanation Block */}
       <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-6">
-            <div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900">
-                Čo odvlhčovač robí a prečo to riešiť hneď
-              </h2>
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                Odvlhčovač vzduchu Trenčín odstraňuje vlhkosť zo vzduchu kondenzáciou. Zariadenie nasáva vlhký vzduch, ochladzuje ho a kondenzovanú vodu zachytáva do zásobníka alebo odvádza priamo do kanalizácie. Prevádzka znižuje relatívnu vlhkosť vzduchu, čím urýchľuje vysychanie omietok, poterov, farieb a stavebných materiálov.
-              </p>
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                Bez aktívneho odvlhčovania môže vysychanie stavebných materiálov trvať mesiace. Vysoká vlhkosť spomaľuje dokončenie stavby a zvyšuje riziko vzniku plesní už po 24-48 hodinách.
-              </p>
-            </div>
-            <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
-              <Image
-                src="/images/Depositphotos_443854266_XL-55d1bc85-b8b3-4269-b6de-e359dbdbe8f7.png"
-                alt="Odvlhčovač v akcii - riešenie problému s vlhkosťou"
-                fill
-                className="object-cover"
-              />
-            </div>
+          <div className="mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900">
+              Čo odvlhčovač robí a prečo to riešiť hneď
+            </h2>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+              Odvlhčovač vzduchu Trenčín odstraňuje vlhkosť zo vzduchu kondenzáciou. Zariadenie nasáva vlhký vzduch, ochladzuje ho a kondenzovanú vodu zachytáva do zásobníka alebo odvádza priamo do kanalizácie. Prevádzka znižuje relatívnu vlhkosť vzduchu, čím urýchľuje vysychanie omietok, poterov, farieb a stavebných materiálov.
+            </p>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+              Bez aktívneho odvlhčovania môže vysychanie stavebných materiálov trvať mesiace. Vysoká vlhkosť spomaľuje dokončenie stavby a zvyšuje riziko vzniku plesní už po 24-48 hodinách.
+            </p>
           </div>
           <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg">
             <h3 className="text-lg font-semibold mb-3 text-gray-900">Úspora času a peňazí</h3>

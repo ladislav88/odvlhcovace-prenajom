@@ -9,11 +9,43 @@ export const metadata: Metadata = {
 export default function Kontakt() {
   return (
     <>
+      {/* Hero Section */}
+      <section className="relative w-full h-[400px] md:h-[500px] overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 w-full h-full">
+          <Image
+            src="/images/dehumider-5da5fb3c-fe76-4d23-be3d-f9ce215aa4f9.png"
+            alt="Odvlhčovač v akcii - riešenie problému s vlhkosťou a plesňami"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
+        {/* Overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
+        {/* Content Overlay */}
+        <div className="relative z-10 h-full flex items-center">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div className="flex flex-col items-start gap-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-tight tracking-tight drop-shadow-lg">
+                Kontakt
+              </h1>
+              <a
+                href="tel:+421911911876"
+                className="bg-blue-600 text-white px-10 py-5 rounded-lg font-bold hover:bg-blue-700 transition-all text-xl md:text-2xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 flex items-center justify-center gap-4"
+              >
+                <svg className="w-8 h-8 md:w-10 md:h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                +421 911 911 876
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12 leading-tight tracking-tight">
-            Kontakt
-          </h1>
 
           {/* Contact Information */}
           <div className="space-y-6">
@@ -75,18 +107,6 @@ export default function Kontakt() {
                     </p>
                   </div>
                 </div>
-              </div>
-            </div>
-
-            {/* Image */}
-            <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
-              <div className="relative h-[400px] rounded-lg overflow-hidden shadow-lg">
-                <Image
-                  src="/images/dehumider-5da5fb3c-fe76-4d23-be3d-f9ce215aa4f9.png"
-                  alt="Odvlhčovač v akcii - riešenie problému s vlhkosťou a plesňami"
-                  fill
-                  className="object-cover"
-                />
               </div>
             </div>
 
