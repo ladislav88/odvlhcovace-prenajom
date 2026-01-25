@@ -26,7 +26,7 @@ export default function RootLayout({
         className={`${inter.variable} font-sans antialiased`}
       >
         <Navbar />
-        <main className="min-h-screen">
+        <main className="min-h-screen bg-transparent">
           {children}
         </main>
         <Footer />
