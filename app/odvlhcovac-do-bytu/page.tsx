@@ -20,7 +20,7 @@ export default function OdvlhcovacDoBytu() {
         </div>
       </section>
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white/80 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto">
           <div className="prose prose-lg max-w-none">
             <h2 className="text-3xl font-bold mb-6 text-gray-900">

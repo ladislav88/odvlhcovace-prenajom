@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* Explanation Block */}
-      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white/80 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto">
           <div className="mb-6">
             <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900">
@@ -99,7 +99,7 @@ export default function Home() {
       </section>
 
       {/* Price Section */}
-      <section className="py-8 px-4 sm:px-6 lg:px-8 bg-gray-50 border-b border-gray-200">
+      <section className="py-8 px-4 sm:px-6 lg:px-8 bg-white/60 backdrop-blur-sm border-b border-gray-200">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-xl md:text-2xl text-gray-700">
             <span className="font-semibold">Cena prenájmu:</span> <span className="text-blue-600 font-bold text-2xl md:text-3xl">7 € / deň</span> <span className="text-gray-600">(min. 7 dní)</span>
@@ -108,7 +108,7 @@ export default function Home() {
       </section>
 
       {/* New Construction Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white/80 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -138,7 +138,7 @@ export default function Home() {
       </section>
 
       {/* How it Works */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white/60 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
             <div>
@@ -192,7 +192,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white/80 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
             Často kladené otázky
@@ -299,7 +299,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="kontakt" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section id="kontakt" className="py-16 px-4 sm:px-6 lg:px-8 bg-white/60 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
             Kontakt a dostupnosť
