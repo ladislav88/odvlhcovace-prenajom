@@ -29,7 +29,8 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-2xl text-white">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight tracking-tight drop-shadow-lg">
-                Prenájom odvlhčovačov v Trenčíne
+                Prenájom odvlhčovačov<br />
+                v Trenčíne
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold mb-6 leading-relaxed drop-shadow-md">
                 Rýchle riešenie vlhkosti po zatopení, pri stavbe alebo v pivnici
