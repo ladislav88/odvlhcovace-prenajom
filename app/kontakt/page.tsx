@@ -82,10 +82,6 @@ export default function Kontakt() {
       {/* Company Details */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-8 text-gray-900">
-            Firemné údaje
-          </h2>
-          
           <div className="bg-white border border-gray-200 rounded-lg p-8">
             <div className="mb-6">
               <h3 className="text-lg font-semibold mb-4 text-gray-900">ALCO.SK, s.r.o.</h3>
