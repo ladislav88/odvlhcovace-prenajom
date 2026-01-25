@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Odvlhčovač do Pivnice - Trenčiansky Kraj | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov do pivnice pre Trenčiansky kraj. Efektívne riešenie pre vlhké pivnice. Profesionálna služba a kvalitné zariadenia.",
+  description: "Prenájom odvlhčovačov do pivnice pre Trenčín a okolie. Efektívne riešenie pre vlhké pivnice. Profesionálna služba a kvalitné zariadenia.",
 };
 
 export default function OdvlhcovacDoPivnice() {
@@ -32,7 +32,7 @@ export default function OdvlhcovacDoPivnice() {
                   Pivnice sú často postihnuté nadmernou vlhkosťou, ktorá môže spôsobiť vznik plesní, poškodenie uskladnených vecí a nepríjemné pachy. Prenájom výkonných odvlhčovačov je vhodný pre efektívne odvlhčovanie pivníc a iných podzemných priestorov.
                 </p>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  K dispozícii je prenájom profesionálnych odvlhčovačov do pivnice pre Trenčiansky kraj. Zariadenia efektívne odstraňujú vlhkosť zo vzduchu a pomáhajú udržať optimálnu vlhkosť v pivnici, čím chráni uskladnené veci, predlžuje životnosť konštrukcie a zabezpečuje zdravé prostredie.
+                  K dispozícii je prenájom profesionálnych odvlhčovačov do pivnice pre Trenčín a okolie. Zariadenia efektívne odstraňujú vlhkosť zo vzduchu a pomáhajú udržať optimálnu vlhkosť v pivnici, čím chráni uskladnené veci, predlžuje životnosť konštrukcie a zabezpečuje zdravé prostredie.
                 </p>
               </div>
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">

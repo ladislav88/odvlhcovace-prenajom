@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Prenájom Odvlhčovača - Trenčiansky Kraj | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov pre Trenčiansky kraj. Profesionálne zariadenia k dispozícii.",
+  description: "Prenájom odvlhčovačov pre Trenčín a okolie. Profesionálne zariadenia k dispozícii.",
 };
 
 export default function PrenajomOdvlhcovaca() {
@@ -15,7 +15,7 @@ export default function PrenajomOdvlhcovaca() {
             Prenájom Odvlhčovača
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Riešenie problémov s vlhkosťou jednoducho a efektívne. Profesionálny prenájom výkonných odvlhčovačov pre Trenčiansky kraj. Kvalitné zariadenia k dispozícii.
+            Riešenie problémov s vlhkosťou jednoducho a efektívne. Profesionálny prenájom výkonných odvlhčovačov pre Trenčín a okolie. Kvalitné zariadenia k dispozícii.
           </p>
         </div>
       </section>
@@ -98,7 +98,7 @@ export default function PrenajomOdvlhcovaca() {
                 </li>
               </ul>
               <p className="text-gray-700 mt-4 text-lg leading-relaxed">
-                Odvlhčenie novostavby pomocou profesionálnych odvlhčovačov zabezpečuje rýchlejšie dokončenie stavby a chráni pred problémami s vlhkosťou. Prenájom odvlhčovačov pre Trenčín a okolie je k dispozícii.
+                Odvlhčenie novostavby pomocou profesionálnych odvlhčovačov zabezpečuje rýchlejšie dokončenie stavby a chráni pred problémami s vlhkosťou.
               </p>
             </div>
 

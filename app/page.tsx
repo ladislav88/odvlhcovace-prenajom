@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Prenájom Odvlhčovačov - Trenčiansky Kraj | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov pre Trenčiansky kraj. Profesionálne zariadenia k dispozícii.",
+  description: "Prenájom odvlhčovačov pre Trenčín a okolie. Profesionálne zariadenia k dispozícii.",
 };
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight tracking-tight">
-              Prenájom odvlhčovačov <span className="text-blue-600">Trenčiansky kraj</span>
+              Prenájom odvlhčovačov <span className="text-blue-600">Trenčín a okolie</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 mb-6 leading-relaxed">
               Odvlhčovač urýchľuje vysychanie stavebných materiálov a znižuje riziko vzniku plesní. Vhodné pre novostavby, rekonštrukcie a havarijné stavy.
@@ -28,16 +28,24 @@ export default function Home() {
                 minimálne 7 dní
               </p>
             </div>
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
                 href="tel:+421911911876"
-                className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-all text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center gap-3"
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-all text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center justify-center gap-3"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <span>Rezervujte teraz</span>
-                <span className="font-normal">+421 911 911 876</span>
+                Zavolať
+              </a>
+              <a
+                href="mailto:info@odvlhcovaceprenajom.sk"
+                className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-all text-lg border-2 border-blue-600 shadow-md hover:shadow-lg flex items-center justify-center gap-3"
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                Napísať email
               </a>
             </div>
           </div>
@@ -56,60 +64,33 @@ export default function Home() {
       {/* Explanation Block */}
       <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900">
-                Čo odvlhčovač robí
-              </h2>
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                Odvlhčovač odstraňuje vlhkosť zo vzduchu kondenzáciou. Zariadenie nasáva vlhký vzduch, ochladzuje ho a kondenzovanú vodu zachytáva do zásobníka alebo odvádza priamo do kanalizácie.
-              </p>
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                Prevádzka znižuje relatívnu vlhkosť vzduchu, čím urýchľuje vysychanie omietok, poterov, farieb a stavebných materiálov. Zníženie vlhkosti skracuje technologické prestávky medzi jednotlivými fázami stavby.
-              </p>
-            </div>
-            <div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900">
-                Prečo je potrebný hneď
-              </h2>
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                Bez aktívneho odvlhčovania môže vysychanie stavebných materiálov trvať mesiace. Vysoká vlhkosť spomaľuje dokončenie stavby a zvyšuje riziko vzniku plesní už po 24-48 hodinách.
-              </p>
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                Odvlhčovač skracuje čas schnutia o 50-70%, čo umožňuje pokračovať v stavebných prácach bez oneskorenia. Rýchlejšie vyschnutie znamená nižšie náklady na opravy a skoré dokončenie projektu.
-              </p>
-            </div>
+          <div className="mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900">
+              Čo odvlhčovač robí a prečo to riešiť hneď
+            </h2>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+              Odvlhčovač odstraňuje vlhkosť zo vzduchu kondenzáciou. Zariadenie nasáva vlhký vzduch, ochladzuje ho a kondenzovanú vodu zachytáva do zásobníka alebo odvádza priamo do kanalizácie. Prevádzka znižuje relatívnu vlhkosť vzduchu, čím urýchľuje vysychanie omietok, poterov, farieb a stavebných materiálov.
+            </p>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+              Bez aktívneho odvlhčovania môže vysychanie stavebných materiálov trvať mesiace. Vysoká vlhkosť spomaľuje dokončenie stavby a zvyšuje riziko vzniku plesní už po 24-48 hodinách.
+            </p>
           </div>
-          <div className="mt-8 pt-8 border-t border-gray-200">
-            <h3 className="text-xl md:text-2xl font-bold mb-4 text-gray-900">
-              Typické situácie použitia
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold mb-2 text-gray-900">Novostavby po omietkach</h4>
-                <p className="text-gray-700 text-sm leading-relaxed">Rýchlejšie a rovnomerné vyschnutie omietok, skrátenie času schnutia o 50-70%.</p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold mb-2 text-gray-900">Potery</h4>
-                <p className="text-gray-700 text-sm leading-relaxed">Odstránenie vlhkosti pred pokládkou podláh, prevencia poškodenia.</p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold mb-2 text-gray-900">Maľovanie</h4>
-                <p className="text-gray-700 text-sm leading-relaxed">Lepšie schnutie farby, prevencia plesní pod vrstvou farby.</p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold mb-2 text-gray-900">Zatopené priestory</h4>
-                <p className="text-gray-700 text-sm leading-relaxed">Rýchle odvlhčenie po záplavách, zníženie rizika poškodenia konštrukcie.</p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold mb-2 text-gray-900">Pivnice</h4>
-                <p className="text-gray-700 text-sm leading-relaxed">Odstránenie nadmernej vlhkosti, ochrana uskladnených vecí.</p>
-              </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h4 className="font-semibold mb-2 text-gray-900">Bytové priestory</h4>
-                <p className="text-gray-700 text-sm leading-relaxed">Zníženie vlhkosti v bytoch, prevencia vzniku plesní na stenách.</p>
-              </div>
-            </div>
+          <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg">
+            <h3 className="text-lg font-semibold mb-3 text-gray-900">Úspora času a peňazí</h3>
+            <ul className="space-y-2 text-gray-700">
+              <li className="flex items-start">
+                <span className="text-blue-600 font-bold mr-2">•</span>
+                <span>Odvlhčovač skracuje čas schnutia o 50-70%, čo umožňuje pokračovať v stavebných prácach bez oneskorenia</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 font-bold mr-2">•</span>
+                <span>Zníženie vlhkosti skracuje technologické prestávky medzi jednotlivými fázami stavby</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 font-bold mr-2">•</span>
+                <span>Rýchlejšie vyschnutie znamená nižšie náklady na opravy a skoré dokončenie projektu</span>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -138,7 +119,7 @@ export default function Home() {
                 Prenájom odvlhčovačov pre novostavby v Trenčíne a okolí zabezpečuje rýchlejšie a rovnomerné vyschnutie omietok a poterov. Zariadenia odstraňujú vlhkosť zo vzduchu, čím skracujú čas schnutia a chráňajú stavbu pred poškodením. Odvlhčenie novostavby je vhodné aj po maľovaní a pred pokládkou podláh, aby sa zabezpečila optimálna vlhkosť pre finálne práce.
               </p>
               <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                Profesionálny prenájom odvlhčovačov pre Trenčín a okolie umožňuje dokončiť stavbu rýchlejšie a s nižším rizikom problémov s vlhkosťou.
+                Prenájom odvlhčovačov pre Trenčín a okolie umožňuje dokončiť stavbu rýchlejšie a s nižším rizikom problémov s vlhkosťou.
               </p>
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
@@ -327,7 +308,6 @@ export default function Home() {
             >
               +421 911 911 876
             </a>
-            <span className="text-gray-400 hidden sm:inline">|</span>
             <a
               href="mailto:info@odvlhcovaceprenajom.sk"
               className="text-gray-700 hover:text-gray-900 font-medium"

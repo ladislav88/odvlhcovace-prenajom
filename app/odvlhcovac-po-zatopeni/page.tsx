@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Odvlhčovač po Zatopení - Trenčiansky Kraj | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov po zatopení pre Trenčiansky kraj. Profesionálna pomoc pri odvlhčovaní po záplavách.",
+  description: "Prenájom odvlhčovačov po zatopení pre Trenčín a okolie. Profesionálna pomoc pri odvlhčovaní po záplavách.",
 };
 
 export default function OdvlhcovacPoZatopeni() {
@@ -15,7 +15,7 @@ export default function OdvlhcovacPoZatopeni() {
             Rýchla pomoc po zatopení
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Každá minúta sa počíta. Čím skôr sa začne s odvlhčovaním, tým menej škôd vznikne. Prenájom výkonných odvlhčovačov pre Trenčiansky kraj – v núdzových prípadoch je dohoda možná aj počas víkendov.
+            Každá minúta sa počíta. Čím skôr sa začne s odvlhčovaním, tým menej škôd vznikne. Prenájom výkonných odvlhčovačov pre Trenčín a okolie – v núdzových prípadoch je dohoda možná aj počas víkendov.
           </p>
         </div>
       </section>
@@ -26,64 +26,59 @@ export default function OdvlhcovacPoZatopeni() {
             <h2 className="text-3xl font-bold mb-6 text-gray-900">
               Odvlhčovanie po zatopení
             </h2>
-            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Po zatopení je každá minúta dôležitá. Čím skôr sa začne s odvlhčovaním, tým menej škôd vznikne a tým rýchlejšie sa priestor vráti do normálu. Prenájom výkonných odvlhčovačov pre Trenčiansky kraj je k dispozícii – v núdzových prípadoch je dohoda možná aj počas víkendov.
-            </p>
-            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Profesionálne odvlhčovače efektívne odstraňujú vlhkosť zo stien, podláh a vzduchu, čím pomáhajú obnoviť priestor do pôvodného stavu. Rýchle odvlhčovanie chráni majetok a predchádza ďalším škodám.
+            <p className="text-gray-700 mb-6 text-lg leading-relaxed">
+              Po zatopení je každá minúta dôležitá. Profesionálne odvlhčovače efektívne odstraňujú vlhkosť zo stien, podláh a vzduchu, čím pomáhajú obnoviť priestor do pôvodného stavu. Rýchle odvlhčovanie chráni majetok a predchádza ďalším škodám.
             </p>
 
-            <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Prečo je rýchle odvlhčovanie kritické?
+            <h3 className="text-2xl font-semibold mb-4 text-gray-900">
+              Čo urobiť do 24 hodín
             </h3>
-            <div className="bg-red-50 border-l-4 border-red-500 p-6 rounded-lg mb-6">
-              <p className="text-gray-700 mb-4 font-semibold">Každá hodina oneskorenia môže spôsobiť ďalšie škody:</p>
-              <ul className="space-y-2 text-gray-700">
-                <li className="flex items-start">
-                  <span className="text-red-600 font-bold mr-3">⚠</span>
-                  <span><strong>Plesne a húby</strong> sa môžu začať tvoriť už po 24-48 hodinách</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-red-600 font-bold mr-3">⚠</span>
-                  <span><strong>Poškodenie konštrukcie</strong> – vlhkosť ničí steny, podlahy a stropy</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-red-600 font-bold mr-3">⚠</span>
-                  <span><strong>Nepríjemné pachy</strong> sa môžu usadiť natrvalo</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-red-600 font-bold mr-3">⚠</span>
-                  <span><strong>Poškodenie nábytku</strong> a cenných vecí</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-red-600 font-bold mr-3">⚠</span>
-                  <span><strong>Zdravotné riziká</strong> v dôsledku plesní a húb</span>
-                </li>
-              </ul>
+            <ul className="space-y-3 text-gray-700 mb-8">
+              <li className="flex items-start">
+                <span className="text-blue-600 font-bold mr-3">1.</span>
+                <span>Kontaktovať čo najskôr – v núdzových prípadoch je dohoda možná aj počas víkendov</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 font-bold mr-3">2.</span>
+                <span>Odstrániť stojacu vodu a vyčistiť priestor</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 font-bold mr-3">3.</span>
+                <span>Odvlhčovač je možné umiestniť na vhodné miesto čo najskôr</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-blue-600 font-bold mr-3">4.</span>
+                <span>Odvlhčovanie prebieha kontinuálne až do úplného odvlhčenia</span>
+              </li>
+            </ul>
+
+            {/* CTA Box */}
+            <div className="bg-blue-600 text-white rounded-lg p-8 mb-8">
+              <h3 className="text-2xl font-bold mb-4">Kontakt pre rýchlu pomoc</h3>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a
+                  href="tel:+421911911876"
+                  className="bg-white text-blue-600 px-6 py-3 rounded-lg font-bold hover:bg-blue-50 transition-colors flex items-center justify-center gap-2"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  Zavolať
+                </a>
+                <a
+                  href="mailto:info@odvlhcovaceprenajom.sk"
+                  className="bg-blue-700 text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-800 transition-colors flex items-center justify-center gap-2 border-2 border-white"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  Napísať email
+                </a>
+              </div>
             </div>
-            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              <strong>Rýchle odvlhčovanie znamená:</strong> menej škôd, nižšie náklady na opravy, rýchlejšia obnova priestoru. Čím skôr sa začne s odvlhčovaním, tým lepšie výsledky.
-            </p>
 
-            <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Postup po zatopení
-            </h3>
-            <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-6">
-              <li>Kontaktovať čo najskôr – v núdzových prípadoch je dohoda možná aj počas víkendov</li>
-              <li>Odstrániť stojacu vodu a vyčistiť priestor</li>
-              <li>Odvlhčovač je možné umiestniť na vhodné miesto</li>
-              <li>Odvlhčovanie prebieha kontinuálne až do úplného odvlhčenia</li>
-              <li>Po dokončení sa dohodne vrátenie zariadenia</li>
-            </ol>
-
-            <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Odvlhčovanie po zatopení
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
-                <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  K dispozícii je odborné poradenstvo a technická podpora. Zariadenia sú vhodné pre odvlhčovanie bytov, domov, kancelárií a iných priestorov postihnutých zatopením.
-                </p>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
                   K dispozícii sú profesionálne priemyselné odvlhčovače značky <strong>Rohnson</strong> s vysokým výkonom až 51 litrov/deň, vhodné pre rýchle a efektívne odvlhčovanie po záplavách. Zariadenia majú vysoký prietok vzduchu 450 m³/h a sú vhodné pre veľké priestory. Vďaka možnosti pripojenia hadičkou priamo do kanalizácie môže zariadenie pracovať nepretržite bez potreby vyprazdňovania zásobníka.
                 </p>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Odvlhčovač do Bytu - Trenčiansky Kraj | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov do bytu pre Trenčiansky kraj. Riešenie pre vlhké byty a problémy s vlhkosťou. Profesionálna služba a kvalitné zariadenia.",
+  description: "Prenájom odvlhčovačov do bytu pre Trenčín a okolie. Riešenie pre vlhké byty a problémy s vlhkosťou. Profesionálna služba a kvalitné zariadenia.",
 };
 
 export default function OdvlhcovacDoBytu() {
