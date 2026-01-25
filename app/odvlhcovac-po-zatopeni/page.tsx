@@ -16,7 +16,7 @@ export default function OdvlhcovacPoZatopeni() {
             Rýchla pomoc po zatopení
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Každá minúta sa počíta! Čím skôr začnete s odvlhčovaním, tým menej škôd vznikne. Prenájom výkonných odvlhčovačov pre Trenčiansky kraj – v núdzových prípadoch som flexibilný.
+            Každá minúta sa počíta. Čím skôr sa začne s odvlhčovaním, tým menej škôd vznikne. Prenájom výkonných odvlhčovačov pre Trenčiansky kraj – v núdzových prípadoch je dohoda možná aj počas víkendov.
           </p>
         </div>
       </section>
@@ -25,13 +25,13 @@ export default function OdvlhcovacPoZatopeni() {
         <div className="max-w-4xl mx-auto">
           <div className="prose prose-lg max-w-none">
             <h2 className="text-3xl font-bold mb-6 text-gray-900">
-              Zatopenie? Nezúfajte – máme riešenie!
+              Odvlhčovanie po zatopení
             </h2>
             <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Po zatopení je každá minúta dôležitá. Čím skôr začnete s odvlhčovaním, tým menej škôd vznikne a tým rýchlejšie sa váš domov vráti do normálu. Ponúkam rýchly prenájom výkonných odvlhčovačov pre Trenčiansky kraj – v núdzových prípadoch som flexibilný!
+              Po zatopení je každá minúta dôležitá. Čím skôr sa začne s odvlhčovaním, tým menej škôd vznikne a tým rýchlejšie sa priestor vráti do normálu. Prenájom výkonných odvlhčovačov pre Trenčiansky kraj je k dispozícii – v núdzových prípadoch je dohoda možná aj počas víkendov.
             </p>
             <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Naše profesionálne odvlhčovače efektívne odstraňujú vlhkosť zo stien, podláh a vzduchu, čím pomáhajú obnoviť váš domov alebo podnik do pôvodného stavu. Chráňte svoj majetok a zdravie svojej rodiny – nečakajte, kým sa problémy zhoršia!
+              Profesionálne odvlhčovače efektívne odstraňujú vlhkosť zo stien, podláh a vzduchu, čím pomáhajú obnoviť priestor do pôvodného stavu. Rýchle odvlhčovanie chráni majetok a predchádza ďalším škodám.
             </p>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
@@ -58,35 +58,35 @@ export default function OdvlhcovacPoZatopeni() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-red-600 font-bold mr-3">⚠</span>
-                  <span><strong>Zdravotné riziká</strong> pre vás a vašu rodinu</span>
+                  <span><strong>Zdravotné riziká</strong> v dôsledku plesní a húb</span>
                 </li>
               </ul>
             </div>
             <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              <strong>Rýchle odvlhčovanie znamená:</strong> menej škôd, nižšie náklady na opravy, rýchlejšia obnova priestoru a pokoj pre vás a vašu rodinu. Nečakajte – zavolajte nám ešte dnes!
+              <strong>Rýchle odvlhčovanie znamená:</strong> menej škôd, nižšie náklady na opravy, rýchlejšia obnova priestoru. Čím skôr sa začne s odvlhčovaním, tým lepšie výsledky.
             </p>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Ako postupovať po zatopení?
+              Postup po zatopení
             </h3>
             <ol className="list-decimal pl-6 space-y-2 text-gray-700 mb-6">
-              <li>Kontaktujte ma čo najskôr - v núdzových prípadoch som flexibilný</li>
-              <li>Odstráňte stojacu vodu a vyčistite priestor</li>
-              <li>Nainštalujeme odvlhčovač na vhodné miesto</li>
-              <li>Odvlhčovač pracuje kontinuálne až do úplného odvlhčenia</li>
-              <li>Po dokončení zariadenie odvezíme</li>
+              <li>Kontaktovať čo najskôr – v núdzových prípadoch je dohoda možná aj počas víkendov</li>
+              <li>Odstrániť stojacu vodu a vyčistiť priestor</li>
+              <li>Odvlhčovač je možné umiestniť na vhodné miesto</li>
+              <li>Odvlhčovanie prebieha kontinuálne až do úplného odvlhčenia</li>
+              <li>Po dokončení sa dohodne vrátenie zariadenia</li>
             </ol>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Naše služby po zatopení
+              Odvlhčovanie po zatopení
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6 items-center">
               <div>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  Poskytujem odborné poradenstvo a technickú podporu. Zariadenia sú vhodné pre odvlhčovanie bytov, domov, kancelárií a iných priestorov postihnutých zatopením.
+                  K dispozícii je odborné poradenstvo a technická podpora. Zariadenia sú vhodné pre odvlhčovanie bytov, domov, kancelárií a iných priestorov postihnutých zatopením.
                 </p>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  Používame profesionálne priemyselné odvlhčovače značky <strong>Rohnson</strong> s vysokým výkonom až 51 litrov/deň, ktoré sú ideálne pre rýchle a efektívne odvlhčovanie po záplavách. Zariadenia majú vysoký prietok vzduchu 450 m³/h a sú vhodné pre veľké priestory. Vďaka možnosti pripojenia hadičkou priamo do kanalizácie môže zariadenie pracovať nepretržite bez potreby vyprazdňovania zásobníka.
+                  K dispozícii sú profesionálne priemyselné odvlhčovače značky <strong>Rohnson</strong> s vysokým výkonom až 51 litrov/deň, ktoré sú ideálne pre rýchle a efektívne odvlhčovanie po záplavách. Zariadenia majú vysoký prietok vzduchu 450 m³/h a sú vhodné pre veľké priestory. Vďaka možnosti pripojenia hadičkou priamo do kanalizácie môže zariadenie pracovať nepretržite bez potreby vyprazdňovania zásobníka.
                 </p>
               </div>
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">

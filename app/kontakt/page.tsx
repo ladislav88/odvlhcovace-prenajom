@@ -3,7 +3,7 @@ import CTA from "../components/CTA";
 
 export const metadata: Metadata = {
   title: "Kontakt - Prenájom Odvlhčovačov Trenčín | Odvlhčovače na Prenájom",
-  description: "Kontaktujte nás pre prenájom odvlhčovačov v Trenčíne a okolí. Telefón, email a kontaktný formulár. Rýchla odpoveď a profesionálna služba.",
+  description: "Kontaktné informácie pre prenájom odvlhčovačov v Trenčianskom kraji. Telefón, email a kontaktný formulár.",
 };
 
 export default function Kontakt() {
@@ -14,8 +14,8 @@ export default function Kontakt() {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
             Kontakt
           </h1>
-          <p className="text-xl text-gray-700 mb-8">
-            Kontaktujte ma pre prenájom odvlhčovačov v Trenčianskom kraji. Rád vám pomôžem s výberom správneho zariadenia.
+          <p className="text-xl text-gray-700 mb-8 leading-relaxed">
+            Informácie o prenájme odvlhčovačov v Trenčianskom kraji. Pre výber správneho zariadenia je možné kontaktovať telefonicky alebo emailom.
           </p>
         </div>
       </section>
@@ -79,7 +79,7 @@ export default function Kontakt() {
                       info@odvlhcovaceprenajom.sk
                     </a>
                     <p className="text-gray-600 text-sm">
-                      Odpovedám do 24 hodín
+                      Odpoveď do 24 hodín
                     </p>
                   </div>
                 </div>
@@ -208,21 +208,21 @@ export default function Kontakt() {
           </h2>
           <div className="space-y-4">
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Ako rýchlo odpoviem na váš dotaz?</h3>
-              <p className="text-gray-600">
-                Na emailové dotazy odpovedám do 24 hodín. Telefónne dotazy riešim okamžite počas pracovných hodín.
+              <h3 className="text-lg font-semibold mb-2">Ako rýchlo je možné získať odpoveď?</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Na emailové dotazy sa odpovedá do 24 hodín. Telefónne dotazy sa riešia počas pracovných hodín.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Ako získam odvlhčovač?</h3>
-              <p className="text-gray-600">
-                Odvlhčovač si môžete prevziať osobne v Trenčianskych Stankovciach po dohode telefonicky. Kontaktujte ma a dohodneme sa na najvhodnejšom čase.
+              <h3 className="text-lg font-semibold mb-2">Ako je možné získať odvlhčovač?</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Odvlhčovač je možné prevziať osobne v Trenčianskych Stankovciach po dohode telefonicky. Dohoda o čase prevzatia je možná podľa potrieb.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Som dostupný aj cez víkendy?</h3>
-              <p className="text-gray-600">
-                V núdzových prípadoch (napr. po zatopení) som dostupný aj cez víkendy. Kontaktujte ma a dohodneme sa.
+              <h3 className="text-lg font-semibold mb-2">Je dohoda možná aj cez víkendy?</h3>
+              <p className="text-gray-600 leading-relaxed">
+                V núdzových prípadoch (napr. po zatopení) je dohoda možná aj počas víkendov. Kontaktovaním sa dohodne najvhodnejšie riešenie.
               </p>
             </div>
           </div>

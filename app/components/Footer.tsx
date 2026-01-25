@@ -36,20 +36,8 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-gray-400 mb-4">
-            <div>
-              <p className="font-semibold text-white mb-2">ALCO.SK, s.r.o.</p>
-              <p>Malé Stankovce 237</p>
-              <p>913 11 Trenčianske Stankovce</p>
-            </div>
-            <div>
-              <p>IČO: 45601259</p>
-              <p>IČ-DPH: SK2023064032</p>
-              <p className="text-xs mt-2">Zapísaná v Obchodnom registri Okresného súdu Trenčín, Oddiel: Sro, Vložka číslo: 23214/R</p>
-            </div>
-          </div>
           <div className="text-center text-sm text-gray-400">
-            <p>&copy; {new Date().getFullYear()} ALCO.SK, s.r.o. Všetky práva vyhradené.</p>
+            <p>&copy; {new Date().getFullYear()} Odvlhčovače na Prenájom. Všetky práva vyhradené.</p>
           </div>
         </div>
       </div>

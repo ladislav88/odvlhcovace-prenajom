@@ -16,7 +16,7 @@ export default function OdvlhcovacDoPivnice() {
             Zbavte sa vlhkosti v pivnici raz a navždy
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Chráňte svoje uskladnené veci a zdravie! Efektívne riešenie pre vlhké pivnice v Trenčíne a okolí. Profesionálny prenájom výkonných odvlhčovačov – jednoducho, rýchlo a efektívne.
+            Efektívne riešenie pre vlhké pivnice v Trenčíne a okolí. Profesionálny prenájom výkonných odvlhčovačov pre ochranu uskladnených vecí a zdravé prostredie.
           </p>
         </div>
       </section>
@@ -25,15 +25,15 @@ export default function OdvlhcovacDoPivnice() {
         <div className="max-w-4xl mx-auto">
           <div className="prose prose-lg max-w-none">
             <h2 className="text-3xl font-bold mb-6 text-gray-900">
-              Vlhká pivnica? Máme riešenie!
+              Odvlhčovanie pivníc
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6 items-center">
               <div>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  Pivnice sú často postihnuté nadmernou vlhkosťou, ktorá môže spôsobiť vznik plesní, poškodenie vašich cenných uskladnených vecí a nepríjemné pachy. Nečakajte, kým sa problémy zhoršia – naše výkonné odvlhčovače sú špeciálne vhodné pre efektívne odvlhčovanie pivníc a iných podzemných priestorov.
+                  Pivnice sú často postihnuté nadmernou vlhkosťou, ktorá môže spôsobiť vznik plesní, poškodenie uskladnených vecí a nepríjemné pachy. Prenájom výkonných odvlhčovačov je vhodný pre efektívne odvlhčovanie pivníc a iných podzemných priestorov.
                 </p>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  Ponúkam prenájom profesionálnych odvlhčovačov do pivnice pre Trenčiansky kraj. Zariadenia efektívne odstraňujú vlhkosť zo vzduchu a pomáhajú udržať optimálnu vlhkosť v pivnici, čím chráni vaše uskladnené veci, predlžuje životnosť konštrukcie a zabezpečuje zdravé prostredie.
+                  K dispozícii je prenájom profesionálnych odvlhčovačov do pivnice pre Trenčiansky kraj. Zariadenia efektívne odstraňujú vlhkosť zo vzduchu a pomáhajú udržať optimálnu vlhkosť v pivnici, čím chráni uskladnené veci, predlžuje životnosť konštrukcie a zabezpečuje zdravé prostredie.
                 </p>
               </div>
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
@@ -47,7 +47,7 @@ export default function OdvlhcovacDoPivnice() {
             </div>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Prečo potrebujete odvlhčovač do pivnice?
+              Prečo je odvlhčovač do pivnice potrebný?
             </h3>
             <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">
               <li>Odstránenie nadmernej vlhkosti zo vzduchu</li>
@@ -59,10 +59,10 @@ export default function OdvlhcovacDoPivnice() {
             </ul>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Výhody našich odvlhčovačov do pivnice
+              Výhody odvlhčovačov do pivnice
             </h3>
-            <p className="text-gray-700 mb-4 text-lg">
-              Naše odvlhčovače sú vhodné pre rôzne veľkosti pivníc a poskytujú efektívne riešenie pre odvlhčovanie. Zariadenia sú jednoduché na obsluhu a majú automatické režimy, ktoré zabezpečujú optimálnu úroveň vlhkosti.
+            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
+              Odvlhčovače sú vhodné pre rôzne veľkosti pivníc a poskytujú efektívne riešenie pre odvlhčovanie. Zariadenia sú jednoduché na obsluhu a majú automatické režimy, ktoré zabezpečujú optimálnu úroveň vlhkosti.
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">
               <li>Vysoká účinnosť odvlhčovania</li>
@@ -75,15 +75,30 @@ export default function OdvlhcovacDoPivnice() {
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
               Priemyselné odvlhčovače Rohnson pre pivnice
             </h3>
-            <p className="text-gray-700 mb-4 text-lg">
-              Ponúkame prenájom priemyselných odvlhčovačov značky <strong>Rohnson</strong>, ktoré sú ideálne pre odvlhčovanie pivníc. Zariadenia majú tichú prevádzku, automatické režimy a sú vhodné pre prevádzku v širokom rozsahu teplôt. Praktická rukoväť a kolieska umožňujú ľahký presun zariadenia.
+            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
+              K dispozícii je prenájom priemyselných odvlhčovačov značky <strong>Rohnson</strong>, ktoré sú ideálne pre odvlhčovanie pivníc. Zariadenia majú tichú prevádzku, automatické režimy a sú vhodné pre prevádzku v širokom rozsahu teplôt. Praktická rukoväť a kolieska umožňujú ľahký presun zariadenia.
             </p>
 
+            <div className="bg-gray-50 p-6 rounded-lg my-6">
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">
+                Vhodné aj po stavebných prácach
+              </h3>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Prenájom odvlhčovačov je vhodný aj pre odvlhčenie pivníc po stavebných prácach v Trenčíne a okolí. Zariadenia efektívne odstraňujú vlhkosť po omietkach, poteroch, maľovaní a rekonštrukcii, čím zabezpečujú rýchlejšie vyschnutie a ochranu pred plesňami.
+              </p>
+              <ul className="space-y-2 text-gray-700">
+                <li>• <strong>Po omietkach</strong> – Rýchlejšie a rovnomerné vyschnutie</li>
+                <li>• <strong>Po poteroch</strong> – Odstránenie vlhkosti pred dokončením</li>
+                <li>• <strong>Po maľovaní</strong> – Lepšie schnutie farby, prevencia plesní</li>
+                <li>• <strong>Po rekonštrukcii</strong> – Odvlhčenie po stavebných prácach</li>
+              </ul>
+            </div>
+
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Ako funguje prenájom odvlhčovača do pivnice?
+              Ako prenájom funguje
             </h3>
-            <p className="text-gray-700 mb-4 text-lg">
-              Kontaktujte ma a dohodneme sa na prevzatí vhodného odvlhčovača v Trenčianskych Stankovciach. Poradím vám s nastavením a obsluhou zariadenia podľa vašich potrieb.
+            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
+              Odvlhčovač je možné prevziať osobne v Trenčianskych Stankovciach po dohode telefonicky. K dispozícii sú inštrukcie na nastavenie a obsluhu zariadenia podľa potrieb.
             </p>
           </div>
         </div>

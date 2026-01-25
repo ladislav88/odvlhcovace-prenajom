@@ -4,7 +4,7 @@ import CTA from "../components/CTA";
 
 export const metadata: Metadata = {
   title: "Prenájom Odvlhčovača - Trenčiansky Kraj | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov pre Trenčiansky kraj. Profesionálna služba a kvalitné zariadenia. Kontaktujte ma pre najlepšiu ponuku.",
+  description: "Prenájom odvlhčovačov pre Trenčiansky kraj. Profesionálne zariadenia k dispozícii.",
 };
 
 export default function PrenajomOdvlhcovaca() {
@@ -16,7 +16,7 @@ export default function PrenajomOdvlhcovaca() {
             Prenájom Odvlhčovača
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Riešte problémy s vlhkosťou jednoducho a efektívne. Profesionálny prenájom výkonných odvlhčovačov pre Trenčiansky kraj. Kvalitné zariadenia a pokoj pre vás.
+            Riešenie problémov s vlhkosťou jednoducho a efektívne. Profesionálny prenájom výkonných odvlhčovačov pre Trenčiansky kraj. Kvalitné zariadenia k dispozícii.
           </p>
         </div>
       </section>
@@ -28,50 +28,80 @@ export default function PrenajomOdvlhcovaca() {
               Riešenie pre každý problém s vlhkosťou
             </h2>
             <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Či už máte problém s vlhkosťou v byte, dome, pivnici alebo komerčnom priestore – my máme riešenie! Ponúkame profesionálny prenájom výkonných odvlhčovačov pre domácnosti aj podniky v Trenčíne a okolí. Naše zariadenia sú ideálne pre akýkoľvek priestor postihnutý nadmernou vlhkosťou.
+              Prenájom odvlhčovačov je vhodný pre riešenie problémov s vlhkosťou v byte, dome, pivnici alebo komerčnom priestore. Profesionálny prenájom výkonných odvlhčovačov je k dispozícii pre domácnosti aj podniky v Trenčíne a okolí. Zariadenia sú ideálne pre akýkoľvek priestor postihnutý nadmernou vlhkosťou.
             </p>
             <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Všetky odvlhčovače sú pravidelne kontrolované a udržiavané v perfektnom stave. Zabezpečujem vám maximálnu účinnosť, spoľahlivosť a pokoj. Poradím vám s nastavením a obsluhou zariadenia.
+              Odvlhčovače sú pravidelne kontrolované a udržiavané v perfektnom stave. Zariadenia zabezpečujú maximálnu účinnosť a spoľahlivosť. K dispozícii sú inštrukcie na nastavenie a obsluhu zariadenia.
             </p>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Prečo si vybrať práve náš prenájom?
+              Prečo prenájom odvlhčovačov?
             </h3>
             <div className="bg-gradient-to-r from-blue-50 to-white p-6 rounded-lg mb-6">
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-3">✓</span>
-                  <span><strong>Rýchla dostupnosť</strong> – V Trenčianskom kraji som tu pre vás. V núdzových prípadoch som flexibilný!</span>
+                  <span><strong>Rýchla dostupnosť</strong> – Prenájom je k dispozícii v Trenčianskom kraji. V núdzových prípadoch je dohoda možná aj počas víkendov.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-3">✓</span>
-                  <span><strong>Výkonné zariadenia</strong> – Používame len overené, profesionálne odvlhčovače značky Rohnson s maximálnym výkonom.</span>
+                  <span><strong>Výkonné zariadenia</strong> – K dispozícii sú overené, profesionálne odvlhčovače značky Rohnson s maximálnym výkonom.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-3">✓</span>
-                  <span><strong>Férové ceny</strong> – Transparentné ceny bez skrytých poplatkov. Ušetríte tisíce oproti kúpe zariadenia.</span>
+                  <span><strong>Férové ceny</strong> – Transparentné ceny bez skrytých poplatkov. Úspora oproti kúpe zariadenia dosahuje tisíce eur.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-3">✓</span>
-                  <span><strong>Odborná podpora</strong> – Počas celého prenájmu som tu pre vás. Rád poradím a pomôžem.</span>
+                  <span><strong>Technická podpora</strong> – Počas celého prenájmu je k dispozícii technická podpora a inštrukcie.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-3">✓</span>
-                  <span><strong>Flexibilné podmienky</strong> – Prispôsobíme sa vašim potrebám. Kratší aj dlhší prenájom.</span>
+                  <span><strong>Flexibilné podmienky</strong> – Prenájom je možné na kratšie aj dlhšie obdobie podľa potrieb.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-3">✓</span>
-                  <span><strong>Jednoduchá služba</strong> – Prevzatie osobne v Trenčianskych Stankovciach. Poradím s nastavením!</span>
+                  <span><strong>Jednoduchá služba</strong> – Prevzatie osobne v Trenčianskych Stankovciach. K dispozícii sú inštrukcie na nastavenie.</span>
                 </li>
               </ul>
             </div>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Kedy potrebujete odvlhčovač? Riešime to všetko!
+              Kedy je odvlhčovač potrebný?
             </h3>
             <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Odvlhčovač je nevyhnutný v mnohých situáciách – po zatopení, pri nadmernej vlhkosti v pivnici, vlhkých stenách v byte, v novostavbách, po maľovaní alebo pri akomkoľvek inom probléme s vlhkosťou. Naše výkonné zariadenia efektívne odstraňujú vlhkosť zo vzduchu a pomáhajú predchádzať vzniku plesní, húb a nepríjemných pachov. Chráňte svoj domov a zdravie svojej rodiny!
+              Odvlhčovač je nevyhnutný v mnohých situáciách – po zatopení, pri nadmernej vlhkosti v pivnici, vlhkých stenách v byte, v novostavbách, po maľovaní alebo pri akomkoľvek inom probléme s vlhkosťou. Výkonné zariadenia efektívne odstraňujú vlhkosť zo vzduchu a pomáhajú predchádzať vzniku plesní, húb a nepríjemných pachov.
             </p>
+
+            <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg my-8">
+              <h3 className="text-2xl font-semibold mb-4 text-gray-900">
+                Vhodné aj po stavebných prácach
+              </h3>
+              <p className="text-gray-700 mb-4 text-lg leading-relaxed">
+                Prenájom odvlhčovačov je ideálny pre odvlhčenie novostavby a interiérov po stavebných prácach v Trenčíne a okolí. Zariadenia efektívne odstraňujú vlhkosť po omietkach, poteroch, maľovaní a rekonštrukcii.
+              </p>
+              <ul className="space-y-2 text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-blue-600 font-bold mr-3">•</span>
+                  <span><strong>Po omietkach</strong> – Rýchlejšie a rovnomerné vyschnutie, skrátenie času schnutia o 50–70%</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 font-bold mr-3">•</span>
+                  <span><strong>Po poteroch</strong> – Odstránenie vlhkosti pred pokládkou podláh, prevencia poškodenia</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 font-bold mr-3">•</span>
+                  <span><strong>Po maľovaní</strong> – Lepšie schnutie farby, ochrana pred plesňami pod vrstvou farby</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 font-bold mr-3">•</span>
+                  <span><strong>Po rekonštrukcii</strong> – Odvlhčenie interiérov po stavebných prácach, ochrana stavby</span>
+                </li>
+              </ul>
+              <p className="text-gray-700 mt-4 text-lg leading-relaxed">
+                Odvlhčenie novostavby pomocou profesionálnych odvlhčovačov zabezpečuje rýchlejšie dokončenie stavby a chráni pred problémami s vlhkosťou. Prenájom odvlhčovačov pre Trenčín a okolie je k dispozícii.
+              </p>
+            </div>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
               Výkonný pomocník aj do náročných prevádzok
@@ -79,7 +109,7 @@ export default function PrenajomOdvlhcovaca() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6 items-center">
               <div>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  Odvlhčovač vzduchu značky <strong>Rohnson</strong> vám pomôže zbaviť sa prebytočnej vlhkosti vo vzduchu, vďaka čomu sa môžete zbaviť plesní na stenách, urýchliť vysúšanie stien po maľovaní, v novostavbách či pivniciach. Pre svoj vysoký výkon, dosahujúci až 51 l/deň, bude ideálnym zariadením do náročných prevádzok, ako sú práčovne či sušiarne alebo na reguláciu vlhkosti v skladovacích priestoroch.
+                  Odvlhčovač vzduchu značky <strong>Rohnson</strong> odstraňuje prebytočnú vlhkosť zo vzduchu, čím pomáha zbaviť sa plesní na stenách, urýchľuje vysúšanie stien po maľovaní, v novostavbách či pivniciach. Vďaka vysokému výkonu, dosahujúcemu až 51 l/deň, je vhodný do náročných prevádzok, ako sú práčovne či sušiarne alebo na reguláciu vlhkosti v skladovacích priestoroch.
                 </p>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
                   Kondenzát sa zachytáva do zbernej nádoby, ale prostredníctvom hadice je možné kondenzát priamo odvádzať a nechať odvlhčovač pracovať nepretržite. Umývateľný prachový filter chráni zariadenie pred zanesením.

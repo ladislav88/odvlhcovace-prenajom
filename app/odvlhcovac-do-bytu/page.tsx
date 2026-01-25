@@ -16,7 +16,7 @@ export default function OdvlhcovacDoBytu() {
             Zdravý domov bez vlhkosti
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Chráňte zdravie svojej rodiny! Riešenie pre vlhké byty v Trenčíne a okolí. Profesionálny prenájom tichých a efektívnych odvlhčovačov – váš domov zaslúži zdravé prostredie.
+            Riešenie pre vlhké byty v Trenčíne a okolí. Profesionálny prenájom tichých a efektívnych odvlhčovačov pre zdravé prostredie v byte.
           </p>
         </div>
       </section>
@@ -25,15 +25,15 @@ export default function OdvlhcovacDoBytu() {
         <div className="max-w-4xl mx-auto">
           <div className="prose prose-lg max-w-none">
             <h2 className="text-3xl font-bold mb-6 text-gray-900">
-              Vlhkosť v byte? Riešime to za vás!
+              Odvlhčovanie bytov
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6 items-center">
               <div>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  Nadmerná vlhkosť v byte môže spôsobiť množstvo problémov – od vlhkých stien, cez vznik plesní až po nepríjemné pachy, ktoré ohrozujú zdravie vašej rodiny. Naše odvlhčovače do bytu poskytujú efektívne a rýchle riešenie pre odvlhčovanie bytových priestorov v Trenčíne a okolí.
+                  Nadmerná vlhkosť v byte môže spôsobiť množstvo problémov – od vlhkých stien, cez vznik plesní až po nepríjemné pachy. Prenájom odvlhčovačov do bytu poskytuje efektívne a rýchle riešenie pre odvlhčovanie bytových priestorov v Trenčíne a okolí.
                 </p>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  Ponúkame prenájom výkonných odvlhčovačov vhodných pre bytové priestory. Tieto zariadenia sú kompaktné, tiché a efektívne, čím ideálne zapadajú do domáceho prostredia bez toho, aby vás obťažovali, a zároveň poskytujú vynikajúce výsledky. <strong>Váš domov zaslúži zdravé prostredie!</strong>
+                  K dispozícii je prenájom výkonných odvlhčovačov vhodných pre bytové priestory. Zariadenia sú kompaktné, tiché a efektívne, čím ideálne zapadajú do domáceho prostredia a poskytujú vynikajúce výsledky.
                 </p>
               </div>
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
@@ -47,7 +47,7 @@ export default function OdvlhcovacDoBytu() {
             </div>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Kedy potrebujete odvlhčovač do bytu?
+              Kedy je odvlhčovač do bytu potrebný?
             </h3>
             <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">
               <li>Vlhké steny a rohy v byte</li>
@@ -59,10 +59,10 @@ export default function OdvlhcovacDoBytu() {
             </ul>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Výhody našich odvlhčovačov do bytu
+              Výhody odvlhčovačov do bytu
             </h3>
-            <p className="text-gray-700 mb-4 text-lg">
-              Naše odvlhčovače do bytu sú navrhnuté s dôrazom na tichú prevádzku, kompaktné rozmery a jednoduchú obsluhu. Ideálne sa hodia do obývacích izieb, spální, kuchýň alebo kúpeľní.
+            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
+              Odvlhčovače do bytu sú navrhnuté s dôrazom na tichú prevádzku, kompaktné rozmery a jednoduchú obsluhu. Zariadenia sú vhodné do obývacích izieb, spální, kuchýň alebo kúpeľní.
             </p>
             <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">
               <li>Kompaktné rozmery - vhodné pre bytové priestory</li>
@@ -76,18 +76,33 @@ export default function OdvlhcovacDoBytu() {
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
               Priemyselné odvlhčovače Rohnson pre byty
             </h3>
-            <p className="text-gray-700 mb-4 text-lg">
-              Ponúkame prenájom priemyselných odvlhčovačov značky <strong>Rohnson</strong>, ktoré sú vhodné aj pre odvlhčovanie bytov. Zariadenia majú kompaktné rozmery, tichú prevádzku a vysokú účinnosť odvlhčovania. Nastavenie vlhkosti a časovač umožňujú presné riadenie podľa vašich potrieb.
+            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
+              K dispozícii je prenájom priemyselných odvlhčovačov značky <strong>Rohnson</strong>, ktoré sú vhodné aj pre odvlhčovanie bytov. Zariadenia majú kompaktné rozmery, tichú prevádzku a vysokú účinnosť odvlhčovania. Nastavenie vlhkosti a časovač umožňujú presné riadenie podľa potrieb.
             </p>
 
+            <div className="bg-gray-50 p-6 rounded-lg my-6">
+              <h3 className="text-xl font-semibold mb-4 text-gray-900">
+                Vhodné aj po stavebných prácach
+              </h3>
+              <p className="text-gray-700 mb-4 leading-relaxed">
+                Prenájom odvlhčovačov je ideálny pre odvlhčenie bytov po stavebných prácach v Trenčíne a okolí. Zariadenia efektívne odstraňujú vlhkosť po omietkach, poteroch, maľovaní a rekonštrukcii, čím skracujú čas schnutia a chráňajú interiér pred plesňami.
+              </p>
+              <ul className="space-y-2 text-gray-700">
+                <li>• <strong>Po omietkach</strong> – Rýchlejšie vyschnutie, rovnomerné schnutie</li>
+                <li>• <strong>Po poteroch</strong> – Odstránenie vlhkosti pred pokládkou podláh</li>
+                <li>• <strong>Po maľovaní</strong> – Lepšie schnutie farby, prevencia plesní</li>
+                <li>• <strong>Po rekonštrukcii</strong> – Odvlhčenie interiérov po stavebných prácach</li>
+              </ul>
+            </div>
+
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Ako funguje prenájom odvlhčovača do bytu?
+              Ako prenájom funguje
             </h3>
-            <p className="text-gray-700 mb-4 text-lg">
-              Kontaktujte ma a dohodneme sa na prevzatí vhodného odvlhčovača v Trenčianskych Stankovciach. Poradím vám s nastavením a obsluhou zariadenia podľa vašich potrieb.
+            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
+              Odvlhčovač je možné prevziať osobne v Trenčianskych Stankovciach po dohode telefonicky. K dispozícii sú inštrukcie na nastavenie a obsluhu zariadenia podľa potrieb.
             </p>
-            <p className="text-gray-700 mb-4 text-lg">
-              Moja služba je dostupná pre všetky byty v Trenčianskom kraji. Poskytujem flexibilné podmienky prenájmu a odbornú podporu počas celého obdobia prenájmu.
+            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
+              Prenájom je dostupný pre všetky byty v Trenčianskom kraji. Podmienky prenájmu sú flexibilné, technická podpora je k dispozícii počas celého obdobia prenájmu.
             </p>
           </div>
         </div>
