@@ -111,7 +111,11 @@ export default function Kontakt() {
           {/* Optional Mini Form */}
           <div className="mt-8 bg-gray-50 border border-gray-200 rounded-lg p-6">
             <h2 className="text-xl font-semibold mb-4 text-gray-900">Rýchla správa</h2>
-            <form action={`mailto:info@odvlhcovaceprenajom.sk?subject=Dotaz na prenájom odvlhčovača`} method="get" className="space-y-4">
+            <form 
+              action="https://formspree.io/f/xjgwbkwb" 
+              method="POST"
+              className="space-y-4"
+            >
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
                   Meno
@@ -120,6 +124,7 @@ export default function Kontakt() {
                   type="text"
                   id="name"
                   name="name"
+                  required
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 />
               </div>
@@ -142,6 +147,7 @@ export default function Kontakt() {
                   type="email"
                   id="email"
                   name="email"
+                  required
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 />
               </div>
@@ -151,8 +157,9 @@ export default function Kontakt() {
                 </label>
                 <textarea
                   id="message"
-                  name="body"
+                  name="message"
                   rows={3}
+                  required
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 ></textarea>
               </div>
