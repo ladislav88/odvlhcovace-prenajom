@@ -13,13 +13,6 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Prenájom odvlhčovačov Trenčín | Osobný odber",
   description: "Prenájom výkonných odvlhčovačov v Trenčíne. Ideálne po zatopení, do pivníc, bytov a novostavieb. Osobný odber po dohode.",
-  icons: {
-    icon: [
-      { url: '/images/odvlhcovac1-cfcd4dcc-1c2c-4747-a1ef-865033e6baa4.png', sizes: 'any' },
-    ],
-    shortcut: '/images/odvlhcovac1-cfcd4dcc-1c2c-4747-a1ef-865033e6baa4.png',
-    apple: '/images/odvlhcovac1-cfcd4dcc-1c2c-4747-a1ef-865033e6baa4.png',
-  },
 };
 
 export default function RootLayout({
