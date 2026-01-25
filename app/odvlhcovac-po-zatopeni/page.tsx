@@ -86,7 +86,7 @@ export default function OdvlhcovacPoZatopeni() {
                   K dispozícii je odborné poradenstvo a technická podpora. Zariadenia sú vhodné pre odvlhčovanie bytov, domov, kancelárií a iných priestorov postihnutých zatopením.
                 </p>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  K dispozícii sú profesionálne priemyselné odvlhčovače značky <strong>Rohnson</strong> s vysokým výkonom až 51 litrov/deň, ktoré sú ideálne pre rýchle a efektívne odvlhčovanie po záplavách. Zariadenia majú vysoký prietok vzduchu 450 m³/h a sú vhodné pre veľké priestory. Vďaka možnosti pripojenia hadičkou priamo do kanalizácie môže zariadenie pracovať nepretržite bez potreby vyprazdňovania zásobníka.
+                  K dispozícii sú profesionálne priemyselné odvlhčovače značky <strong>Rohnson</strong> s vysokým výkonom až 51 litrov/deň, vhodné pre rýchle a efektívne odvlhčovanie po záplavách. Zariadenia majú vysoký prietok vzduchu 450 m³/h a sú vhodné pre veľké priestory. Vďaka možnosti pripojenia hadičkou priamo do kanalizácie môže zariadenie pracovať nepretržite bez potreby vyprazdňovania zásobníka.
                 </p>
               </div>
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">

@@ -144,7 +144,6 @@ export default function Home() {
                   className="object-cover"
                 />
               </div>
-              <div className="text-4xl mb-3">⚡</div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Rýchla dostupnosť</h3>
               <p className="text-gray-600 leading-relaxed">Rýchla dostupnosť pre Trenčín a okolie. Dohoda o prenájme je možná aj počas víkendov. Čím skôr sa začne s odvlhčovaním, tým menej škôd vznikne.</p>
             </div>
@@ -157,7 +156,6 @@ export default function Home() {
                   className="object-cover"
                 />
               </div>
-              <div className="text-4xl mb-3">🏆</div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Profesionálne zariadenia</h3>
               <p className="text-gray-600 leading-relaxed">K dispozícii sú overené, výkonné odvlhčovače značky Rohnson. Zariadenia sú pred prenájmom skontrolované a majú výkon odvlhčovania až 51 litrov/deň.</p>
             </div>
@@ -170,7 +168,6 @@ export default function Home() {
                   className="object-cover"
                 />
               </div>
-              <div className="text-4xl mb-3">💎</div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Výhodnejšie ako kúpa</h3>
               <p className="text-gray-600 leading-relaxed">Prenájom odvlhčovačov je výhodnejší ako kúpa zariadenia na krátke obdobie. Ceny sú transparentné, bez skrytých poplatkov. Úspora oproti kúpe dosahuje tisíce eur.</p>
             </div>
@@ -234,29 +231,29 @@ export default function Home() {
               <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 1
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Kontakt</h3>
-              <p className="text-gray-600 leading-relaxed">Kontaktovaním sa dohodne výber vhodného zariadenia podľa potrieb. Popis situácie umožní určenie správneho typu odvlhčovača.</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Kontaktovanie a overenie dostupnosti</h3>
+              <p className="text-gray-600 leading-relaxed">Kontaktovaním sa overí dostupnosť zariadenia a dohodne vhodný typ odvlhčovača podľa potrieb.</p>
             </div>
             <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
               <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 2
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Prevzatie zariadenia</h3>
-              <p className="text-gray-600 leading-relaxed">Odvlhčovač je možné prevziať osobne v Trenčianskych Stankovciach po dohode telefonicky. Zariadenie sa odovzdá s inštrukciami na nastavenie a obsluhu.</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Dohoda o prenájme</h3>
+              <p className="text-gray-600 leading-relaxed">Dohoda o podmienkach prenájmu, čase prevzatia a dĺžke prenájmu.</p>
             </div>
             <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
               <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 3
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Odvlhčovanie</h3>
-              <p className="text-gray-600 leading-relaxed">Odvlhčovač pracuje automaticky a odstraňuje vlhkosť zo vzduchu. Zariadenie sa používa kontinuálne až do dosiahnutia požadovanej úrovne vlhkosti.</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Odovzdanie zariadenia</h3>
+              <p className="text-gray-600 leading-relaxed">Zariadenie sa odovzdá osobne v Trenčianskych Stankovciach s inštrukciami na nastavenie a obsluhu.</p>
             </div>
             <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
               <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 4
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">Vrátenie zariadenia</h3>
-              <p className="text-gray-600 leading-relaxed">Po dokončení odvlhčovania sa dohodne vrátenie zariadenia. Zariadenie sa vráti po ukončení prenájmu.</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Používanie zariadenia počas dohodnutej doby</h3>
+              <p className="text-gray-600 leading-relaxed">Zariadenie sa používa počas dohodnutej doby prenájmu. Po ukončení sa dohodne vrátenie zariadenia.</p>
             </div>
           </div>
         </div>
@@ -329,13 +326,13 @@ export default function Home() {
               href="tel:+421911911876"
               className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-lg"
             >
-              📞 +421 911 911 876
+              +421 911 911 876
             </a>
             <a
               href="mailto:info@odvlhcovaceprenajom.sk"
               className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors text-lg border-2 border-blue-600"
             >
-              ✉️ info@odvlhcovaceprenajom.sk
+              info@odvlhcovaceprenajom.sk
             </a>
           </div>
         </div>

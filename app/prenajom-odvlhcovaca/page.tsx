@@ -28,7 +28,7 @@ export default function PrenajomOdvlhcovaca() {
               Riešenie pre každý problém s vlhkosťou
             </h2>
             <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Prenájom odvlhčovačov je vhodný pre riešenie problémov s vlhkosťou v byte, dome, pivnici alebo komerčnom priestore. Profesionálny prenájom výkonných odvlhčovačov je k dispozícii pre domácnosti aj podniky v Trenčíne a okolí. Zariadenia sú ideálne pre akýkoľvek priestor postihnutý nadmernou vlhkosťou.
+              Prenájom odvlhčovačov je vhodný pre riešenie problémov s vlhkosťou v byte, dome, pivnici alebo komerčnom priestore. Profesionálny prenájom výkonných odvlhčovačov je k dispozícii pre domácnosti aj podniky v Trenčíne a okolí. Zariadenia sú vhodné pre priestory postihnuté nadmernou vlhkosťou.
             </p>
             <p className="text-gray-700 mb-4 text-lg leading-relaxed">
               Odvlhčovače sú pravidelne kontrolované a udržiavané v perfektnom stave. Zariadenia zabezpečujú maximálnu účinnosť a spoľahlivosť. K dispozícii sú inštrukcie na nastavenie a obsluhu zariadenia.

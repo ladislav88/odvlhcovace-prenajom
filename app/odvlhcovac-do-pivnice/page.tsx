@@ -76,7 +76,7 @@ export default function OdvlhcovacDoPivnice() {
               Priemyselné odvlhčovače Rohnson pre pivnice
             </h3>
             <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              K dispozícii je prenájom priemyselných odvlhčovačov značky <strong>Rohnson</strong>, ktoré sú ideálne pre odvlhčovanie pivníc. Zariadenia majú tichú prevádzku, automatické režimy a sú vhodné pre prevádzku v širokom rozsahu teplôt. Praktická rukoväť a kolieska umožňujú ľahký presun zariadenia.
+              K dispozícii je prenájom priemyselných odvlhčovačov značky <strong>Rohnson</strong>, vhodných pre odvlhčovanie pivníc. Zariadenia majú tichú prevádzku, automatické režimy a sú vhodné pre prevádzku v širokom rozsahu teplôt. Praktická rukoväť a kolieska umožňujú ľahký presun zariadenia.
             </p>
 
             <div className="bg-gray-50 p-6 rounded-lg my-6">

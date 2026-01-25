@@ -33,7 +33,7 @@ export default function OdvlhcovacDoBytu() {
                   Nadmerná vlhkosť v byte môže spôsobiť množstvo problémov – od vlhkých stien, cez vznik plesní až po nepríjemné pachy. Prenájom odvlhčovačov do bytu poskytuje efektívne a rýchle riešenie pre odvlhčovanie bytových priestorov v Trenčíne a okolí.
                 </p>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  K dispozícii je prenájom výkonných odvlhčovačov vhodných pre bytové priestory. Zariadenia sú kompaktné, tiché a efektívne, čím ideálne zapadajú do domáceho prostredia a poskytujú vynikajúce výsledky.
+                  K dispozícii je prenájom výkonných odvlhčovačov vhodných pre bytové priestory. Zariadenia sú kompaktné, tiché a efektívne, vhodné pre domáce prostredie.
                 </p>
               </div>
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
