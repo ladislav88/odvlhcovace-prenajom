@@ -12,36 +12,38 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-50 to-blue-100 py-16 md:py-24 px-4 sm:px-6 lg:px-8 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <Image
-            src="/images/banner1.png"
-            alt="Odvlhčovač"
-            fill
-            className="object-cover"
-            priority
-          />
-        </div>
-        <div className="relative max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-            Zbavte sa vlhkosti raz a navždy
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
-            Profesionálny prenájom výkonných odvlhčovačov pre Trenčín a okolie. Riešime problémy s vlhkosťou rýchlo, efektívne a bez zbytočných nákladov. Váš domov zaslúži zdravé prostredie!
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+421911911876"
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-lg"
-            >
-              📞 Zavolajte nám
-            </a>
-            <a
-              href="#kontakt"
-              className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors text-lg border-2 border-blue-600"
-            >
-              Kontaktujte nás
-            </a>
+      <section className="relative bg-gradient-to-br from-blue-50 to-blue-100 py-12 md:py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          <div className="text-center lg:text-left">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+              Zbavte sa vlhkosti <span className="text-blue-600">raz a navždy</span>
+            </h1>
+            <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed">
+              Profesionálny prenájom výkonných odvlhčovačov pre Trenčín a okolie. Riešime problémy s vlhkosťou rýchlo, efektívne a bez zbytočných nákladov. <strong>Váš domov zaslúži zdravé prostredie!</strong>
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <a
+                href="tel:+421911911876"
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-all text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+              >
+                📞 Zavolajte nám teraz
+              </a>
+              <a
+                href="#kontakt"
+                className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-all text-lg border-2 border-blue-600 shadow-md hover:shadow-lg"
+              >
+                Kontaktujte nás
+              </a>
+            </div>
+          </div>
+          <div className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+            <Image
+              src="/images/banner1-65d937a1-b951-411e-a1c5-9b350f935197.png"
+              alt="Profesionálny odvlhčovač Rohnson"
+              fill
+              className="object-cover"
+              priority
+            />
           </div>
         </div>
       </section>
@@ -55,18 +57,42 @@ export default function Home() {
             Prečo si vybrať práve nás?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <div className="text-5xl mb-4">⚡</div>
+            <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-white rounded-lg shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1">
+              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="/images/odvlhcovac1-cfcd4dcc-1c2c-4747-a1ef-865033e6baa4.png"
+                  alt="Rýchla pomoc"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="text-4xl mb-3">⚡</div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Rýchla pomoc kedykoľvek</h3>
               <p className="text-gray-600 leading-relaxed">V núdzových situáciách sme tu pre vás do 24 hodín. Čím skôr začnete s odvlhčovaním, tým menej škôd vznikne. V Trenčíne a okolí sme dostupní rýchlo a spoľahlivo.</p>
             </div>
-            <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <div className="text-5xl mb-4">🏆</div>
+            <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-white rounded-lg shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1">
+              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="/images/nadoba-93659314-af07-466c-a3fb-2e0f43c0e0e5.png"
+                  alt="Profesionálne zariadenia"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="text-4xl mb-3">🏆</div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Profesionálne zariadenia</h3>
               <p className="text-gray-600 leading-relaxed">Používame len overené, výkonné odvlhčovače značky Rohnson. Každé zariadenie je pred prenájmom skontrolované, aby sme vám zabezpečili maximálnu účinnosť a pokoj.</p>
             </div>
-            <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <div className="text-5xl mb-4">💎</div>
+            <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-white rounded-lg shadow-sm hover:shadow-md transition-all transform hover:-translate-y-1">
+              <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+                <Image
+                  src="/images/vbyte-25d62767-f919-4fe4-a8e1-0ae27d81752a.png"
+                  alt="Výhodné ceny"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="text-4xl mb-3">💎</div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Výhodnejšie ako kúpa</h3>
               <p className="text-gray-600 leading-relaxed">Prečo kupovať drahé zariadenie, keď ho potrebujete len na pár dní? Náš prenájom je výhodný, transparentný a bez skrytých poplatkov. Ušetríte tisíce eur!</p>
             </div>
@@ -121,150 +147,55 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Gallery Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900">
-            Naše zariadenia v akcii
-          </h2>
-          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Pozrite sa, ako naše výkonné odvlhčovače pomáhajú riešiť problémy s vlhkosťou v rôznych priestoroch.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <div className="aspect-[4/3] relative">
-                <Image
-                  src="/images/odvlhcovac1.jpg"
-                  alt="Profesionálny odvlhčovač Rohnson"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <h3 className="font-semibold text-lg">Profesionálny odvlhčovač</h3>
-                  <p className="text-sm">Vysoký výkon pre veľké priestory</p>
-                </div>
-              </div>
-            </div>
-            <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <div className="aspect-[4/3] relative">
-                <Image
-                  src="/images/odvlhcovac2.jpg"
-                  alt="Odvlhčovač v prevádzke"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <h3 className="font-semibold text-lg">Odvlhčovač v prevádzke</h3>
-                  <p className="text-sm">Efektívne odstraňovanie vlhkosti</p>
-                </div>
-              </div>
-            </div>
-            <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <div className="aspect-[4/3] relative">
-                <Image
-                  src="/images/vbyte.jpg"
-                  alt="Odvlhčovač v byte"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <h3 className="font-semibold text-lg">Odvlhčovač v byte</h3>
-                  <p className="text-sm">Tichá prevádzka pre domáce použitie</p>
-                </div>
-              </div>
-            </div>
-            <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <div className="aspect-[4/3] relative">
-                <Image
-                  src="/images/vhale.jpg"
-                  alt="Odvlhčovač v hale"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <h3 className="font-semibold text-lg">Odvlhčovač v hale</h3>
-                  <p className="text-sm">Vhodný pre veľké komerčné priestory</p>
-                </div>
-              </div>
-            </div>
-            <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow md:col-span-2 lg:col-span-1">
-              <div className="aspect-[4/3] relative">
-                <Image
-                  src="/images/nadoba.jpg"
-                  alt="Zásobník na kondenzát"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                <div className="absolute bottom-4 left-4 right-4 text-white">
-                  <h3 className="font-semibold text-lg">Veľký zásobník</h3>
-                  <p className="text-sm">Možnosť pripojenia do kanalizácie</p>
-                </div>
-              </div>
-            </div>
-            <div className="relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow md:col-span-2">
-              <div className="aspect-[16/6] relative">
-                <Image
-                  src="/images/banner1.png"
-                  alt="Profesionálny prenájom odvlhčovačov"
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
-                <div className="absolute bottom-6 left-6 right-6 text-white">
-                  <h3 className="font-semibold text-2xl mb-2">Profesionálny prenájom odvlhčovačov</h3>
-                  <p className="text-lg">Riešime problémy s vlhkosťou rýchlo a efektívne</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* How it Works */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
-            Ako to funguje?
-          </h2>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
+                Ako to funguje? <span className="text-blue-600">Jednoducho a rýchlo!</span>
+              </h2>
+              <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+                Prenájom odvlhčovača je jednoduchý proces v štyroch krokoch. Bez komplikácií, bez starostí. Všetko vyriešime za vás!
+              </p>
+            </div>
+            <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
+              <Image
+                src="/images/odvlhcovac2-4c7245ad-c7db-4e5f-a20a-02cf50ea8f0d.png"
+                alt="Odvlhčovač v prevádzke"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center">
+            <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
               <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 1
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">1. Zavolajte nám</h3>
-              <p className="text-gray-600 leading-relaxed">Jednoducho nás kontaktujte a popíšte váš problém. Radi vám poradíme a dohodneme najvhodnejšie riešenie. Bez zbytočných otázok, priamo k veci.</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Zavolajte nám</h3>
+              <p className="text-gray-600 leading-relaxed">Jednoducho nás kontaktujte a popíšte váš problém. Radi vám poradíme a dohodneme najvhodnejšie riešenie.</p>
             </div>
-            <div className="text-center">
+            <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
               <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 2
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">2. Doručíme k vám</h3>
-              <p className="text-gray-600 leading-relaxed">Rýchlo a spoľahlivo doručíme odvlhčovač priamo na vašu adresu v Trenčíne a okolí. Zariadenie vám pomôžeme nainštalovať a nastaviť podľa vašich potrieb.</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Doručíme k vám</h3>
+              <p className="text-gray-600 leading-relaxed">Rýchlo a spoľahlivo doručíme odvlhčovač priamo na vašu adresu v Trenčíne a okolí.</p>
             </div>
-            <div className="text-center">
+            <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
               <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 3
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">3. Necháte pracovať</h3>
-              <p className="text-gray-600 leading-relaxed">Odvlhčovač pracuje automaticky a odstraňuje vlhkosť z vášho priestoru. Vy sa môžete venovať svojim bežným činnostiam bez obáv.</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Necháte pracovať</h3>
+              <p className="text-gray-600 leading-relaxed">Odvlhčovač pracuje automaticky a odstraňuje vlhkosť z vášho priestoru. Vy sa môžete venovať svojim bežným činnostiam.</p>
             </div>
-            <div className="text-center">
+            <div className="text-center bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all">
               <div className="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 4
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-gray-900">4. Odvezieme späť</h3>
-              <p className="text-gray-600 leading-relaxed">Keď je odvlhčovanie hotové, jednoducho nás zavoláte a my zariadenie odvezieme. Žiadne starosti, žiadne komplikácie. Všetko vyriešime za vás.</p>
+              <h3 className="text-xl font-semibold mb-2 text-gray-900">Odvezieme späť</h3>
+              <p className="text-gray-600 leading-relaxed">Keď je odvlhčovanie hotové, jednoducho nás zavoláte a my zariadenie odvezieme. Žiadne starosti!</p>
             </div>
           </div>
         </div>

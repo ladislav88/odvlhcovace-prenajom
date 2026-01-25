@@ -80,7 +80,7 @@ export default function OdvlhcovacPoZatopeni() {
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
               Naše služby po zatopení
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6 items-center">
               <div>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
                   Poskytujeme kompletnú službu vrátane rýchlej dopravy odvlhčovača, odborného poradenstva a technickej podpory. Naše zariadenia sú vhodné pre odvlhčovanie bytov, domov, kancelárií a iných priestorov postihnutých zatopením.
@@ -89,13 +89,12 @@ export default function OdvlhcovacPoZatopeni() {
                   Používame profesionálne priemyselné odvlhčovače značky <strong>Rohnson</strong> s vysokým výkonom až 51 litrov/deň, ktoré sú ideálne pre rýchle a efektívne odvlhčovanie po záplavách. Zariadenia majú vysoký prietok vzduchu 450 m³/h a sú vhodné pre veľké priestory. Vďaka možnosti pripojenia hadičkou priamo do kanalizácie môže zariadenie pracovať nepretržite bez potreby vyprazdňovania zásobníka.
                 </p>
               </div>
-              <div className="relative rounded-lg overflow-hidden shadow-lg">
+              <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/odvlhcovac2.jpg"
-                  alt="Odvlhčovač po zatopení"
-                  width={600}
-                  height={400}
-                  className="object-cover w-full h-full"
+                  src="/images/vhale-4cc93497-c5e5-40f0-b27e-828d7e425dbc.png"
+                  alt="Odvlhčovač po zatopení v sklade"
+                  fill
+                  className="object-cover"
                 />
               </div>
             </div>

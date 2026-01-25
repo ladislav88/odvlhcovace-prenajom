@@ -76,7 +76,7 @@ export default function PrenajomOdvlhcovaca() {
             <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
               Výkonný pomocník aj do náročných prevádzok
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6 items-center">
               <div>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
                   Odvlhčovač vzduchu značky <strong>Rohnson</strong> vám pomôže zbaviť sa prebytočnej vlhkosti vo vzduchu, vďaka čomu sa môžete zbaviť plesní na stenách, urýchliť vysúšanie stien po maľovaní, v novostavbách či pivniciach. Pre svoj vysoký výkon, dosahujúci až 51 l/deň, bude ideálnym zariadením do náročných prevádzok, ako sú práčovne či sušiarne alebo na reguláciu vlhkosti v skladovacích priestoroch.
@@ -85,13 +85,12 @@ export default function PrenajomOdvlhcovaca() {
                   Kondenzát sa zachytáva do zbernej nádoby, ale prostredníctvom hadice je možné kondenzát priamo odvádzať a nechať odvlhčovač pracovať nepretržite. Umývateľný prachový filter chráni zariadenie pred zanesením.
                 </p>
               </div>
-              <div className="relative rounded-lg overflow-hidden shadow-lg">
+              <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/odvlhcovac1.jpg"
+                  src="/images/odvlhcovac1-cfcd4dcc-1c2c-4747-a1ef-865033e6baa4.png"
                   alt="Profesionálny odvlhčovač Rohnson"
-                  width={600}
-                  height={400}
-                  className="object-cover w-full h-full"
+                  fill
+                  className="object-cover"
                 />
               </div>
             </div>

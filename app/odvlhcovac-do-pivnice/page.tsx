@@ -27,7 +27,7 @@ export default function OdvlhcovacDoPivnice() {
             <h2 className="text-3xl font-bold mb-6 text-gray-900">
               Vlhká pivnica? Máme riešenie!
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6 items-center">
               <div>
                 <p className="text-gray-700 mb-4 text-lg leading-relaxed">
                   Pivnice sú často postihnuté nadmernou vlhkosťou, ktorá môže spôsobiť vznik plesní, poškodenie vašich cenných uskladnených vecí a nepríjemné pachy. Nečakajte, kým sa problémy zhoršia – naše výkonné odvlhčovače sú špeciálne vhodné pre efektívne odvlhčovanie pivníc a iných podzemných priestorov.
@@ -36,13 +36,12 @@ export default function OdvlhcovacDoPivnice() {
                   Ponúkame prenájom profesionálnych odvlhčovačov do pivnice pre Trenčín a okolie. Naše zariadenia efektívne odstraňujú vlhkosť zo vzduchu a pomáhajú udržať optimálnu vlhkosť v pivnici, čím chráni vaše uskladnené veci, predlžuje životnosť konštrukcie a zabezpečuje zdravé prostredie.
                 </p>
               </div>
-              <div className="relative rounded-lg overflow-hidden shadow-lg">
+              <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/vhale.jpg"
-                  alt="Odvlhčovač v hale a pivnici"
-                  width={600}
-                  height={400}
-                  className="object-cover w-full h-full"
+                  src="/images/vpivnici-23b01787-564f-4269-bf9e-f38421d86458.png"
+                  alt="Odvlhčovač v pivnici"
+                  fill
+                  className="object-cover"
                 />
               </div>
             </div>
