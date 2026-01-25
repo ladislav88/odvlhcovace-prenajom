@@ -29,8 +29,8 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-2xl text-white">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight tracking-tight drop-shadow-lg">
-                Prenájom odvlhčovačov<br />
-                v Trenčíne
+                <span className="block">Prenájom odvlhčovačov</span>
+                <span className="block">v Trenčíne</span>
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold mb-6 leading-relaxed drop-shadow-md">
                 Rýchle riešenie vlhkosti po zatopení, pri stavbe alebo v pivnici
@@ -46,16 +46,7 @@ export default function Home() {
                   minimálne 7 dní
                 </p>
               </div>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a
-                  href="tel:+421911911876"
-                  className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-all text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center justify-center gap-3"
-                >
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                  Zavolať – rýchla dohoda odberu
-                </a>
+              <div className="flex flex-col sm:flex-row gap-4 justify-end">
                 <a
                   href="mailto:info@odvlhcovaceprenajom.sk"
                   className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-all text-lg border-2 border-white shadow-md hover:shadow-lg flex items-center justify-center gap-3"
@@ -64,6 +55,15 @@ export default function Home() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                   Napísať email
+                </a>
+                <a
+                  href="tel:+421911911876"
+                  className="bg-blue-600 text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-700 transition-all text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center justify-center gap-3"
+                >
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                  Zavolať – rýchla dohoda odberu
                 </a>
               </div>
             </div>
@@ -200,7 +200,7 @@ export default function Home() {
 
       {/* FAQ Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
             Často kladené otázky
           </h2>
@@ -307,7 +307,7 @@ export default function Home() {
 
       {/* Contact Section */}
       <section id="kontakt" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
             Kontakt a dostupnosť
           </h2>
