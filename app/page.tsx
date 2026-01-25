@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[600px] md:h-[700px] overflow-hidden">
+      <section className="relative w-full h-[550px] md:h-[650px] overflow-hidden">
         {/* Background Image - Mirrored */}
         <div className="absolute inset-0 w-full h-full">
           <Image
@@ -48,7 +48,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full mb-8">
             <div className="flex flex-col sm:flex-row gap-4 justify-end">
               <a
                 href="mailto:info@odvlhcovaceprenajom.sk"
