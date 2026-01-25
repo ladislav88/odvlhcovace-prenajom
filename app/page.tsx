@@ -33,7 +33,7 @@ export default function Home() {
                 <span className="block">v Trenčíne</span>
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold mb-6 leading-relaxed drop-shadow-md">
-                Rýchle riešenie vlhkosti po zatopení, pri stavbe alebo v pivnici
+                Rýchle riešenie vlhkosti po zatopení,&nbsp;pri stavbe alebo v pivnici
               </h2>
               <p className="text-xl md:text-2xl mb-6 leading-relaxed drop-shadow-md">
                 Odvlhčovač urýchľuje vysychanie stavebných materiálov a znižuje riziko vzniku plesní. Vhodné pre novostavby, rekonštrukcie a havarijné stavy.
