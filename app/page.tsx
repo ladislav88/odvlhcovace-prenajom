@@ -27,26 +27,28 @@ export default function Home() {
         {/* Content Overlay */}
         <div className="relative z-10 h-full flex items-center">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-            <div className="max-w-2xl text-white">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight tracking-tight drop-shadow-lg">
-                <span className="block">Prenájom odvlhčovačov</span>
-                <span className="block">v Trenčíne</span>
-              </h1>
-              <h2 className="text-2xl md:text-3xl font-semibold mb-6 leading-relaxed drop-shadow-md">
-                Rýchle riešenie vlhkosti po zatopení, pri stavbe alebo v pivnici
-              </h2>
-              <p className="text-xl md:text-2xl mb-6 leading-relaxed drop-shadow-md">
-                Odvlhčovač urýchľuje vysychanie stavebných materiálov a znižuje riziko vzniku plesní. Vhodné pre novostavby, rekonštrukcie a havarijné stavy.
-              </p>
-              <div className="mb-8">
-                <p className="text-2xl md:text-3xl font-bold text-blue-300 mb-2 drop-shadow-lg">
-                  7 € / deň
+            <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+              <div className="text-white max-w-2xl">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight tracking-tight drop-shadow-lg">
+                  <span className="block">Prenájom odvlhčovačov</span>
+                  <span className="block">v Trenčíne</span>
+                </h1>
+                <h2 className="text-2xl md:text-3xl font-semibold mb-6 leading-relaxed drop-shadow-md">
+                  Rýchle riešenie vlhkosti po zatopení, pri stavbe alebo v pivnici
+                </h2>
+                <p className="text-xl md:text-2xl mb-6 leading-relaxed drop-shadow-md">
+                  Odvlhčovač urýchľuje vysychanie stavebných materiálov a znižuje riziko vzniku plesní. Vhodné pre novostavby, rekonštrukcie a havarijné stavy.
                 </p>
-                <p className="text-gray-200 text-lg drop-shadow-md">
-                  minimálne 7 dní
-                </p>
+                <div className="mb-8">
+                  <p className="text-2xl md:text-3xl font-bold text-blue-300 mb-2 drop-shadow-lg">
+                    7 € / deň
+                  </p>
+                  <p className="text-gray-200 text-lg drop-shadow-md">
+                    minimálne 7 dní
+                  </p>
+                </div>
               </div>
-              <div className="flex flex-col sm:flex-row gap-4 justify-end">
+              <div className="flex flex-col sm:flex-row gap-4 lg:justify-end">
                 <a
                   href="mailto:info@odvlhcovaceprenajom.sk"
                   className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-50 transition-all text-lg border-2 border-white shadow-md hover:shadow-lg flex items-center justify-center gap-3"
