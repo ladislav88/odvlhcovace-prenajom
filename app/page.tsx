@@ -15,7 +15,7 @@ export default function Home() {
         {/* Background Image - Mirrored */}
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/images/Depositphotos_443854266_XL-55d1bc85-b8b3-4269-b6de-e359dbdbe8f7.png"
+            src="/images/dehunider2-5032ab91-4ca7-4396-ba79-a5783b87a4f1.jpg"
             alt="Odvlhčovač v akcii - riešenie problému s vlhkosťou"
             fill
             className="object-cover scale-x-[-1]"
