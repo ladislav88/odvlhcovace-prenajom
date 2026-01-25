@@ -18,7 +18,7 @@ export default function Navbar() {
     <>
       {/* Top Contact Bar */}
       <div className="bg-blue-600 text-white py-2 text-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row justify-center sm:justify-end items-center gap-4 sm:gap-6">
             <a
               href="tel:+421911911876"
@@ -44,7 +44,7 @@ export default function Navbar() {
 
       {/* Navigation Bar */}
       <nav className="bg-white shadow-sm sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-end items-center h-16">
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-300 group">

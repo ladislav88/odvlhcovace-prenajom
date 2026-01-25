@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import BackgroundOrnaments from "./components/BackgroundOrnaments";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -25,8 +26,9 @@ export default function RootLayout({
       <body
         className={`${inter.variable} font-sans antialiased`}
       >
+        <BackgroundOrnaments />
         <Navbar />
-        <main className="min-h-screen bg-transparent">
+        <main className="min-h-screen bg-transparent relative z-10">
           {children}
         </main>
         <Footer />

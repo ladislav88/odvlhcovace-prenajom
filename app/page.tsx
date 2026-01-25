@@ -26,7 +26,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/20"></div>
         {/* Content Overlay */}
         <div className="relative z-10 h-full flex items-center py-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+          <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-end">
               <div className="text-white">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight tracking-tight drop-shadow-lg">
@@ -66,7 +66,7 @@ export default function Home() {
 
       {/* Explanation Block */}
       <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white/80 backdrop-blur-sm">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-[90rem] mx-auto">
           <div className="mb-6">
             <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-900">
               Čo odvlhčovač robí a prečo to riešiť hneď
@@ -100,7 +100,7 @@ export default function Home() {
 
       {/* Price Section */}
       <section className="py-8 px-4 sm:px-6 lg:px-8 bg-white/60 backdrop-blur-sm border-b border-gray-200">
-        <div className="max-w-7xl mx-auto text-center">
+        <div className="max-w-[90rem] mx-auto text-center">
           <p className="text-xl md:text-2xl text-gray-700">
             <span className="font-semibold">Cena prenájmu:</span> <span className="text-blue-600 font-bold text-2xl md:text-3xl">7 € / deň</span> <span className="text-gray-600">(min. 7 dní)</span>
           </p>
@@ -109,7 +109,7 @@ export default function Home() {
 
       {/* New Construction Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white/80 backdrop-blur-sm">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-[90rem] mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 leading-tight tracking-tight">
@@ -139,7 +139,7 @@ export default function Home() {
 
       {/* How it Works */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white/60 backdrop-blur-sm">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-[90rem] mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
@@ -193,7 +193,7 @@ export default function Home() {
 
       {/* FAQ Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white/80 backdrop-blur-sm">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-[90rem] mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
             Často kladené otázky
           </h2>
@@ -300,7 +300,7 @@ export default function Home() {
 
       {/* Contact Section */}
       <section id="kontakt" className="py-16 px-4 sm:px-6 lg:px-8 bg-white/60 backdrop-blur-sm">
-        <div className="max-w-7xl mx-auto text-center">
+        <div className="max-w-[90rem] mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
             Kontakt a dostupnosť
           </h2>
