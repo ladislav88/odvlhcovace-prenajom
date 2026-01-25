@@ -10,14 +10,14 @@ export default function Kontakt() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full h-[400px] md:h-[500px] overflow-hidden">
+      <section className="relative w-full h-[500px] md:h-[600px] overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <Image
             src="/images/dehumider-5da5fb3c-fe76-4d23-be3d-f9ce215aa4f9.png"
             alt="Odvlhčovač v akcii - riešenie problému s vlhkosťou a plesňami"
             fill
-            className="object-cover"
+            className="object-cover scale-x-[-1]"
             priority
           />
         </div>
