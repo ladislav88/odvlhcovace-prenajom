@@ -48,7 +48,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="flex justify-end lg:justify-start">
+              <div className="flex justify-end">
                 <a
                   href="tel:+421911911876"
                   className="bg-blue-600/90 backdrop-blur-sm text-white px-8 py-4 rounded-lg font-bold hover:bg-blue-600 transition-all text-lg shadow-lg hover:shadow-xl flex items-center justify-center gap-3"
