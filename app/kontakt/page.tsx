@@ -8,165 +8,132 @@ export const metadata: Metadata = {
 export default function Kontakt() {
   return (
     <>
-      <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
+      <section className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12 leading-tight tracking-tight">
             Kontakt
           </h1>
-          <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Telefonický kontakt je najrýchlejší spôsob dohody o prenájme odvlhčovačov v Trenčianskom kraji.
-          </p>
-        </div>
-      </section>
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-4xl mx-auto">
-          {/* Company Info */}
-          <div className="bg-white border border-gray-200 p-8 rounded-2xl shadow-lg mb-8">
-            <h2 className="text-2xl font-bold mb-6 text-gray-900">
-              ALCO.SK, s.r.o.
-            </h2>
-            <div className="space-y-4">
-              <div>
-                <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-1">Adresa</h3>
-                <p className="text-gray-700">
-                  Malé Stankovce 237<br />
-                  913 11 Trenčianske Stankovce
-                </p>
-              </div>
-              <div>
-                <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-1">IČO / DIČ</h3>
-                <p className="text-gray-700">IČO: 45601259</p>
-                <p className="text-gray-700">IČ-DPH: SK2023064032</p>
+          {/* Contact Information */}
+          <div className="space-y-8 mb-12">
+            {/* Phone */}
+            <div className="border-b border-gray-200 pb-8">
+              <div className="flex items-start gap-4 mb-4">
+                <svg className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                <div className="flex-1">
+                  <h2 className="text-xl font-semibold text-gray-900 mb-2">Telefón</h2>
+                  <a
+                    href="tel:+421911911876"
+                    className="text-blue-600 hover:text-blue-700 font-medium text-lg"
+                  >
+                    +421 911 911 876
+                  </a>
+                  <p className="text-gray-600 text-sm mt-2">
+                    Pracovné dni: 8:00 - 18:00<br />
+                    V núdzových prípadoch aj počas víkendov
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Primary Contact - Phone */}
-          <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white p-12 rounded-2xl shadow-xl mb-8 text-center">
-            <div className="mb-6">
-              <svg className="w-16 h-16 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-            </div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Telefonický kontakt
-            </h2>
-            <p className="text-xl mb-6 text-blue-100">
-              Najrýchlejší spôsob dohody o prenájme
-            </p>
-            <a
-              href="tel:+421911911876"
-              className="inline-block bg-white text-blue-600 px-10 py-5 rounded-lg font-bold text-2xl md:text-3xl hover:bg-blue-50 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-            >
-              +421 911 911 876
-            </a>
-            <p className="text-blue-100 mt-4 text-lg">
-              Dostupné počas pracovných dní 8:00 - 18:00<br />
-              V núdzových prípadoch aj počas víkendov
-            </p>
-          </div>
-
-          {/* Secondary Contact - Email */}
-          <div className="bg-gray-50 p-8 rounded-2xl shadow-lg mb-8">
-            <div className="flex items-center gap-4">
-              <div className="bg-blue-100 p-3 rounded-lg">
-                <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            {/* Email */}
+            <div className="border-b border-gray-200 pb-8">
+              <div className="flex items-start gap-4 mb-4">
+                <svg className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-1">Email (doplnok)</h3>
-                <a
-                  href="mailto:info@odvlhcovaceprenajom.sk"
-                  className="text-blue-600 hover:text-blue-700 font-semibold text-lg"
-                >
-                  info@odvlhcovaceprenajom.sk
-                </a>
-                <p className="text-gray-600 text-sm mt-1">
-                  Odpoveď do 24 hodín
-                </p>
+                <div className="flex-1">
+                  <h2 className="text-xl font-semibold text-gray-900 mb-2">Email</h2>
+                  <a
+                    href="mailto:info@odvlhcovaceprenajom.sk"
+                    className="text-blue-600 hover:text-blue-700 font-medium"
+                  >
+                    info@odvlhcovaceprenajom.sk
+                  </a>
+                  <p className="text-gray-600 text-sm mt-2">
+                    Odpoveď do 24 hodín
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Additional Information */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div className="bg-white border border-gray-200 p-6 rounded-lg">
-              <h3 className="font-semibold mb-3 text-gray-900">Prevzatie osobne</h3>
-              <p className="text-gray-700 mb-2">
-                Trenčianske Stankovce
-              </p>
-              <p className="text-gray-600 text-sm">
-                Po dohode telefonicky
-              </p>
+            {/* Address */}
+            <div className="border-b border-gray-200 pb-8">
+              <div className="flex items-start gap-4 mb-4">
+                <svg className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <div className="flex-1">
+                  <h2 className="text-xl font-semibold text-gray-900 mb-2">Prevzatie zariadenia</h2>
+                  <p className="text-gray-700">
+                    Trenčianske Stankovce<br />
+                    <span className="text-gray-600 text-sm">Po dohode telefonicky</span>
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="bg-white border border-gray-200 p-6 rounded-lg">
-              <h3 className="font-semibold mb-3 text-gray-900">Oblasť pôsobnosti</h3>
-              <p className="text-gray-700">
-                Trenčiansky kraj
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">
-            Firemné údaje
-          </h2>
-          <div className="bg-gray-50 p-6 rounded-lg mb-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <h3 className="font-semibold mb-2 text-gray-900">IČO / DIČ</h3>
-                <p className="text-gray-700">IČO: 45601259</p>
-                <p className="text-gray-700">IČ-DPH: SK2023064032</p>
-                <p className="text-gray-600 text-sm mt-2">Spoločnosť je platcom DPH</p>
+            {/* Area */}
+            <div>
+              <div className="flex items-start gap-4 mb-4">
+                <svg className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <div className="flex-1">
+                  <h2 className="text-xl font-semibold text-gray-900 mb-2">Oblasť pôsobnosti</h2>
+                  <p className="text-gray-700">
+                    Trenčiansky kraj
+                  </p>
+                </div>
               </div>
-              <div>
-                <h3 className="font-semibold mb-2 text-gray-900">Bankové spojenie</h3>
-                <p className="text-gray-700">Tatra banka, a.s.</p>
-                <p className="text-gray-700">IBAN: SK8011000000002929839541</p>
-              </div>
-            </div>
-            <div className="mt-4 pt-4 border-t border-gray-200">
-              <p className="text-gray-600 text-sm">
-                Spoločnosť ALCO.SK, s.r.o. je zapísaná v Obchodnom registri Okresného súdu Trenčín, Oddiel: Sro, Vložka číslo: 23214/R.
-              </p>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Company Details */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6 text-gray-900">
-            Často kladené otázky o kontakte
+          <h2 className="text-2xl font-bold mb-8 text-gray-900">
+            Firemné údaje
           </h2>
-          <div className="space-y-4">
-            <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Ako rýchlo je možné získať odpoveď?</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Na emailové dotazy sa odpovedá do 24 hodín. Telefónne dotazy sa riešia počas pracovných hodín.
+          
+          <div className="bg-white border border-gray-200 rounded-lg p-8">
+            <div className="mb-6">
+              <h3 className="text-lg font-semibold mb-4 text-gray-900">ALCO.SK, s.r.o.</h3>
+              <p className="text-gray-700 mb-1">
+                Malé Stankovce 237
+              </p>
+              <p className="text-gray-700">
+                913 11 Trenčianske Stankovce
               </p>
             </div>
-            <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Ako je možné získať odvlhčovač?</h3>
-              <p className="text-gray-600 leading-relaxed">
-                Odvlhčovač je možné prevziať osobne v Trenčianskych Stankovciach po dohode telefonicky. Dohoda o čase prevzatia je možná podľa potrieb.
-              </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 pb-6 border-b border-gray-200">
+              <div>
+                <h4 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">IČO / DIČ</h4>
+                <p className="text-gray-700">IČO: 45601259</p>
+                <p className="text-gray-700">IČ-DPH: SK2023064032</p>
+                <p className="text-gray-600 text-sm mt-2">Platca DPH</p>
+              </div>
+              <div>
+                <h4 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">Bankové spojenie</h4>
+                <p className="text-gray-700">Tatra banka, a.s.</p>
+                <p className="text-gray-700 font-mono text-sm">IBAN: SK8011000000002929839541</p>
+              </div>
             </div>
-            <div className="bg-white p-6 rounded-lg">
-              <h3 className="text-lg font-semibold mb-2">Je dohoda možná aj cez víkendy?</h3>
-              <p className="text-gray-600 leading-relaxed">
-                V núdzových prípadoch (napr. po zatopení) je dohoda možná aj počas víkendov. Kontaktovaním sa dohodne najvhodnejšie riešenie.
+
+            <div>
+              <p className="text-gray-600 text-sm">
+                Spoločnosť je zapísaná v Obchodnom registri Okresného súdu Trenčín, Oddiel: Sro, Vložka číslo: 23214/R.
               </p>
             </div>
           </div>
         </div>
       </section>
-
     </>
   );
 }
