@@ -69,11 +69,41 @@ export default function Kontakt() {
                 <div className="flex-1">
                   <h2 className="text-xl font-semibold text-gray-900 mb-2">Prevzatie zariadenia</h2>
                   <p className="text-gray-700">
-                    Trenčianske Stankovce<br />
+                    Trenčianske Stankovce 237<br />
                     <span className="text-gray-600 text-sm">Po dohode telefonicky</span>
                   </p>
                 </div>
               </div>
+            </div>
+
+            {/* Map */}
+            <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
+              <h2 className="text-xl font-semibold text-gray-900 mb-4">Lokalizácia</h2>
+              <div className="w-full h-[400px] rounded-lg overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps?q=48.84434158142448,17.987475160721893&output=embed&zoom=17"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Lokalizácia - Trenčianske Stankovce 237"
+                ></iframe>
+              </div>
+              <p className="text-gray-600 text-sm mt-3">
+                GPS: 48.84434158142448, 17.987475160721893
+              </p>
+              <p className="text-gray-600 text-sm mt-3">
+                <a
+                  href="https://www.google.com/maps/place/Malé+Stankovce+237,+913+11+Trenčianske+Stankovce-Trenčín/@48.8441829,17.9848921,957m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4714a6b5cb54679d:0x3113f16a7d36fc25!8m2!3d48.8441794!4d17.987467!16s%2Fg%2F11bw3zqjks!5m1!1e1?entry=ttu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-700 underline"
+                >
+                  Otvoriť v Google Maps
+                </a>
+              </p>
             </div>
           </div>
 

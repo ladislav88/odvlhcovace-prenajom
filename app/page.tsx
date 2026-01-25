@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Prenájom Odvlhčovačov - Trenčiansky Kraj | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov pre Trenčín a okolie. Profesionálne zariadenia k dispozícii.",
+  title: "Prenájom odvlhčovačov Trenčín | Osobný odber",
+  description: "Prenájom výkonných odvlhčovačov v Trenčíne. Ideálne po zatopení, do pivníc, bytov a novostavieb. Osobný odber po dohode.",
 };
 
 export default function Home() {
@@ -15,8 +15,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight tracking-tight">
-              Prenájom odvlhčovačov <span className="text-blue-600">Trenčín a okolie</span>
+              Prenájom odvlhčovačov v Trenčíne
             </h1>
+            <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 mb-6 leading-relaxed">
+              Rýchle riešenie vlhkosti po zatopení, pri stavbe alebo v pivnici
+            </h2>
             <p className="text-xl md:text-2xl text-gray-700 mb-6 leading-relaxed">
               Odvlhčovač urýchľuje vysychanie stavebných materiálov a znižuje riziko vzniku plesní. Vhodné pre novostavby, rekonštrukcie a havarijné stavy.
             </p>
@@ -36,7 +39,7 @@ export default function Home() {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                Zavolať
+                Zavolať – rýchla dohoda odberu
               </a>
               <a
                 href="mailto:info@odvlhcovaceprenajom.sk"
@@ -69,7 +72,7 @@ export default function Home() {
               Čo odvlhčovač robí a prečo to riešiť hneď
             </h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              Odvlhčovač odstraňuje vlhkosť zo vzduchu kondenzáciou. Zariadenie nasáva vlhký vzduch, ochladzuje ho a kondenzovanú vodu zachytáva do zásobníka alebo odvádza priamo do kanalizácie. Prevádzka znižuje relatívnu vlhkosť vzduchu, čím urýchľuje vysychanie omietok, poterov, farieb a stavebných materiálov.
+              Odvlhčovač vzduchu Trenčín odstraňuje vlhkosť zo vzduchu kondenzáciou. Zariadenie nasáva vlhký vzduch, ochladzuje ho a kondenzovanú vodu zachytáva do zásobníka alebo odvádza priamo do kanalizácie. Prevádzka znižuje relatívnu vlhkosť vzduchu, čím urýchľuje vysychanie omietok, poterov, farieb a stavebných materiálov.
             </p>
             <p className="text-gray-700 mb-4 leading-relaxed">
               Bez aktívneho odvlhčovania môže vysychanie stavebných materiálov trvať mesiace. Vysoká vlhkosť spomaľuje dokončenie stavby a zvyšuje riziko vzniku plesní už po 24-48 hodinách.
@@ -143,7 +146,7 @@ export default function Home() {
                 Ako prenájom funguje
               </h2>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                Prenájom prebieha v 4 krokoch. Zariadenie sa odovzdá a následne sa používa.
+                Prenájom odvlhčovača Trenčín prebieha v 4 krokoch. Zariadenie sa odovzdá a následne sa používa.
               </p>
             </div>
             <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
@@ -221,7 +224,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Ako rýchlo je možné získať odvlhčovač?</h3>
               <p className="text-gray-600 leading-relaxed">
-                Odvlhčovač je možné prevziať osobne po dohode. Rýchla dostupnosť je zabezpečená pre Trenčín a okolie. V prípade havárie, napríklad po zatopení, je dohoda možná aj počas víkendov.
+                Odvlhčovač je možné prevziať osobne po dohode. Rýchla dostupnosť je zabezpečená pre Trenčín a okolie. Odvlhčovanie po zatopení Trenčín je možné dohodnúť aj počas víkendov.
               </p>
             </div>
             <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
@@ -287,6 +290,9 @@ export default function Home() {
                 <li>v novostavbách po omietkach a poteroch</li>
                 <li>pred maľovaním alebo pokládkou podláh</li>
               </ul>
+              <p className="text-gray-600 leading-relaxed mt-3">
+                Prenájom odvlhčovačov pre byty a domy Trenčín je k dispozícii po dohode.
+              </p>
             </div>
           </div>
         </div>

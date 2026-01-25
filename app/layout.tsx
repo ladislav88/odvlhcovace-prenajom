@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Prenájom Odvlhčovačov - Trenčín a okolie | Odvlhčovače na Prenájom",
-  description: "Profesionálny prenájom odvlhčovačov pre Trenčín a okolie. Kvalitné zariadenia a odborná služba.",
+  title: "Prenájom odvlhčovačov Trenčín | Osobný odber",
+  description: "Prenájom výkonných odvlhčovačov v Trenčíne. Ideálne po zatopení, do pivníc, bytov a novostavieb. Osobný odber po dohode.",
 };
 
 export default function RootLayout({
