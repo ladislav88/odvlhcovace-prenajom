@@ -15,7 +15,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight tracking-tight">
-              Prenájom odvlhčovačov – <span className="text-blue-600">Trenčiansky kraj</span>
+              Prenájom odvlhčovačov <span className="text-blue-600">Trenčiansky kraj</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 mb-6 leading-relaxed">
               Odvlhčovač urýchľuje vysychanie stavebných materiálov a znižuje riziko vzniku plesní. Vhodné pre novostavby, rekonštrukcie a havarijné stavy.
