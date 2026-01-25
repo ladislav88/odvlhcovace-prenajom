@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import CTA from "../components/CTA";
 
 export const metadata: Metadata = {
   title: "Prenájom Odvlhčovača - Trenčiansky Kraj | Odvlhčovače na Prenájom",
@@ -169,7 +168,6 @@ export default function PrenajomOdvlhcovaca() {
         </div>
       </section>
 
-      <CTA />
     </>
   );
 }

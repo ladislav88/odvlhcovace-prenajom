@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import CTA from "./components/CTA";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -125,8 +124,6 @@ export default function Home() {
           </p>
         </div>
       </section>
-
-      <CTA />
 
       {/* New Construction Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
@@ -323,26 +320,25 @@ export default function Home() {
             Kontakt a dostupnosť
           </h2>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Pre informácie o dostupnosti a výbere vhodného zariadenia pre priestor v Trenčianskom kraji je možné kontaktovať telefonicky alebo emailom.
+            Pre overenie dostupnosti odvlhčovača je najrýchlejší telefonický kontakt.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a
               href="tel:+421911911876"
-              className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-lg"
+              className="text-blue-600 hover:text-blue-700 font-semibold text-xl"
             >
               +421 911 911 876
             </a>
+            <span className="text-gray-400 hidden sm:inline">|</span>
             <a
               href="mailto:info@odvlhcovaceprenajom.sk"
-              className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors text-lg border-2 border-blue-600"
+              className="text-gray-700 hover:text-gray-900 font-medium"
             >
               info@odvlhcovaceprenajom.sk
             </a>
           </div>
         </div>
       </section>
-
-      <CTA />
     </>
   );
 }

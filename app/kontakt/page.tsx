@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import CTA from "../components/CTA";
 
 export const metadata: Metadata = {
   title: "Kontakt - Prenájom Odvlhčovačov Trenčín | Odvlhčovače na Prenájom",
@@ -22,6 +21,27 @@ export default function Kontakt() {
 
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto">
+          {/* Company Info */}
+          <div className="bg-white border border-gray-200 p-8 rounded-2xl shadow-lg mb-8">
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">
+              ALCO.SK, s.r.o.
+            </h2>
+            <div className="space-y-4">
+              <div>
+                <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-1">Adresa</h3>
+                <p className="text-gray-700">
+                  Malé Stankovce 237<br />
+                  913 11 Trenčianske Stankovce
+                </p>
+              </div>
+              <div>
+                <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-1">IČO / DIČ</h3>
+                <p className="text-gray-700">IČO: 45601259</p>
+                <p className="text-gray-700">IČ-DPH: SK2023064032</p>
+              </div>
+            </div>
+          </div>
+
           {/* Primary Contact - Phone */}
           <div className="bg-gradient-to-br from-blue-600 to-blue-700 text-white p-12 rounded-2xl shadow-xl mb-8 text-center">
             <div className="mb-6">
@@ -49,7 +69,7 @@ export default function Kontakt() {
 
           {/* Secondary Contact - Email */}
           <div className="bg-gray-50 p-8 rounded-2xl shadow-lg mb-8">
-            <div className="flex items-center gap-4 mb-4">
+            <div className="flex items-center gap-4">
               <div className="bg-blue-100 p-3 rounded-lg">
                 <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -71,7 +91,7 @@ export default function Kontakt() {
           </div>
 
           {/* Additional Information */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-white border border-gray-200 p-6 rounded-lg">
               <h3 className="font-semibold mb-3 text-gray-900">Prevzatie osobne</h3>
               <p className="text-gray-700 mb-2">
@@ -147,7 +167,6 @@ export default function Kontakt() {
         </div>
       </section>
 
-      <CTA />
     </>
   );
 }
