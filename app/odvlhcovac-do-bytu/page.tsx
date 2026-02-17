@@ -1,14 +1,34 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { SITE_URL } from "../lib/seo";
 
 export const metadata: Metadata = {
-  title: "Odvlhčovač do Bytu - Trenčiansky Kraj | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov do bytu pre Trenčín a okolie. Riešenie pre vlhké byty a problémy s vlhkosťou. Profesionálna služba a kvalitné zariadenia.",
+  title: "Odvlhčovač do bytu Trenčín | Prenájom – vlhkosť a plesne",
+  description: "Prenájom odvlhčovačov do bytu pre Trenčín a okolie. Riešenie vlhkých bytov, zbavenie sa plesní a nepríjemných pachov. Odvlhčovač vzduchu na prenájom.",
+  alternates: { canonical: `${SITE_URL}/odvlhcovac-do-bytu` },
+  openGraph: {
+    url: `${SITE_URL}/odvlhcovac-do-bytu`,
+    title: "Odvlhčovač do bytu Trenčín | Prenájom odvlhčovačov",
+    description: "Prenájom odvlhčovačov do bytu pre Trenčín a okolie. Vlhký byt, plesne – rýchle riešenie.",
+  },
+};
+
+const BREADCRUMB_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Domov", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: "Odvlhčovač do bytu", item: `${SITE_URL}/odvlhcovac-do-bytu` },
+  ],
 };
 
 export default function OdvlhcovacDoBytu() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(BREADCRUMB_JSON_LD) }}
+      />
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-[90rem] mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
@@ -38,9 +58,11 @@ export default function OdvlhcovacDoBytu() {
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src="/images/vbyte-25d62767-f919-4fe4-a8e1-0ae27d81752a.png"
-                  alt="Odvlhčovač v byte"
+                  alt="Odvlhčovač vzduchu v byte – prenájom odvlhčovačov pre byty a domy Trenčín, zbavenie sa plesní"
                   fill
                   className="object-cover"
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>
             </div>

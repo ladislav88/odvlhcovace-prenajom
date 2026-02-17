@@ -1,14 +1,34 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { SITE_URL } from "../lib/seo";
 
 export const metadata: Metadata = {
-  title: "Prenájom Odvlhčovača - Trenčiansky Kraj | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov pre Trenčín a okolie. Profesionálne zariadenia k dispozícii.",
+  title: "Prenájom odvlhčovača Trenčín | Cenník, výkon, podmienky",
+  description: "Prenájom výkonných odvlhčovačov pre Trenčín a okolie. Priemyselný odvlhčovač na prenájom – vysúšanie stavieb, po zatopení, do bytu a pivnice. 7 €/deň, min. 7 dní.",
+  alternates: { canonical: `${SITE_URL}/prenajom-odvlhcovaca` },
+  openGraph: {
+    url: `${SITE_URL}/prenajom-odvlhcovaca`,
+    title: "Prenájom odvlhčovača Trenčín | Požičovňa vysúšačov",
+    description: "Prenájom odvlhčovačov Trenčín – cenník, výkon, prevzatie. Vysúšanie stavieb, sanácia po zaplavení.",
+  },
+};
+
+const BREADCRUMB_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Domov", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: "Prenájom odvlhčovača", item: `${SITE_URL}/prenajom-odvlhcovaca` },
+  ],
 };
 
 export default function PrenajomOdvlhcovaca() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(BREADCRUMB_JSON_LD) }}
+      />
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-[90rem] mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
@@ -117,9 +137,11 @@ export default function PrenajomOdvlhcovaca() {
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src="/images/odvlhcovac1-cfcd4dcc-1c2c-4747-a1ef-865033e6baa4.png"
-                  alt="Profesionálny odvlhčovač Rohnson"
+                  alt="Priemyselný odvlhčovač na prenájom – vysúšanie stavieb a odvlhčovanie po zatopení Trenčín"
                   fill
                   className="object-cover"
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>
             </div>

@@ -1,14 +1,34 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { SITE_URL } from "../lib/seo";
 
 export const metadata: Metadata = {
-  title: "Odvlhčovač po Zatopení - Trenčiansky Kraj | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov po zatopení pre Trenčín a okolie. Profesionálna pomoc pri odvlhčovaní po záplavách.",
+  title: "Odvlhčovač po zatopení Trenčín | Sanácia po zaplavení – prenájom",
+  description: "Prenájom odvlhčovačov po zatopení pre Trenčín a okolie. Rýchla sanácia po zaplavení, odvlhčovanie priestorov. Dohoda aj cez víkend.",
+  alternates: { canonical: `${SITE_URL}/odvlhcovac-po-zatopeni` },
+  openGraph: {
+    url: `${SITE_URL}/odvlhcovac-po-zatopeni`,
+    title: "Odvlhčovač po zatopení Trenčín | Sanácia po zaplavení",
+    description: "Prenájom odvlhčovačov po zatopení. Rýchla sanácia pre Trenčín a okolie.",
+  },
+};
+
+const BREADCRUMB_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Domov", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: "Odvlhčovač po zatopení", item: `${SITE_URL}/odvlhcovac-po-zatopeni` },
+  ],
 };
 
 export default function OdvlhcovacPoZatopeni() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(BREADCRUMB_JSON_LD) }}
+      />
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-[90rem] mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
@@ -86,9 +106,11 @@ export default function OdvlhcovacPoZatopeni() {
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src="/images/vhale-4cc93497-c5e5-40f0-b27e-828d7e425dbc.png"
-                  alt="Odvlhčovač po zatopení v sklade"
+                  alt="Priemyselný odvlhčovač po zatopení – sanácia po zaplavení a odvlhčovanie Trenčín"
                   fill
                   className="object-cover"
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>
             </div>

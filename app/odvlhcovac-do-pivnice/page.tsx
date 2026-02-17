@@ -1,14 +1,34 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { SITE_URL } from "../lib/seo";
 
 export const metadata: Metadata = {
-  title: "Odvlhčovač do Pivnice - Trenčiansky Kraj | Odvlhčovače na Prenájom",
-  description: "Prenájom odvlhčovačov do pivnice pre Trenčín a okolie. Efektívne riešenie pre vlhké pivnice. Profesionálna služba a kvalitné zariadenia.",
+  title: "Odvlhčovač do pivnice Trenčín | Prenájom – zbavenie sa plesní",
+  description: "Prenájom odvlhčovačov do pivnice pre Trenčín a okolie. Efektívne odvlhčovanie pivníc, zbavenie sa plesní a vlhkosti. Priemyselný odvlhčovač na prenájom.",
+  alternates: { canonical: `${SITE_URL}/odvlhcovac-do-pivnice` },
+  openGraph: {
+    url: `${SITE_URL}/odvlhcovac-do-pivnice`,
+    title: "Odvlhčovač do pivnice Trenčín | Prenájom odvlhčovačov",
+    description: "Prenájom odvlhčovačov do pivnice pre Trenčín a okolie. Zbavenie sa plesní a vlhkosti.",
+  },
+};
+
+const BREADCRUMB_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Domov", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: "Odvlhčovač do pivnice", item: `${SITE_URL}/odvlhcovac-do-pivnice` },
+  ],
 };
 
 export default function OdvlhcovacDoPivnice() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(BREADCRUMB_JSON_LD) }}
+      />
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-[90rem] mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
@@ -38,9 +58,11 @@ export default function OdvlhcovacDoPivnice() {
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src="/images/vpivnici-23b01787-564f-4269-bf9e-f38421d86458.png"
-                  alt="Odvlhčovač v pivnici"
+                  alt="Priemyselný odvlhčovač v pivnici – zbavenie sa plesní a odvlhčovanie Trenčín"
                   fill
                   className="object-cover"
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>
             </div>

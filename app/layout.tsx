@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { SITE_URL } from "./lib/seo";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -10,9 +11,33 @@ const inter = Inter({
   display: "swap",
 });
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export const metadata: Metadata = {
-  title: "Prenájom odvlhčovačov Trenčín | Osobný odber",
-  description: "Prenájom výkonných odvlhčovačov v Trenčíne. Ideálne po zatopení, do pivníc, bytov a novostavieb. Osobný odber po dohode.",
+  metadataBase: new URL(SITE_URL),
+  title: "Prenájom odvlhčovačov Trenčín | Požičovňa vysúšačov",
+  description: "Prenájom odvlhčovačov a požičovňa vysúšačov v Trenčíne. Sanácia po zaplavení, vysúšanie stavieb, zbavenie sa plesní. Priemyselný odvlhčovač na prenájom.",
+  keywords: ["prenájom odvlhčovačov", "požičovňa vysúšačov", "Trenčín", "odvlhčovanie po zatopení", "vysúšanie stavieb", "priemyselný odvlhčovač", "odvlhčovač Trenčín"],
+  openGraph: {
+    type: "website",
+    locale: "sk_SK",
+    url: SITE_URL,
+    siteName: "Prenájom odvlhčovačov Trenčín",
+    title: "Prenájom odvlhčovačov Trenčín | Požičovňa vysúšačov",
+    description: "Prenájom odvlhčovačov a požičovňa vysúšačov v Trenčíne. Sanácia po zaplavení, vysúšanie stavieb, zbavenie sa plesní. Priemyselný odvlhčovač na prenájom.",
+    images: [{ url: "/images/dehunider2-5032ab91-4ca7-4396-ba79-a5783b87a4f1.jpg", width: 1200, height: 630, alt: "Priemyselný odvlhčovač na prenájom v Trenčíne" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Prenájom odvlhčovačov Trenčín | Požičovňa vysúšačov",
+    description: "Prenájom odvlhčovačov a požičovňa vysúšačov v Trenčíne. Sanácia po zaplavení, vysúšanie stavieb, zbavenie sa plesní.",
+  },
+  robots: { index: true, follow: true },
+  alternates: { canonical: SITE_URL },
+  category: "services",
 };
 
 export default function RootLayout({

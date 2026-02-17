@@ -1,14 +1,34 @@
 import type { Metadata } from "next";
 import ContactForm from "../components/ContactForm";
+import { SITE_URL } from "../lib/seo";
 
 export const metadata: Metadata = {
-  title: "Kontakt - Prenájom Odvlhčovačov Trenčín | Odvlhčovače na Prenájom",
-  description: "Kontaktné informácie pre prenájom odvlhčovačov pre Trenčín a okolie. Telefonický kontakt je najrýchlejší spôsob dohody.",
+  title: "Kontakt | Prenájom odvlhčovačov Trenčín – telefón, adresa",
+  description: "Kontakt na prenájom odvlhčovačov Trenčín: telefón +421 911 911 876, email. Osobný odber v Trenčianskych Stankovciach po dohode. Najrýchlejší spôsob dohody je telefonický.",
+  alternates: { canonical: `${SITE_URL}/kontakt` },
+  openGraph: {
+    url: `${SITE_URL}/kontakt`,
+    title: "Kontakt | Prenájom odvlhčovačov Trenčín",
+    description: "Telefón, email a adresa prevzatia. Prenájom odvlhčovačov Trenčín a okolie – dohoda po telefonickom kontakte.",
+  },
+};
+
+const BREADCRUMB_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Domov", item: SITE_URL },
+    { "@type": "ListItem", position: 2, name: "Kontakt", item: `${SITE_URL}/kontakt` },
+  ],
 };
 
 export default function Kontakt() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(BREADCRUMB_JSON_LD) }}
+      />
       <section className="bg-white/80 backdrop-blur-sm py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-[90rem] mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12 leading-tight tracking-tight">
