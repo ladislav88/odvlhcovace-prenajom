@@ -49,7 +49,7 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <Image
-            src="/images/dehunider2-5032ab91-4ca7-4396-ba79-a5783b87a4f1.jpg"
+            src="/images/odvlhcovac-prenajom-trencin-hero.webp"
             alt="Priemyselný odvlhčovač pri práci – prenájom odvlhčovačov Trenčín pre odvlhčovanie po zatopení a vysúšanie stavieb"
             fill
             className="object-cover"
@@ -211,7 +211,7 @@ export default function Home() {
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/odvlhcovac1-cfcd4dcc-1c2c-4747-a1ef-865033e6baa4.png"
+                src="/images/odvlhcovac-novostavby.webp"
                 alt="Priemyselný odvlhčovač pri odvlhčovaní novostavby – vysúšanie stavieb po omietkach a poteroch Trenčín"
                 fill
                 className="object-cover"
@@ -237,7 +237,7 @@ export default function Home() {
             </div>
             <div className="relative h-[300px] md:h-[400px] rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/images/odvlhcovac2-4c7245ad-c7db-4e5f-a20a-02cf50ea8f0d.png"
+                src="/images/odvlhcovac-prenajom-kroky.webp"
                 alt="Odvlhčovač v prevádzke – prenájom odvlhčovača Trenčín pre byty, pivnice a sanáciu po zaplavení"
                 fill
                 className="object-cover"

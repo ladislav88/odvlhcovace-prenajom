@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Prenájom odvlhčovačov Trenčín",
     title: "Prenájom odvlhčovačov Trenčín | Požičovňa vysúšačov",
     description: "Prenájom odvlhčovačov a požičovňa vysúšačov v Trenčíne. Sanácia po zaplavení, vysúšanie stavieb, zbavenie sa plesní. Priemyselný odvlhčovač na prenájom.",
-    images: [{ url: "/images/dehunider2-5032ab91-4ca7-4396-ba79-a5783b87a4f1.jpg", width: 1200, height: 630, alt: "Priemyselný odvlhčovač na prenájom v Trenčíne" }],
+    images: [{ url: "/images/odvlhcovac-prenajom-trencin-hero.webp", width: 1200, height: 630, alt: "Priemyselný odvlhčovač na prenájom v Trenčíne" }],
   },
   twitter: {
     card: "summary_large_image",

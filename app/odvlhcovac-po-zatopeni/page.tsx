@@ -105,7 +105,7 @@ export default function OdvlhcovacPoZatopeni() {
               </div>
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/vhale-4cc93497-c5e5-40f0-b27e-828d7e425dbc.png"
+                  src="/images/odvlhcovac-po-zatopeni.webp"
                   alt="Priemyselný odvlhčovač po zatopení – sanácia po zaplavení a odvlhčovanie Trenčín"
                   fill
                   className="object-cover"

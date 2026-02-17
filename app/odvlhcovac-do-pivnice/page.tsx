@@ -57,7 +57,7 @@ export default function OdvlhcovacDoPivnice() {
               </div>
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/vpivnici-23b01787-564f-4269-bf9e-f38421d86458.png"
+                  src="/images/odvlhcovac-do-pivnice.webp"
                   alt="Priemyselný odvlhčovač v pivnici – zbavenie sa plesní a odvlhčovanie Trenčín"
                   fill
                   className="object-cover"

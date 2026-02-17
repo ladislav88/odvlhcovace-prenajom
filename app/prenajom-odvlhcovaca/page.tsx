@@ -136,7 +136,7 @@ export default function PrenajomOdvlhcovaca() {
               </div>
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/odvlhcovac1-cfcd4dcc-1c2c-4747-a1ef-865033e6baa4.png"
+                  src="/images/odvlhcovac-novostavby.webp"
                   alt="Priemyselný odvlhčovač na prenájom – vysúšanie stavieb a odvlhčovanie po zatopení Trenčín"
                   fill
                   className="object-cover"

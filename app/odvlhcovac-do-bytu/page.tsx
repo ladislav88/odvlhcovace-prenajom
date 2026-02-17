@@ -57,7 +57,7 @@ export default function OdvlhcovacDoBytu() {
               </div>
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/vbyte-25d62767-f919-4fe4-a8e1-0ae27d81752a.png"
+                  src="/images/odvlhcovac-do-bytu.webp"
                   alt="Odvlhčovač vzduchu v byte – prenájom odvlhčovačov pre byty a domy Trenčín, zbavenie sa plesní"
                   fill
                   className="object-cover"
