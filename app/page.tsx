@@ -17,8 +17,8 @@ const FAQ_JSON_LD = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "Ako dlho trvá odvlhčovanie?", acceptedAnswer: { "@type": "Answer", text: "Odvlhčovanie je postupný proces, ktorý prebieha niekoľko dní. Zariadenie sa v praxi používa nepretržite minimálne 7 dní, aby sa vlhkosť odstránila nielen zo vzduchu, ale aj z materiálov ako omietky, potery a murivo. Krátkodobé zapnutie rieši len povrchovú vlhkosť a problém sa môže po vypnutí zariadenia opäť vrátiť." } },
-    { "@type": "Question", name: "Prečo je minimálna doba prenájmu 7 dní?", acceptedAnswer: { "@type": "Answer", text: "Štandardná doba odvlhčovania je 7 dní a viac. Táto doba zabezpečuje rovnomerné vysychanie konštrukcií, trvalý výsledok bez návratu vlhkosti a zmysluplné použitie výkonného odvlhčovača. Kratší prenájom by vo väčšine prípadov nepriniesol stabilný efekt." } },
+    { "@type": "Question", name: "Ako dlho trvá odvlhčovanie?", acceptedAnswer: { "@type": "Answer", text: "Odvlhčovanie je postupný proces, ktorý prebieha niekoľko dní. Zariadenie sa v praxi používa nepretržite minimálne 10 dní, aby sa vlhkosť odstránila nielen zo vzduchu, ale aj z materiálov ako omietky, potery a murivo. Krátkodobé zapnutie rieši len povrchovú vlhkosť a problém sa môže po vypnutí zariadenia opäť vrátiť." } },
+    { "@type": "Question", name: "Prečo je minimálna doba prenájmu 10 dní?", acceptedAnswer: { "@type": "Answer", text: "Štandardná doba odvlhčovania je 10 dní a viac. Táto doba zabezpečuje rovnomerné vysychanie konštrukcií, trvalý výsledok bez návratu vlhkosti a zmysluplné použitie výkonného odvlhčovača. Kratší prenájom by vo väčšine prípadov nepriniesol stabilný efekt." } },
     { "@type": "Question", name: "Ako rýchlo je možné získať odvlhčovač?", acceptedAnswer: { "@type": "Answer", text: "Odvlhčovač je možné prevziať osobne po dohode. Rýchla dostupnosť je zabezpečená pre Trenčín a okolie. V prípade havárie, napríklad po zatopení, je dohoda možná aj počas víkendov." } },
     { "@type": "Question", name: "Je potrebná záloha?", acceptedAnswer: { "@type": "Answer", text: "Pri prevzatí zariadenia sa vyžaduje vratná záloha. Výška zálohy a podmienky prenájmu sú dohodnuté vopred a sú transparentné." } },
     { "@type": "Question", name: "Je možné prenajať odvlhčovač na dlhšie obdobie?", acceptedAnswer: { "@type": "Answer", text: "Áno. Odvlhčovače sa často používajú niekoľko týždňov, najmä pri novostavbách alebo rozsiahlejších rekonštrukciách. Dlhší prenájom je vhodný pri vysychaní omietok a poterov, príprave priestorov pred maľovaním a trvalých problémoch s vlhkosťou." } },
@@ -75,10 +75,10 @@ export default function Home() {
                 </p>
                 <div>
                   <p className="text-2xl md:text-3xl font-bold text-blue-300 mb-2 drop-shadow-lg">
-                    7 € / deň
+                    8 € / deň
                   </p>
                   <p className="text-gray-200 text-lg drop-shadow-md">
-                    minimálne 7 dní
+                    minimálne 10 dní
                   </p>
                 </div>
               </div>
@@ -165,10 +165,10 @@ export default function Home() {
             Cenník a doprava
           </h2>
           <p className="text-gray-700 mb-4 leading-relaxed">
-            Cena prenájmu je transparentná: 7 € za deň, minimálna doba prenájmu 7 dní. Dlhší prenájom je možný podľa potreby – bežný pri vysúšaní novostavieb alebo sanácii po zaplavení. Prevzatie zariadenia je osobné v Trenčianskych Stankovciach po telefonickej dohode; doprava na miesto nie je v cene, ale odvlhčovač je možné jednoducho prepraviť vo vozidle.
+            Cena prenájmu je transparentná: 8 € za deň, minimálna doba prenájmu 10 dní. Dlhší prenájom je možný podľa potreby – bežný pri vysúšaní novostavieb alebo sanácii po zaplavení. Prevzatie zariadenia je osobné v Trenčianskych Stankovciach po telefonickej dohode; doprava na miesto nie je v cene, ale odvlhčovač je možné jednoducho prepraviť vo vozidle.
           </p>
           <p className="text-xl md:text-2xl text-gray-700 text-center pt-4">
-            <span className="font-semibold">Cena prenájmu:</span> <span className="text-blue-600 font-bold text-2xl md:text-3xl">7 € / deň</span> <span className="text-gray-600">(min. 7 dní)</span>
+            <span className="font-semibold">Cena prenájmu:</span> <span className="text-blue-600 font-bold text-2xl md:text-3xl">8 € / deň</span> <span className="text-gray-600">(min. 10 dní)</span>
           </p>
         </div>
       </section>
@@ -289,16 +289,16 @@ export default function Home() {
             <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Ako dlho trvá odvlhčovanie?</h3>
               <p className="text-gray-600 leading-relaxed mb-3">
-                Odvlhčovanie je postupný proces, ktorý prebieha niekoľko dní. Zariadenie sa v praxi používa nepretržite minimálne 7 dní, aby sa vlhkosť odstránila nielen zo vzduchu, ale aj z materiálov ako omietky, potery a murivo.
+                Odvlhčovanie je postupný proces, ktorý prebieha niekoľko dní. Zariadenie sa v praxi používa nepretržite minimálne 10 dní, aby sa vlhkosť odstránila nielen zo vzduchu, ale aj z materiálov ako omietky, potery a murivo.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Krátkodobé zapnutie rieši len povrchovú vlhkosť a problém sa môže po vypnutí zariadenia opäť vrátiť.
               </p>
             </div>
             <div className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-              <h3 className="text-xl font-semibold mb-3 text-gray-900">Prečo je minimálna doba prenájmu 7 dní?</h3>
+              <h3 className="text-xl font-semibold mb-3 text-gray-900">Prečo je minimálna doba prenájmu 10 dní?</h3>
               <p className="text-gray-600 leading-relaxed mb-3">
-                Štandardná doba odvlhčovania je 7 dní a viac. Táto doba zabezpečuje:
+                Štandardná doba odvlhčovania je 10 dní a viac. Táto doba zabezpečuje:
               </p>
               <ul className="list-disc list-inside text-gray-600 leading-relaxed space-y-1 ml-4">
                 <li>rovnomerné vysychanie konštrukcií</li>

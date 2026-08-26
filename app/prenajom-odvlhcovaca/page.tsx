@@ -4,7 +4,7 @@ import { SITE_URL } from "../lib/seo";
 
 export const metadata: Metadata = {
   title: "Prenájom odvlhčovača Trenčín | Cenník, výkon, podmienky",
-  description: "Prenájom výkonných odvlhčovačov pre Trenčín a okolie. Priemyselný odvlhčovač na prenájom – vysúšanie stavieb, po zatopení, do bytu a pivnice. 7 €/deň, min. 7 dní.",
+  description: "Prenájom výkonných odvlhčovačov pre Trenčín a okolie. Priemyselný odvlhčovač na prenájom – vysúšanie stavieb, po zatopení, do bytu a pivnice. 8 €/deň, min. 10 dní.",
   alternates: { canonical: `${SITE_URL}/prenajom-odvlhcovaca` },
   openGraph: {
     url: `${SITE_URL}/prenajom-odvlhcovaca`,

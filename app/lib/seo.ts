@@ -28,7 +28,7 @@ export const LOCAL_BUSINESS_JSON_LD = {
     { "@type": "City", name: "Trenčín" },
     { "@type": "AdministrativeArea", name: "Trenčín a okolie" },
   ],
-  priceRange: "7€",
+  priceRange: "8€",
   image: `${SITE_URL}/images/odvlhcovac-prenajom-trencin-hero.webp`,
   sameAs: [],
 };
