@@ -32,7 +32,7 @@ export default function OdvlhcovacPoZatopeni() {
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-[90rem] mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
-            Rýchla pomoc po zatopení
+            Prenájom odvlhčovača po zatopení v Trenčíne
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
             Každá minúta sa počíta. Čím skôr sa začne s odvlhčovaním, tým menej škôd vznikne. Prenájom výkonných odvlhčovačov pre Trenčín a okolie – v núdzových prípadoch je dohoda možná aj počas víkendov.

@@ -102,7 +102,7 @@ export default function PrenajomOdvlhcovaca() {
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-3">•</span>
-                  <span><strong>Po omietkach</strong> – Rýchlejšie a rovnomerné vyschnutie, skrátenie času schnutia o 50–70%</span>
+                  <span><strong>Po omietkach</strong> – Rýchlejšie a rovnomerné vyschnutie, podpora vysychania podľa podmienok v priestore</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 font-bold mr-3">•</span>

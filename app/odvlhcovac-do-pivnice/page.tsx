@@ -3,8 +3,8 @@ import Image from "next/image";
 import { SITE_URL } from "../lib/seo";
 
 export const metadata: Metadata = {
-  title: "Odvlhčovač do pivnice Trenčín | Prenájom – zbavenie sa plesní",
-  description: "Prenájom odvlhčovačov do pivnice pre Trenčín a okolie. Efektívne odvlhčovanie pivníc, zbavenie sa plesní a vlhkosti. Priemyselný odvlhčovač na prenájom.",
+  title: "Odvlhčovač do pivnice Trenčín | Prenájom – zníženie nadbytočnej vlhkosti",
+  description: "Prenájom odvlhčovačov do pivnice pre Trenčín a okolie. Efektívne odvlhčovanie pivníc, zníženie nadbytočnej vlhkosti a vlhkosti. Priemyselný odvlhčovač na prenájom.",
   alternates: { canonical: `${SITE_URL}/odvlhcovac-do-pivnice` },
   openGraph: {
     url: `${SITE_URL}/odvlhcovac-do-pivnice`,
@@ -32,7 +32,7 @@ export default function OdvlhcovacDoPivnice() {
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-[90rem] mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
-            Zbavte sa vlhkosti v pivnici raz a navždy
+            Prenájom odvlhčovača do pivnice v Trenčíne
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
             Efektívne riešenie pre vlhké pivnice v Trenčíne a okolí. Profesionálny prenájom výkonných odvlhčovačov pre ochranu uskladnených vecí a zdravé prostredie.
@@ -58,7 +58,7 @@ export default function OdvlhcovacDoPivnice() {
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src="/images/odvlhcovac-do-pivnice.webp"
-                  alt="Priemyselný odvlhčovač v pivnici – zbavenie sa plesní a odvlhčovanie Trenčín"
+                  alt="Priemyselný odvlhčovač v pivnici – zníženie nadbytočnej vlhkosti a odvlhčovanie Trenčín"
                   fill
                   className="object-cover"
                   loading="lazy"

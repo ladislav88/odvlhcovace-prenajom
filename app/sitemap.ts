@@ -5,6 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     "",
     "/kontakt",
+    "/vysusanie-stavieb",
     "/prenajom-odvlhcovaca",
     "/odvlhcovac-do-bytu",
     "/odvlhcovac-do-pivnice",
@@ -13,7 +14,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return routes.map((route) => ({
     url: `${SITE_URL}${route || "/"}`,
-    lastModified: new Date(),
     changeFrequency: (route === "" ? "weekly" : "monthly") as "weekly" | "monthly",
     priority: route === "" ? 1 : 0.8,
   }));

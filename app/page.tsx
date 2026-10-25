@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { SITE_URL, LOCAL_BUSINESS_JSON_LD, SERVICE_JSON_LD } from "./lib/seo";
+import Link from "next/link";
+import { SITE_URL, SERVICE_JSON_LD } from "./lib/seo";
 
 export const metadata: Metadata = {
   title: "Prenájom odvlhčovačov Trenčín | Požičovňa vysúšačov",
-  description: "Prenájom odvlhčovačov a požičovňa vysúšačov v Trenčíne. Sanácia po zaplavení, vysúšanie stavieb, zbavenie sa plesní. Priemyselný odvlhčovač na prenájom. Osobný odber.",
+  description: "Prenájom odvlhčovačov a vysúšačov v Trenčíne a okolí. Na stavbu, do bytu, pivnice aj po zatopení. 8 € / deň, min. 10 dní. Volajte +421 911 911 876.",
   alternates: { canonical: SITE_URL },
   openGraph: {
     url: SITE_URL,
     title: "Prenájom odvlhčovačov Trenčín | Požičovňa vysúšačov",
-    description: "Prenájom odvlhčovačov a požičovňa vysúšačov v Trenčíne. Sanácia po zaplavení, vysúšanie stavieb, zbavenie sa plesní. Priemyselný odvlhčovač na prenájom.",
+    description: "Prenájom odvlhčovačov a vysúšačov v Trenčíne a okolí. Na stavbu, do bytu, pivnice aj po zatopení. 8 € / deň, min. 10 dní. Volajte +421 911 911 876.",
   },
 };
 
@@ -18,7 +19,7 @@ const FAQ_JSON_LD = {
   "@type": "FAQPage",
   mainEntity: [
     { "@type": "Question", name: "Ako dlho trvá odvlhčovanie?", acceptedAnswer: { "@type": "Answer", text: "Odvlhčovanie je postupný proces, ktorý prebieha niekoľko dní. Zariadenie sa v praxi používa nepretržite minimálne 10 dní, aby sa vlhkosť odstránila nielen zo vzduchu, ale aj z materiálov ako omietky, potery a murivo. Krátkodobé zapnutie rieši len povrchovú vlhkosť a problém sa môže po vypnutí zariadenia opäť vrátiť." } },
-    { "@type": "Question", name: "Prečo je minimálna doba prenájmu 10 dní?", acceptedAnswer: { "@type": "Answer", text: "Štandardná doba odvlhčovania je 10 dní a viac. Táto doba zabezpečuje rovnomerné vysychanie konštrukcií, trvalý výsledok bez návratu vlhkosti a zmysluplné použitie výkonného odvlhčovača. Kratší prenájom by vo väčšine prípadov nepriniesol stabilný efekt." } },
+    { "@type": "Question", name: "Prečo je minimálna doba prenájmu 10 dní?", acceptedAnswer: { "@type": "Answer", text: "Štandardná doba odvlhčovania je 10 dní a viac. Táto doba zabezpečuje rovnomerné vysychanie konštrukcií, postupné zníženie vlhkosti v materiáloch a zmysluplné použitie výkonného odvlhčovača. Kratší prenájom by vo väčšine prípadov nepriniesol stabilný efekt." } },
     { "@type": "Question", name: "Ako rýchlo je možné získať odvlhčovač?", acceptedAnswer: { "@type": "Answer", text: "Odvlhčovač je možné prevziať osobne po dohode. Rýchla dostupnosť je zabezpečená pre Trenčín a okolie. V prípade havárie, napríklad po zatopení, je dohoda možná aj počas víkendov." } },
     { "@type": "Question", name: "Je potrebná záloha?", acceptedAnswer: { "@type": "Answer", text: "Pri prevzatí zariadenia sa vyžaduje vratná záloha. Výška zálohy a podmienky prenájmu sú dohodnuté vopred a sú transparentné." } },
     { "@type": "Question", name: "Je možné prenajať odvlhčovač na dlhšie obdobie?", acceptedAnswer: { "@type": "Answer", text: "Áno. Odvlhčovače sa často používajú niekoľko týždňov, najmä pri novostavbách alebo rozsiahlejších rekonštrukciách. Dlhší prenájom je vhodný pri vysychaní omietok a poterov, príprave priestorov pred maľovaním a trvalých problémoch s vlhkosťou." } },
@@ -34,10 +35,6 @@ export default function Home() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(LOCAL_BUSINESS_JSON_LD) }}
-      />
-      <script
-        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(SERVICE_JSON_LD) }}
       />
       <script
@@ -45,7 +42,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_JSON_LD) }}
       />
       {/* Hero Section */}
-      <section className="relative w-full h-[550px] md:h-[650px] overflow-hidden">
+      <section className="relative w-full min-h-[550px] lg:min-h-[650px] overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0 w-full h-full">
           <Image
@@ -60,7 +57,7 @@ export default function Home() {
         {/* Overlay for better text readability */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/20"></div>
         {/* Content Overlay */}
-        <div className="relative z-10 h-full flex items-center py-16">
+        <div className="relative z-10 min-h-[550px] lg:min-h-[650px] flex items-center py-16">
           <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-end">
               <div className="text-white">
@@ -97,6 +94,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <nav aria-label="Vyberte podľa problému s vlhkosťou" className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-wrap gap-4 text-blue-700 font-semibold">
+        <Link className="underline" href="/vysusanie-stavieb">Vysúšanie stavieb a novostavieb</Link>
+        <Link className="underline" href="/odvlhcovac-po-zatopeni">Po zatopení</Link>
+        <Link className="underline" href="/odvlhcovac-do-pivnice">Do pivnice</Link>
+        <Link className="underline" href="/odvlhcovac-do-bytu">Do bytu</Link>
+      </nav>
 
       {/* Explanation Block */}
       <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white/80 backdrop-blur-sm">
@@ -109,7 +112,7 @@ export default function Home() {
               Odvlhčovač vzduchu Trenčín odstraňuje vlhkosť zo vzduchu kondenzáciou. Zariadenie nasáva vlhký vzduch, ochladzuje ho a kondenzovanú vodu zachytáva do zásobníka alebo odvádza priamo do kanalizácie. Prevádzka znižuje relatívnu vlhkosť vzduchu, čím urýchľuje vysychanie omietok, poterov, farieb a stavebných materiálov.
             </p>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              Bez aktívneho odvlhčovania môže vysychanie stavebných materiálov trvať mesiace. Vysoká vlhkosť spomaľuje dokončenie stavby a zvyšuje riziko vzniku plesní už po 24-48 hodinách. Sanácia po zaplavení vyžaduje rýchle odvlhčenie – priemyselný odvlhčovač na prenájom umožňuje vysúšanie stavieb a efektívne zbavenie sa plesní v bytoch, pivniciach aj novostavbách.
+              Bez aktívneho odvlhčovania môže vysychanie stavebných materiálov trvať mesiace. Vysoká vlhkosť spomaľuje dokončenie stavby a zvyšuje riziko vzniku plesní už po 24-48 hodinách. Sanácia po zaplavení vyžaduje rýchle odvlhčenie – priemyselný odvlhčovač na prenájom umožňuje vysúšanie stavieb a efektívne zníženie nadbytočnej vlhkosti v bytoch, pivniciach aj novostavbách.
             </p>
           </div>
           <div className="bg-blue-50 border-l-4 border-blue-600 p-6 rounded-lg">
@@ -117,7 +120,7 @@ export default function Home() {
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
                 <span className="text-blue-600 font-bold mr-2">•</span>
-                <span>Odvlhčovač skracuje čas schnutia o 50–70 %, čo umožňuje pokračovať v stavebných prácach bez oneskorenia</span>
+                <span>Odvlhčovač pomáha urýchliť schnutie; výsledok závisí od teploty, vlhkosti a materiálov</span>
               </li>
               <li className="flex items-start">
                 <span className="text-blue-600 font-bold mr-2">•</span>
@@ -133,7 +136,7 @@ export default function Home() {
               </li>
               <li className="flex items-start">
                 <span className="text-blue-600 font-bold mr-2">•</span>
-                <span>Sanácia po zaplavení a zbavenie sa plesní v jednom kroku vďaka výkonnému zariadeniu</span>
+                <span>Odstránenie nadbytočnej vzdušnej vlhkosti po zaplavení; existujúca pleseň si vyžaduje samostatné ošetrenie</span>
               </li>
             </ul>
           </div>
@@ -180,7 +183,7 @@ export default function Home() {
             Naše stroje a výkon
           </h2>
           <p className="text-gray-700 mb-4 leading-relaxed">
-            K dispozícii sú výkonné priemyselné odvlhčovače vhodné pre vysúšanie stavieb, sanáciu po zaplavení aj každodenné zbavenie sa plesní v bytoch alebo pivniciach. Zariadenia zvládajú vysoký odber vlhkosti, prietok vzduchu a pripojenie na odvod kondenzátu do kanalizácie, takže môžu bežať nepretržite počas potrebnej doby. Prenájom odvlhčovačov v Trenčíne zahŕňa inštrukcie na obsluhu a odovzdanie osobne po dohode.
+            K dispozícii sú výkonné priemyselné odvlhčovače vhodné pre vysúšanie stavieb, sanáciu po zaplavení aj každodenné zníženie nadbytočnej vlhkosti v bytoch alebo pivniciach. Zariadenia zvládajú vysoký odber vlhkosti, prietok vzduchu a pripojenie na odvod kondenzátu do kanalizácie, takže môžu bežať nepretržite počas potrebnej doby. Prenájom odvlhčovačov v Trenčíne zahŕňa inštrukcie na obsluhu a odovzdanie osobne po dohode.
           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-2 ml-2">
             <li>Výkonné priemyselné odvlhčovače pre všetky typy priestorov</li>
@@ -302,7 +305,7 @@ export default function Home() {
               </p>
               <ul className="list-disc list-inside text-gray-600 leading-relaxed space-y-1 ml-4">
                 <li>rovnomerné vysychanie konštrukcií</li>
-                <li>trvalý výsledok bez návratu vlhkosti</li>
+                <li>postupné zníženie vlhkosti v materiáloch</li>
                 <li>zmysluplné použitie výkonného odvlhčovača</li>
               </ul>
               <p className="text-gray-600 leading-relaxed mt-3">

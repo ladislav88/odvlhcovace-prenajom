@@ -4,7 +4,7 @@ import { SITE_URL } from "../lib/seo";
 
 export const metadata: Metadata = {
   title: "Odvlhčovač do bytu Trenčín | Prenájom – vlhkosť a plesne",
-  description: "Prenájom odvlhčovačov do bytu pre Trenčín a okolie. Riešenie vlhkých bytov, zbavenie sa plesní a nepríjemných pachov. Odvlhčovač vzduchu na prenájom.",
+  description: "Prenájom odvlhčovačov do bytu pre Trenčín a okolie. Riešenie vlhkých bytov, zníženie nadbytočnej vlhkosti a nepríjemných pachov. Odvlhčovač vzduchu na prenájom.",
   alternates: { canonical: `${SITE_URL}/odvlhcovac-do-bytu` },
   openGraph: {
     url: `${SITE_URL}/odvlhcovac-do-bytu`,
@@ -32,7 +32,7 @@ export default function OdvlhcovacDoBytu() {
       <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-[90rem] mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
-            Zdravý domov bez vlhkosti
+            Prenájom odvlhčovača do bytu v Trenčíne
           </h1>
           <p className="text-xl text-gray-700 mb-8 leading-relaxed">
             Riešenie pre vlhké byty v Trenčíne a okolí. Profesionálny prenájom tichých a efektívnych odvlhčovačov pre zdravé prostredie v byte.
@@ -58,7 +58,7 @@ export default function OdvlhcovacDoBytu() {
               <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
                   src="/images/odvlhcovac-do-bytu.webp"
-                  alt="Odvlhčovač vzduchu v byte – prenájom odvlhčovačov pre byty a domy Trenčín, zbavenie sa plesní"
+                  alt="Odvlhčovač vzduchu v byte – prenájom odvlhčovačov pre byty a domy Trenčín, zníženie nadbytočnej vlhkosti"
                   fill
                   className="object-cover"
                   loading="lazy"
