@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <p className="text-xl font-semibold mb-4">Prenájom odvlhčovačov – Trenčín a okolie</p>
+        <p className="text-xl font-semibold mb-4">Prenájom odvlhčovačov – Trenčín a Trenčiansky kraj</p>
         <nav aria-label="Služby a kontakt" className="flex flex-wrap gap-x-6 gap-y-3 mb-6">
           {services.map(([href, label]) => <Link key={href} href={href} className="text-gray-200 underline underline-offset-4 hover:text-white">{label}</Link>)}
         </nav>

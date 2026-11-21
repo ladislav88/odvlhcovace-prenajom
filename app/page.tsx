@@ -4,8 +4,8 @@ import Link from "next/link";
 import { SITE_URL, SERVICE_JSON_LD } from "./lib/seo";
 
 export const metadata: Metadata = {
-  title: "Prenájom odvlhčovačov Trenčín | Požičovňa vysúšačov",
-  description: "Prenájom odvlhčovačov v Trenčíne a okolí. Na stavbu, do bytu, pivnice aj po zatopení. 8 € / deň, min. 10 dní. Dostupnosť: +421 911 911 876.",
+  title: "Prenájom odvlhčovačov Trenčín a Trenčiansky kraj",
+  description: "Prenájom odvlhčovačov pre Trenčín a Trenčiansky kraj. Na stavbu, do bytu, pivnice aj po zatopení. 8 € / deň, min. 10 dní. Dostupnosť: +421 911 911 876.",
   alternates: { canonical: SITE_URL },
   openGraph: { url: SITE_URL, title: "Prenájom odvlhčovačov Trenčín", description: "Odvlhčovače na stavbu, do bytu aj pivnice. 8 € / deň, minimálne 10 dní.", images: [{url: "/images/odvlhcovac-prenajom-trencin-hero.webp", alt: "Ilustračný obrázok odvlhčovača"}] },
 };
@@ -34,7 +34,7 @@ export default function Home() {
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/85 to-slate-950/40" />
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-9 sm:py-12 lg:py-16">
         <div className="max-w-xl">
-          <p className="text-sm font-semibold text-blue-200 mb-3">Trenčín a okolie</p>
+          <p className="text-sm font-semibold text-blue-200 mb-3">Trenčín a Trenčiansky kraj</p>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight tracking-tight mb-4">Prenájom odvlhčovačov v Trenčíne</h1>
           <p className="text-base sm:text-lg text-slate-100 leading-relaxed mb-5">Na vysúšanie stavby, po zatopení aj do vlhkého bytu či pivnice. Overte si dostupnosť odvlhčovača telefonicky.</p>
           <p className="mb-5"><strong className="text-3xl font-bold">8 € / deň</strong><span className="block sm:inline sm:ml-3 text-slate-200 mt-1">minimálne 10 dní</span></p>
@@ -50,6 +50,7 @@ export default function Home() {
         </div>
       </div>
     </section>
+    <section className="bg-white px-4 sm:px-6 pb-10 sm:pb-14"><div className="max-w-6xl mx-auto"><h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Požičovňa vysúšačov pre Trenčín a Trenčiansky kraj</h2><p className="text-gray-700 leading-relaxed max-w-3xl">Prenájom je určený pre domácnosti a firmy z Trenčína aj ďalších miest Trenčianskeho kraja. Odvlhčovač pomáha pri stavebnej vlhkosti, po úniku vody aj vo vlhkých interiéroch. Sídlime v Trenčianskych Stankovciach pri Trenčíne; dostupnosť a vhodnosť použitia si overíte telefonicky.</p></div></section>
     <section className="bg-blue-50 px-4 sm:px-6 py-10 sm:py-14">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
         <div><h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Ako odvlhčovanie pomáha</h2><p className="text-gray-700 leading-relaxed mb-4">Odvlhčovač zachytáva vodu zo vzduchu a pomáha vytvárať podmienky na postupné vysychanie priestoru. Je užitočný pri stavebnej vlhkosti aj po havárii vody.</p><p className="text-gray-700 leading-relaxed">Výsledok závisí od teploty, prúdenia vzduchu a množstva vlhkosti v materiáloch. Pri zatekaní alebo vzlínajúcej vlhkosti treba odstrániť aj ich príčinu.</p></div>

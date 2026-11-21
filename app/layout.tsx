@@ -18,22 +18,22 @@ export const viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Prenájom odvlhčovačov Trenčín | Požičovňa vysúšačov",
-  description: "Prenájom odvlhčovačov a vysúšačov v Trenčíne a okolí. Na stavbu, do bytu, pivnice aj po zatopení. 8 € / deň, min. 10 dní. Volajte +421 911 911 876.",
+  title: "Prenájom odvlhčovačov Trenčín a Trenčiansky kraj",
+  description: "Prenájom odvlhčovačov a vysúšačov pre Trenčín a Trenčiansky kraj. Na stavbu, do bytu, pivnice aj po zatopení. 8 € / deň, min. 10 dní. Volajte +421 911 911 876.",
   keywords: ["prenájom odvlhčovačov", "požičovňa vysúšačov", "Trenčín", "odvlhčovanie po zatopení", "vysúšanie stavieb", "priemyselný odvlhčovač", "odvlhčovač Trenčín"],
   openGraph: {
     type: "website",
     locale: "sk_SK",
     url: SITE_URL,
     siteName: "Prenájom odvlhčovačov Trenčín",
-    title: "Prenájom odvlhčovačov Trenčín | Požičovňa vysúšačov",
-    description: "Prenájom odvlhčovačov a vysúšačov v Trenčíne a okolí. Na stavbu, do bytu, pivnice aj po zatopení. 8 € / deň, min. 10 dní. Volajte +421 911 911 876.",
+    title: "Prenájom odvlhčovačov Trenčín a Trenčiansky kraj",
+    description: "Prenájom odvlhčovačov a vysúšačov pre Trenčín a Trenčiansky kraj. Na stavbu, do bytu, pivnice aj po zatopení. 8 € / deň, min. 10 dní. Volajte +421 911 911 876.",
     images: [{ url: "/images/odvlhcovac-prenajom-trencin-hero.webp", width: 1200, height: 630, alt: "Priemyselný odvlhčovač na prenájom v Trenčíne" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Prenájom odvlhčovačov Trenčín | Požičovňa vysúšačov",
-    description: "Prenájom odvlhčovačov a vysúšačov v Trenčíne a okolí. Na stavbu, do bytu, pivnice aj po zatopení. 8 € / deň, min. 10 dní. Volajte +421 911 911 876.",
+    title: "Prenájom odvlhčovačov Trenčín a Trenčiansky kraj",
+    description: "Prenájom odvlhčovačov a vysúšačov pre Trenčín a Trenčiansky kraj. Na stavbu, do bytu, pivnice aj po zatopení. 8 € / deň, min. 10 dní. Volajte +421 911 911 876.",
   },
   robots: { index: true, follow: true },
   alternates: { canonical: SITE_URL },

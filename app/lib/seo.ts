@@ -7,7 +7,7 @@ export const LOCAL_BUSINESS_JSON_LD = {
   "@type": "LocalBusiness",
   "@id": "https://www.odvlhcovaceprenajom.sk/#localbusiness",
   name: "Prenájom odvlhčovačov Trenčín",
-  description: "Prenájom profesionálnych odvlhčovačov v Trenčíne a okolí. Odvlhčovanie po zaplavení, vysúšanie stavieb, odvlhčovanie pivníc a bytov. Požičovňa vysúšačov – osobný odber po dohode.",
+  description: "Prenájom profesionálnych odvlhčovačov pre Trenčín a Trenčiansky kraj. Odvlhčovanie po zaplavení, vysúšanie stavieb, odvlhčovanie pivníc a bytov. Požičovňa vysúšačov – osobný odber po dohode.",
   url: SITE_URL,
   telephone: "+421911911876",
   email: "info@odvlhcovaceprenajom.sk",
@@ -26,7 +26,7 @@ export const LOCAL_BUSINESS_JSON_LD = {
   },
   areaServed: [
     { "@type": "City", name: "Trenčín" },
-    { "@type": "AdministrativeArea", name: "Trenčín a okolie" },
+    { "@type": "AdministrativeArea", name: "Trenčiansky kraj" },
   ],
   priceRange: "8€",
   image: `${SITE_URL}/images/odvlhcovac-prenajom-trencin-hero.webp`,
@@ -39,7 +39,7 @@ export const SERVICE_JSON_LD = {
   "@type": "Service",
   serviceType: "Prenájom odvlhčovačov",
   name: "Prenájom odvlhčovačov Trenčín",
-  description: "Požičovňa vysúšačov a priemyselných odvlhčovačov pre Trenčín a okolie. Odvlhčovanie po zatopení, vysúšanie stavieb, zníženie nadmernej vlhkosti v bytoch a pivniciach.",
-  areaServed: { "@type": "Place", name: "Trenčín a okolie" },
+  description: "Požičovňa vysúšačov a priemyselných odvlhčovačov pre Trenčín a Trenčiansky kraj. Odvlhčovanie po zatopení, vysúšanie stavieb, zníženie nadmernej vlhkosti v bytoch a pivniciach.",
+  areaServed: LOCAL_BUSINESS_JSON_LD.areaServed,
   provider: { "@id": "https://www.odvlhcovaceprenajom.sk/#localbusiness" },
 };
