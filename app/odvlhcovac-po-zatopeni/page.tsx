@@ -10,13 +10,13 @@ const breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList",ite
 export default function Page() {
  return <>
  <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(breadcrumb)}} />
- <section className="bg-blue-50 py-9 sm:py-12 px-4 sm:px-6"><div className="max-w-5xl mx-auto">
+ <section className="bg-blue-50 py-9 sm:py-12 "><div className="site-container mx-auto">
  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">Prenájom odvlhčovača po zatopení v Trenčíne</h1>
  <p className="text-lg text-gray-700 leading-relaxed mb-4">Po úniku vody alebo zaplavení pomáha odvlhčovač odvádzať vlhkosť zo vzduchu a podporovať vysychanie materiálov. Dostupnosť overte telefonicky.</p>
  <p className="font-semibold text-xl text-blue-800 mb-5">8 € / deň · minimálne 10 dní</p>
  <a href="tel:+421911911876" className="inline-flex min-h-12 items-center rounded-lg bg-blue-700 px-5 py-3 font-bold text-white">Zavolať: +421 911 911 876</a>
  </div></section>
- <section className="bg-white px-4 sm:px-6 py-10"><div className="max-w-5xl mx-auto space-y-8 text-lg text-gray-700 leading-relaxed">
+ <section className="bg-white py-10"><div className="site-container mx-auto space-y-8 text-lg text-gray-700 leading-relaxed">
  <div className="relative h-56 sm:h-80 overflow-hidden rounded-xl"><Image src="/images/odvlhcovac-po-zatopeni.webp" alt="Ilustračný obrázok odvlhčovania" fill sizes="(max-width: 1024px) 100vw, 1024px" className="object-cover" /></div>
  <div><h2 className="text-2xl font-bold text-gray-900 mb-3">Čo urobiť pred odvlhčovaním</h2><p>Najprv zastavte prítok vody, odstráňte stojacu vodu a nechajte overiť bezpečnosť zasiahnutej elektrickej inštalácie. Odvlhčovač používajte až v priestore, kde je jeho prevádzka bezpečná.</p></div>
 <div><h2 className="text-2xl font-bold text-gray-900 mb-3">Vysúšanie stien a podláh po havárii</h2><p>Voda môže zostať aj pod podlahou alebo v izolačných vrstvách. Bežné odvlhčovanie vzduchu nemusí takéto miesta dostatočne vysušiť. Pri rozsiahlejšom poškodení môže byť potrebný odborný zásah.</p></div>

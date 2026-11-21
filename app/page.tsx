@@ -32,7 +32,7 @@ export default function Home() {
     <section className="relative isolate overflow-hidden bg-slate-900 text-white">
       <Image src="/images/odvlhcovac-prenajom-trencin-hero.webp" alt="Ilustračný obrázok odvlhčovača v interiéri" fill priority sizes="100vw" className="object-cover object-right" />
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/85 to-slate-950/40" />
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-9 sm:py-12 lg:py-16">
+      <div className="relative site-container mx-auto py-9 sm:py-12 lg:py-16">
         <div className="max-w-xl">
           <p className="text-sm font-semibold text-blue-200 mb-3">Trenčín a Trenčiansky kraj</p>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight tracking-tight mb-4">Prenájom odvlhčovačov v Trenčíne</h1>
@@ -42,24 +42,24 @@ export default function Home() {
         </div>
       </div>
     </section>
-    <section className="bg-white px-4 sm:px-6 py-10 sm:py-14">
-      <div className="max-w-6xl mx-auto">
+    <section className="bg-white py-10 sm:py-14">
+      <div className="site-container mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Na čo potrebujete odvlhčovač?</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {situations.map(({href,title,text})=><Link key={href} href={href} className="rounded-xl border border-gray-200 p-5 hover:border-blue-500 hover:bg-blue-50 transition-colors"><h3 className="text-lg font-semibold text-blue-700 mb-2">{title} <span aria-hidden="true">→</span></h3><p className="text-gray-700 leading-relaxed">{text}</p></Link>)}
         </div>
       </div>
     </section>
-    <section className="bg-white px-4 sm:px-6 pb-10 sm:pb-14"><div className="max-w-6xl mx-auto"><h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Požičovňa vysúšačov pre Trenčín a Trenčiansky kraj</h2><p className="text-gray-700 leading-relaxed max-w-3xl">Prenájom je určený pre domácnosti a firmy z Trenčína aj ďalších miest Trenčianskeho kraja. Odvlhčovač pomáha pri stavebnej vlhkosti, po úniku vody aj vo vlhkých interiéroch. Sídlime v Trenčianskych Stankovciach pri Trenčíne; dostupnosť a vhodnosť použitia si overíte telefonicky.</p></div></section>
-    <section className="bg-blue-50 px-4 sm:px-6 py-10 sm:py-14">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+    <section className="bg-white pb-10 sm:pb-14"><div className="site-container mx-auto"><h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Požičovňa vysúšačov pre Trenčín a Trenčiansky kraj</h2><p className="text-gray-700 leading-relaxed max-w-3xl">Prenájom je určený pre domácnosti a firmy z Trenčína aj ďalších miest Trenčianskeho kraja. Odvlhčovač pomáha pri stavebnej vlhkosti, po úniku vody aj vo vlhkých interiéroch. Sídlime v Trenčianskych Stankovciach pri Trenčíne; dostupnosť a vhodnosť použitia si overíte telefonicky.</p></div></section>
+    <section className="bg-blue-50 py-10 sm:py-14">
+      <div className="site-container mx-auto grid md:grid-cols-2 gap-8">
         <div><h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Ako odvlhčovanie pomáha</h2><p className="text-gray-700 leading-relaxed mb-4">Odvlhčovač zachytáva vodu zo vzduchu a pomáha vytvárať podmienky na postupné vysychanie priestoru. Je užitočný pri stavebnej vlhkosti aj po havárii vody.</p><p className="text-gray-700 leading-relaxed">Výsledok závisí od teploty, prúdenia vzduchu a množstva vlhkosti v materiáloch. Pri zatekaní alebo vzlínajúcej vlhkosti treba odstrániť aj ich príčinu.</p></div>
         <div><h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Prenájom jednoducho</h2><ol className="list-decimal pl-5 space-y-3 text-gray-700"><li>Zavoláte a overíme dostupnosť.</li><li>Preberieme, aký priestor potrebujete odvlhčiť.</li><li>Dohodneme prenájom a vysvetlíme obsluhu.</li></ol><Link href="/prenajom-odvlhcovaca" className="inline-block mt-5 text-blue-700 font-semibold underline underline-offset-4">Viac o prenájme odvlhčovača</Link></div>
       </div>
     </section>
-    <section className="bg-white px-4 sm:px-6 py-10 sm:py-14">
-      <div className="max-w-4xl mx-auto"><h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Časté otázky o prenájme</h2><div className="divide-y divide-gray-200">{questions.map(({q,a})=><details key={q} className="py-4"><summary className="cursor-pointer min-h-11 content-center text-lg font-semibold text-gray-900">{q}</summary><p className="text-gray-700 leading-relaxed pt-3">{a}</p></details>)}</div></div>
+    <section className="bg-white py-10 sm:py-14">
+      <div className="site-container mx-auto"><h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Časté otázky o prenájme</h2><div className="divide-y divide-gray-200">{questions.map(({q,a})=><details key={q} className="py-4"><summary className="cursor-pointer min-h-11 content-center text-lg font-semibold text-gray-900">{q}</summary><p className="text-gray-700 leading-relaxed pt-3">{a}</p></details>)}</div></div>
     </section>
-    <section id="kontakt" className="bg-blue-700 text-white px-4 sm:px-6 py-10 text-center"><h2 className="text-2xl sm:text-3xl font-bold mb-3">Potrebujete odvlhčovač v Trenčíne?</h2><p className="mb-5 text-blue-100">Zavolajte a overte si aktuálnu dostupnosť.</p><a href="tel:+421911911876" className="inline-flex min-h-12 items-center rounded-lg bg-white px-6 py-3 text-blue-800 font-bold text-lg">+421 911 911 876</a><Link href="/kontakt" className="block mt-5 underline underline-offset-4">Všetky kontakty</Link></section>
+    <section id="kontakt" className="bg-blue-700 text-white py-10 text-center"><div className="site-container"><h2 className="text-2xl sm:text-3xl font-bold mb-3">Potrebujete odvlhčovač v Trenčíne?</h2><p className="mb-5 text-blue-100">Zavolajte a overte si aktuálnu dostupnosť.</p><a href="tel:+421911911876" className="inline-flex min-h-12 items-center rounded-lg bg-white px-6 py-3 text-blue-800 font-bold text-lg">+421 911 911 876</a><Link href="/kontakt" className="block mt-5 underline underline-offset-4">Všetky kontakty</Link></div></section>
   </>;
 }

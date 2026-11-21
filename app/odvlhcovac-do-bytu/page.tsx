@@ -10,13 +10,13 @@ const breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList",ite
 export default function Page() {
  return <>
  <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(breadcrumb)}} />
- <section className="bg-blue-50 py-9 sm:py-12 px-4 sm:px-6"><div className="max-w-5xl mx-auto">
+ <section className="bg-blue-50 py-9 sm:py-12 "><div className="site-container mx-auto">
  <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">Prenájom odvlhčovača do bytu v Trenčíne</h1>
  <p className="text-lg text-gray-700 leading-relaxed mb-4">Prenájom odvlhčovača pomáha znížiť nadmernú vlhkosť vzduchu v byte či dome. Vhodný môže byť pri kondenzácii, po rekonštrukcii alebo úniku vody.</p>
  <p className="font-semibold text-xl text-blue-800 mb-5">8 € / deň · minimálne 10 dní</p>
  <a href="tel:+421911911876" className="inline-flex min-h-12 items-center rounded-lg bg-blue-700 px-5 py-3 font-bold text-white">Zavolať: +421 911 911 876</a>
  </div></section>
- <section className="bg-white px-4 sm:px-6 py-10"><div className="max-w-5xl mx-auto space-y-8 text-lg text-gray-700 leading-relaxed">
+ <section className="bg-white py-10"><div className="site-container mx-auto space-y-8 text-lg text-gray-700 leading-relaxed">
  <div className="relative h-56 sm:h-80 overflow-hidden rounded-xl"><Image src="/images/odvlhcovac-do-bytu.webp" alt="Ilustračný obrázok odvlhčovania" fill sizes="(max-width: 1024px) 100vw, 1024px" className="object-cover" /></div>
  <div><h2 className="text-2xl font-bold text-gray-900 mb-3">Kedy môže odvlhčovač pomôcť?</h2><p>Pri vysokej vzdušnej vlhkosti, zamlžovaní okien alebo po mokrých stavebných prácach. Vlhkomer vám pomôže sledovať zmenu. Ak sa problém opakovane vracia, treba zistiť jeho príčinu, napríklad zatekanie, nedostatočné vetranie alebo tepelný most.</p></div>
 <div><h2 className="text-2xl font-bold text-gray-900 mb-3">Vlhkosť a pleseň v byte</h2><p>Odvlhčovač existujúcu pleseň neodstráni. Znižovanie vlhkosti je iba časť riešenia; napadnuté povrchy aj príčinu problému treba riešiť samostatne.</p></div>

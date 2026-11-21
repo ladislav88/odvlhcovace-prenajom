@@ -11,13 +11,13 @@ export default function Prenajom() {
   return <>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(breadcrumb)}} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(SERVICE_JSON_LD)}} />
-    <section className="bg-blue-50 px-4 sm:px-6 py-9 sm:py-12"><div className="max-w-5xl mx-auto">
+    <section className="bg-blue-50 py-9 sm:py-12"><div className="site-container mx-auto">
       <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">Prenájom odvlhčovača v Trenčíne a okolí</h1>
       <p className="text-lg text-gray-700 mb-5 leading-relaxed">Potrebujete vysúšať stavbu, znížiť vlhkosť v byte alebo riešiť následky úniku vody? Odvlhčovač si môžete prenajať na obdobie, počas ktorého ho potrebujete.</p>
       <p className="text-3xl font-bold text-blue-800">8 € / deň</p><p className="text-gray-700 mt-2 mb-5">Minimálne 10 dní · minimálna cena prenájmu 80 €</p>
       <a href="tel:+421911911876" className="inline-flex min-h-12 items-center rounded-lg bg-blue-700 px-5 py-3 text-white font-bold">Overiť dostupnosť: +421 911 911 876</a>
     </div></section>
-    <section className="bg-white px-4 sm:px-6 py-10"><div className="max-w-5xl mx-auto space-y-8 text-lg text-gray-700 leading-relaxed">
+    <section className="bg-white py-10"><div className="site-container mx-auto space-y-8 text-lg text-gray-700 leading-relaxed">
       <div><h2 className="text-2xl text-gray-900 font-bold mb-3">Kedy sa oplatí prenájom vysúšača?</h2><p>Pri dočasnom probléme s vlhkosťou nemusíte kupovať vlastný odvlhčovač. Prenájom môže pomôcť po mokrých stavebných prácach, pri vlhkom interiéri alebo po havárii vody. Vhodnosť použitia závisí od podmienok v priestore.</p></div>
       <div><h2 className="text-2xl text-gray-900 font-bold mb-3">Vyberte podľa situácie</h2><ul className="list-disc pl-6 space-y-3">
         <li><Link className="text-blue-700 underline" href="/vysusanie-stavieb">Vysúšanie stavieb a novostavieb</Link> – po omietkach, poteroch a rekonštrukcii.</li>

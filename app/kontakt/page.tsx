@@ -29,8 +29,8 @@ export default function Kontakt() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(BREADCRUMB_JSON_LD) }}
       />
-      <section className="bg-white/80 backdrop-blur-sm py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-[90rem] mx-auto">
+      <section className="bg-white/80 backdrop-blur-sm py-16 ">
+        <div className="site-container mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-12 leading-tight tracking-tight">
             Kontakt
           </h1>
