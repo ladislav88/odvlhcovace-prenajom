@@ -30,7 +30,7 @@ export default function Home() {
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(SERVICE_JSON_LD)}} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(faq)}} />
     <section className="relative isolate overflow-hidden bg-slate-900 text-white">
-      <Image src="/images/odvlhcovac-prenajom-trencin-hero.webp" alt="Ilustračný obrázok odvlhčovača v interiéri" fill priority sizes="100vw" className="object-cover object-right" />
+      <Image src="/images/odvlhcovac-prenajom-trencin-hero.webp" alt="Ilustračný obrázok odvlhčovača v interiéri" fill priority fetchPriority="high" sizes="100vw" className="object-cover object-right" />
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/85 to-slate-950/40" />
       <div className="relative site-container mx-auto py-9 sm:py-12 lg:py-16">
         <div className="max-w-xl">

@@ -31,7 +31,7 @@ export default function Footer() {
           <a href="https://www.autoalarmy-trencin.sk/" className="group relative isolate flex min-h-[320px] sm:min-h-[340px] flex-col justify-end overflow-hidden rounded-2xl bg-slate-950 px-6 pb-6 pt-24 sm:px-8 sm:pb-8 text-white shadow-lg transition-shadow hover:shadow-xl focus-visible:outline-offset-4" aria-label="Ochrana vozidiel – pozrieť zabezpečenie IGLA">
             <Image src="/images/reklama-bmw-x5-2027.webp" alt="" fill sizes="(max-width: 768px) 100vw, 576px" className="object-cover object-right transition-transform duration-500 motion-safe:group-hover:scale-105" />
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/55 to-slate-950/10" />
-            <div className="absolute top-5 left-6 sm:left-8 rounded-lg bg-white px-3 py-2 shadow-sm"><Image src="/images/logo-vehicle-security.webp" alt="Vehicle Security System – L.H. AL.CO" width={180} height={60} className="h-9 w-auto max-w-[180px] object-contain" /></div>
+            <div className="absolute top-5 left-6 sm:left-8 rounded-lg bg-white px-3 py-2 shadow-sm"><Image src="/images/logo-vehicle-security-small.webp" alt="Vehicle Security System – L.H. AL.CO" width={100} height={38} className="h-9 w-auto max-w-[180px] object-contain" /></div>
             <div className="relative">
               <h3 className="text-3xl sm:text-4xl font-bold tracking-tight mb-3">Ochrana vozidiel</h3>
               <p className="max-w-sm text-base leading-relaxed text-slate-100 mb-5">Digitálne zabezpečenie auta. Nenápadná technológia, profesionálna montáž.</p>
