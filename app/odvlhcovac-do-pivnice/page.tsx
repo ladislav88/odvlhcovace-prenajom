@@ -1,130 +1,28 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
+import CTA from "../components/CTA";
 import { SITE_URL } from "../lib/seo";
-
-export const metadata: Metadata = {
-  title: "Odvlhčovač do pivnice Trenčín | Prenájom – zníženie nadbytočnej vlhkosti",
-  description: "Prenájom odvlhčovačov do pivnice pre Trenčín a okolie. Efektívne odvlhčovanie pivníc, zníženie nadbytočnej vlhkosti a vlhkosti. Priemyselný odvlhčovač na prenájom.",
-  alternates: { canonical: `${SITE_URL}/odvlhcovac-do-pivnice` },
-  openGraph: {
-    url: `${SITE_URL}/odvlhcovac-do-pivnice`,
-    title: "Odvlhčovač do pivnice Trenčín | Prenájom odvlhčovačov",
-    description: "Prenájom odvlhčovačov do pivnice pre Trenčín a okolie. Zbavenie sa plesní a vlhkosti.",
-  },
-};
-
-const BREADCRUMB_JSON_LD = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Domov", item: SITE_URL },
-    { "@type": "ListItem", position: 2, name: "Odvlhčovač do pivnice", item: `${SITE_URL}/odvlhcovac-do-pivnice` },
-  ],
-};
-
-export default function OdvlhcovacDoPivnice() {
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(BREADCRUMB_JSON_LD) }}
-      />
-      <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-[90rem] mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
-            Prenájom odvlhčovača do pivnice v Trenčíne
-          </h1>
-          <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Efektívne riešenie pre vlhké pivnice v Trenčíne a okolí. Profesionálny prenájom výkonných odvlhčovačov pre ochranu uskladnených vecí a zdravé prostredie.
-          </p>
-        </div>
-      </section>
-
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white/80 backdrop-blur-sm">
-        <div className="max-w-[90rem] mx-auto">
-          <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold mb-6 text-gray-900">
-              Odvlhčovanie pivníc
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6 items-center">
-              <div>
-                <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  Pivnice sú často postihnuté nadmernou vlhkosťou, ktorá môže spôsobiť vznik plesní, poškodenie uskladnených vecí a nepríjemné pachy. Prenájom výkonných odvlhčovačov je vhodný pre efektívne odvlhčovanie pivníc a iných podzemných priestorov.
-                </p>
-                <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  K dispozícii je prenájom profesionálnych odvlhčovačov do pivnice pre Trenčín a okolie. Zariadenia efektívne odstraňujú vlhkosť zo vzduchu a pomáhajú udržať optimálnu vlhkosť v pivnici, čím chráni uskladnené veci, predlžuje životnosť konštrukcie a zabezpečuje zdravé prostredie.
-                </p>
-              </div>
-              <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
-                <Image
-                  src="/images/odvlhcovac-do-pivnice.webp"
-                  alt="Priemyselný odvlhčovač v pivnici – zníženie nadbytočnej vlhkosti a odvlhčovanie Trenčín"
-                  fill
-                  className="object-cover"
-                  loading="lazy"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
-            </div>
-
-            <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Prečo je odvlhčovač do pivnice potrebný?
-            </h3>
-            <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">
-              <li>Odstránenie nadmernej vlhkosti zo vzduchu</li>
-              <li>Predchádzanie vzniku plesní a húb</li>
-              <li>Ochrana uskladnených vecí pred poškodením</li>
-              <li>Odstránenie nepríjemných pachov</li>
-              <li>Zlepšenie kvality vzduchu v pivnici</li>
-              <li>Predlženie životnosti konštrukcie</li>
-            </ul>
-
-            <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Výhody odvlhčovačov do pivnice
-            </h3>
-            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Odvlhčovače sú vhodné pre rôzne veľkosti pivníc a poskytujú efektívne riešenie pre odvlhčovanie. Zariadenia sú jednoduché na obsluhu a majú automatické režimy, ktoré zabezpečujú optimálnu úroveň vlhkosti.
-            </p>
-            <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">
-              <li>Vysoká účinnosť odvlhčovania</li>
-              <li>Tichá prevádzka</li>
-              <li>Nízka spotreba energie</li>
-              <li>Automatické režimy prevádzky</li>
-              <li>Vhodné pre rôzne veľkosti pivníc</li>
-            </ul>
-
-            <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Priemyselné odvlhčovače Rohnson pre pivnice
-            </h3>
-            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              K dispozícii je prenájom priemyselných odvlhčovačov značky <strong>Rohnson</strong>, vhodných pre odvlhčovanie pivníc. Zariadenia majú tichú prevádzku, automatické režimy a sú vhodné pre prevádzku v širokom rozsahu teplôt. Praktická rukoväť a kolieska umožňujú ľahký presun zariadenia.
-            </p>
-
-            <div className="bg-gray-50 p-6 rounded-lg my-6">
-              <h3 className="text-xl font-semibold mb-4 text-gray-900">
-                Vhodné aj po stavebných prácach
-              </h3>
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                Prenájom odvlhčovačov je vhodný aj pre odvlhčenie pivníc po stavebných prácach v Trenčíne a okolí. Zariadenia efektívne odstraňujú vlhkosť po omietkach, poteroch, maľovaní a rekonštrukcii, čím zabezpečujú rýchlejšie vyschnutie a ochranu pred plesňami.
-              </p>
-              <ul className="space-y-2 text-gray-700">
-                <li>• <strong>Po omietkach</strong> – Rýchlejšie a rovnomerné vyschnutie</li>
-                <li>• <strong>Po poteroch</strong> – Odstránenie vlhkosti pred dokončením</li>
-                <li>• <strong>Po maľovaní</strong> – Lepšie schnutie farby, prevencia plesní</li>
-                <li>• <strong>Po rekonštrukcii</strong> – Odvlhčenie po stavebných prácach</li>
-              </ul>
-            </div>
-
-            <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Ako prenájom funguje
-            </h3>
-            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Odvlhčovač je možné prevziať osobne v Trenčianskych Stankovciach po dohode telefonicky. K dispozícii sú inštrukcie na nastavenie a obsluhu zariadenia podľa potrieb.
-            </p>
-          </div>
-        </div>
-      </section>
-
-    </>
-  );
+const title = "Odvlhčovač do pivnice Trenčín | Prenájom";
+const description = "Prenájom odvlhčovača do pivnice a suterénu v Trenčíne a okolí. Zníženie nadmernej vlhkosti vzduchu. 8 € / deň, min. 10 dní. Zavolajte nám.";
+export const metadata: Metadata = {title, description, alternates: {canonical: `${SITE_URL}/odvlhcovac-do-pivnice`}, openGraph: {title, description, url: `${SITE_URL}/odvlhcovac-do-pivnice`, images: [{url: "/images/odvlhcovac-do-pivnice.webp", alt: "Ilustračný obrázok odvlhčovania"}]}};
+const breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"Domov",item:SITE_URL},{"@type":"ListItem",position:2,name:title,item:`${SITE_URL}/odvlhcovac-do-pivnice`}]};
+export default function Page() {
+ return <>
+ <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(breadcrumb)}} />
+ <section className="bg-blue-50 py-9 sm:py-12 px-4 sm:px-6"><div className="max-w-5xl mx-auto">
+ <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">Prenájom odvlhčovača do pivnice v Trenčíne</h1>
+ <p className="text-lg text-gray-700 leading-relaxed mb-4">Vlhká pivnica alebo suterén? Prenajatý odvlhčovač pomáha zachytávať nadbytočnú vodu zo vzduchu a podporuje vysychanie priestoru.</p>
+ <p className="font-semibold text-xl text-blue-800 mb-5">8 € / deň · minimálne 10 dní</p>
+ <a href="tel:+421911911876" className="inline-flex min-h-12 items-center rounded-lg bg-blue-700 px-5 py-3 font-bold text-white">Zavolať: +421 911 911 876</a>
+ </div></section>
+ <section className="bg-white px-4 sm:px-6 py-10"><div className="max-w-5xl mx-auto space-y-8 text-lg text-gray-700 leading-relaxed">
+ <div className="relative h-56 sm:h-80 overflow-hidden rounded-xl"><Image src="/images/odvlhcovac-do-pivnice.webp" alt="Ilustračný obrázok odvlhčovania" fill sizes="(max-width: 1024px) 100vw, 1024px" className="object-cover" /></div>
+ <div><h2 className="text-2xl font-bold text-gray-900 mb-3">Najprv zistite, odkiaľ vlhkosť prichádza</h2><p>Rozdiel je medzi kondenzáciou vzdušnej vlhkosti, zatekaním a vzlínaním vody cez murivo. Odvlhčovač môže zmierniť vlhkosť vzduchu, ale nenahrádza opravu netesnosti ani hydroizolácie.</p></div>
+<div><h2 className="text-2xl font-bold text-gray-900 mb-3">Pozor na teplotu v pivnici</h2><p>V chladnom priestore môže účinnosť kondenzačného odvlhčovania klesať. Vhodnosť použitia závisí od podmienok konkrétneho priestoru a prevádzkového rozsahu zariadenia.</p></div>
+<div><h2 className="text-2xl font-bold text-gray-900 mb-3">Pomôže odvlhčovač proti plesni?</h2><p>Zníženie vlhkosti môže obmedziť podmienky na rast plesní. Existujúce napadnutie však treba ošetriť samostatne a odstrániť zdroj vlhkosti. Samotné odvlhčovanie neznamená sanáciu plesne.</p></div>
+<div><h2 className="text-2xl font-bold text-gray-900 mb-3">Pivnica po zaplavení alebo rekonštrukcii</h2><p>Pred spustením treba odstrániť stojacu vodu, zastaviť jej prítok a overiť bezpečnosť elektrickej inštalácie. Pri stavebnej vlhkosti závisí doba vysychania od materiálov, teploty a prúdenia vzduchu.</p></div>
+ <p>Služba prenájmu je dostupná pre Trenčín a okolie. <Link href="/prenajom-odvlhcovaca" className="text-blue-700 underline">Viac o prenájme odvlhčovača</Link> alebo <Link href="/kontakt" className="text-blue-700 underline">kontaktujte nás</Link>.</p>
+ </div></section><CTA />
+ </>;
 }

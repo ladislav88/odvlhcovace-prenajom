@@ -1,134 +1,28 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
+import CTA from "../components/CTA";
 import { SITE_URL } from "../lib/seo";
-
-export const metadata: Metadata = {
-  title: "Odvlhčovač do bytu Trenčín | Prenájom – vlhkosť a plesne",
-  description: "Prenájom odvlhčovačov do bytu pre Trenčín a okolie. Riešenie vlhkých bytov, zníženie nadbytočnej vlhkosti a nepríjemných pachov. Odvlhčovač vzduchu na prenájom.",
-  alternates: { canonical: `${SITE_URL}/odvlhcovac-do-bytu` },
-  openGraph: {
-    url: `${SITE_URL}/odvlhcovac-do-bytu`,
-    title: "Odvlhčovač do bytu Trenčín | Prenájom odvlhčovačov",
-    description: "Prenájom odvlhčovačov do bytu pre Trenčín a okolie. Vlhký byt, plesne – rýchle riešenie.",
-  },
-};
-
-const BREADCRUMB_JSON_LD = {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Domov", item: SITE_URL },
-    { "@type": "ListItem", position: 2, name: "Odvlhčovač do bytu", item: `${SITE_URL}/odvlhcovac-do-bytu` },
-  ],
-};
-
-export default function OdvlhcovacDoBytu() {
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(BREADCRUMB_JSON_LD) }}
-      />
-      <section className="bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-[90rem] mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
-            Prenájom odvlhčovača do bytu v Trenčíne
-          </h1>
-          <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-            Riešenie pre vlhké byty v Trenčíne a okolí. Profesionálny prenájom tichých a efektívnych odvlhčovačov pre zdravé prostredie v byte.
-          </p>
-        </div>
-      </section>
-
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white/80 backdrop-blur-sm">
-        <div className="max-w-[90rem] mx-auto">
-          <div className="prose prose-lg max-w-none">
-            <h2 className="text-3xl font-bold mb-6 text-gray-900">
-              Odvlhčovanie bytov
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6 items-center">
-              <div>
-                <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  Nadmerná vlhkosť v byte môže spôsobiť množstvo problémov – od vlhkých stien, cez vznik plesní až po nepríjemné pachy. Prenájom odvlhčovačov do bytu poskytuje efektívne a rýchle riešenie pre odvlhčovanie bytových priestorov v Trenčíne a okolí.
-                </p>
-                <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-                  K dispozícii je prenájom výkonných odvlhčovačov vhodných pre bytové priestory. Zariadenia sú kompaktné, tiché a efektívne, vhodné pre domáce prostredie.
-                </p>
-              </div>
-              <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
-                <Image
-                  src="/images/odvlhcovac-do-bytu.webp"
-                  alt="Odvlhčovač vzduchu v byte – prenájom odvlhčovačov pre byty a domy Trenčín, zníženie nadbytočnej vlhkosti"
-                  fill
-                  className="object-cover"
-                  loading="lazy"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
-            </div>
-
-            <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Kedy je odvlhčovač do bytu potrebný?
-            </h3>
-            <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">
-              <li>Vlhké steny a rohy v byte</li>
-              <li>Vznik plesní na stenách alebo nábytku</li>
-              <li>Nepríjemné pachy spôsobené vlhkosťou</li>
-              <li>Zamlžovanie okien</li>
-              <li>Vysoká relatívna vlhkosť vzduchu</li>
-              <li>Problémy po zatopení alebo úniku vody</li>
-            </ul>
-
-            <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Výhody odvlhčovačov do bytu
-            </h3>
-            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Odvlhčovače do bytu sú navrhnuté s dôrazom na tichú prevádzku, kompaktné rozmery a jednoduchú obsluhu. Zariadenia sú vhodné do obývacích izieb, spální, kuchýň alebo kúpeľní.
-            </p>
-            <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">
-              <li>Kompaktné rozmery - vhodné pre bytové priestory</li>
-              <li>Tichá prevádzka - neobťažuje pri bežnom živote</li>
-              <li>Vysoká účinnosť odvlhčovania</li>
-              <li>Nízka spotreba energie</li>
-              <li>Automatické režimy a regulácia vlhkosti</li>
-              <li>Jednoduchá obsluha a údržba</li>
-            </ul>
-
-            <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Priemyselné odvlhčovače Rohnson pre byty
-            </h3>
-            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              K dispozícii je prenájom priemyselných odvlhčovačov značky <strong>Rohnson</strong>, ktoré sú vhodné aj pre odvlhčovanie bytov. Zariadenia majú kompaktné rozmery, tichú prevádzku a vysokú účinnosť odvlhčovania. Nastavenie vlhkosti a časovač umožňujú presné riadenie podľa potrieb.
-            </p>
-
-            <div className="bg-gray-50 p-6 rounded-lg my-6">
-              <h3 className="text-xl font-semibold mb-4 text-gray-900">
-                Vhodné aj po stavebných prácach
-              </h3>
-              <p className="text-gray-700 mb-4 leading-relaxed">
-                Prenájom odvlhčovačov je ideálny pre odvlhčenie bytov po stavebných prácach v Trenčíne a okolí. Zariadenia efektívne odstraňujú vlhkosť po omietkach, poteroch, maľovaní a rekonštrukcii, čím skracujú čas schnutia a chráňajú interiér pred plesňami.
-              </p>
-              <ul className="space-y-2 text-gray-700">
-                <li>• <strong>Po omietkach</strong> – Rýchlejšie vyschnutie, rovnomerné schnutie</li>
-                <li>• <strong>Po poteroch</strong> – Odstránenie vlhkosti pred pokládkou podláh</li>
-                <li>• <strong>Po maľovaní</strong> – Lepšie schnutie farby, prevencia plesní</li>
-                <li>• <strong>Po rekonštrukcii</strong> – Odvlhčenie interiérov po stavebných prácach</li>
-              </ul>
-            </div>
-
-            <h3 className="text-2xl font-semibold mt-8 mb-4 text-gray-900">
-              Ako prenájom funguje
-            </h3>
-            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Odvlhčovač je možné prevziať osobne v Trenčianskych Stankovciach po dohode telefonicky. K dispozícii sú inštrukcie na nastavenie a obsluhu zariadenia podľa potrieb.
-            </p>
-            <p className="text-gray-700 mb-4 text-lg leading-relaxed">
-              Prenájom je dostupný pre všetky byty v Trenčianskom kraji. Podmienky prenájmu sú flexibilné, technická podpora je k dispozícii počas celého obdobia prenájmu.
-            </p>
-          </div>
-        </div>
-      </section>
-
-    </>
-  );
+const title = "Odvlhčovač do bytu Trenčín | Prenájom";
+const description = "Prenájom odvlhčovača do bytu v Trenčíne a okolí. Pomoc pri nadmernej vlhkosti a kondenzácii. 8 € / deň, min. 10 dní. Overte dostupnosť telefonicky.";
+export const metadata: Metadata = {title, description, alternates: {canonical: `${SITE_URL}/odvlhcovac-do-bytu`}, openGraph: {title, description, url: `${SITE_URL}/odvlhcovac-do-bytu`, images: [{url: "/images/odvlhcovac-do-bytu.webp", alt: "Ilustračný obrázok odvlhčovania"}]}};
+const breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"Domov",item:SITE_URL},{"@type":"ListItem",position:2,name:title,item:`${SITE_URL}/odvlhcovac-do-bytu`}]};
+export default function Page() {
+ return <>
+ <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(breadcrumb)}} />
+ <section className="bg-blue-50 py-9 sm:py-12 px-4 sm:px-6"><div className="max-w-5xl mx-auto">
+ <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">Prenájom odvlhčovača do bytu v Trenčíne</h1>
+ <p className="text-lg text-gray-700 leading-relaxed mb-4">Prenájom odvlhčovača pomáha znížiť nadmernú vlhkosť vzduchu v byte či dome. Vhodný môže byť pri kondenzácii, po rekonštrukcii alebo úniku vody.</p>
+ <p className="font-semibold text-xl text-blue-800 mb-5">8 € / deň · minimálne 10 dní</p>
+ <a href="tel:+421911911876" className="inline-flex min-h-12 items-center rounded-lg bg-blue-700 px-5 py-3 font-bold text-white">Zavolať: +421 911 911 876</a>
+ </div></section>
+ <section className="bg-white px-4 sm:px-6 py-10"><div className="max-w-5xl mx-auto space-y-8 text-lg text-gray-700 leading-relaxed">
+ <div className="relative h-56 sm:h-80 overflow-hidden rounded-xl"><Image src="/images/odvlhcovac-do-bytu.webp" alt="Ilustračný obrázok odvlhčovania" fill sizes="(max-width: 1024px) 100vw, 1024px" className="object-cover" /></div>
+ <div><h2 className="text-2xl font-bold text-gray-900 mb-3">Kedy môže odvlhčovač pomôcť?</h2><p>Pri vysokej vzdušnej vlhkosti, zamlžovaní okien alebo po mokrých stavebných prácach. Vlhkomer vám pomôže sledovať zmenu. Ak sa problém opakovane vracia, treba zistiť jeho príčinu, napríklad zatekanie, nedostatočné vetranie alebo tepelný most.</p></div>
+<div><h2 className="text-2xl font-bold text-gray-900 mb-3">Vlhkosť a pleseň v byte</h2><p>Odvlhčovač existujúcu pleseň neodstráni. Znižovanie vlhkosti je iba časť riešenia; napadnuté povrchy aj príčinu problému treba riešiť samostatne.</p></div>
+<div><h2 className="text-2xl font-bold text-gray-900 mb-3">Na čo myslieť pri používaní v byte</h2><p>Zariadenie potrebuje priestor na prúdenie vzduchu a pravidelnú kontrolu kondenzátu. Počítajte so zvukom ventilátora a kompresora. Pri umiestnení aj prevádzke dodržte návod, najmä v blízkosti vody.</p></div>
+<div><h2 className="text-2xl font-bold text-gray-900 mb-3">Odvlhčovanie po rekonštrukcii</h2><p>Po omietkach alebo poteroch sa riaďte postupom zrenia materiálu. Pred pokládkou podlahy nestačí suchý vzduch ani povrch: vhodnosť podkladu musí potvrdiť meranie zvyškovej vlhkosti.</p></div>
+ <p>Služba prenájmu je dostupná pre Trenčín a okolie. <Link href="/prenajom-odvlhcovaca" className="text-blue-700 underline">Viac o prenájme odvlhčovača</Link> alebo <Link href="/kontakt" className="text-blue-700 underline">kontaktujte nás</Link>.</p>
+ </div></section><CTA />
+ </>;
 }

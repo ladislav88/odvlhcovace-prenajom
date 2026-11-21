@@ -19,7 +19,7 @@ export default function Navbar() {
       {/* Top Contact Bar */}
       <div className="bg-blue-600 text-white py-2 text-sm">
         <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row justify-center sm:justify-end items-center gap-4 sm:gap-6">
+          <div className="flex flex-col sm:flex-row justify-center sm:justify-end items-center gap-1 sm:gap-6">
             <a
               href="tel:+421911911876"
               className="flex items-center gap-2 hover:text-blue-100 transition-colors font-semibold"
@@ -45,7 +45,7 @@ export default function Navbar() {
       {/* Navigation Bar */}
       <nav className="bg-white shadow-sm sticky top-0 z-50">
         <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-end items-center h-16">
+          <div className="flex justify-end items-center h-12 md:h-16">
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-300 group">
                 Domov
@@ -56,15 +56,15 @@ export default function Navbar() {
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
               </Link>
               <Link href="/odvlhcovac-po-zatopeni" className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-300 group">
-                Po Zatopení
+                Po zatopení
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
               </Link>
               <Link href="/odvlhcovac-do-pivnice" className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-300 group">
-                Do Pivnice
+                Do pivnice
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
               </Link>
               <Link href="/odvlhcovac-do-bytu" className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-300 group">
-                Do Bytu
+                Do bytu
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
               </Link>
               <Link href="/kontakt" className="relative text-gray-700 hover:text-blue-600 font-medium transition-all duration-300 group">
@@ -75,8 +75,10 @@ export default function Navbar() {
             <div className="md:hidden">
               <button 
                 onClick={toggleMobileMenu}
-                className="text-gray-700 hover:text-blue-600 transition-colors"
-                aria-label="Toggle menu"
+                className="min-h-11 min-w-11 flex items-center justify-center text-gray-700 hover:text-blue-600 transition-colors"
+                aria-label={isMobileMenuOpen ? "Zavrieť menu" : "Otvoriť menu"}
+                aria-expanded={isMobileMenuOpen}
+                aria-controls="mobile-menu"
               >
                 {isMobileMenuOpen ? (
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -94,7 +96,7 @@ export default function Navbar() {
         
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden border-t border-gray-200 bg-white">
+          <div id="mobile-menu" className="md:hidden border-t border-gray-200 bg-white">
             <div className="px-4 pt-2 pb-4 space-y-1">
               <Link 
                 href="/" 
@@ -115,21 +117,21 @@ export default function Navbar() {
                 onClick={closeMobileMenu}
                 className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md font-medium transition-colors"
               >
-                Po Zatopení
+                Po zatopení
               </Link>
               <Link 
                 href="/odvlhcovac-do-pivnice" 
                 onClick={closeMobileMenu}
                 className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md font-medium transition-colors"
               >
-                Do Pivnice
+                Do pivnice
               </Link>
               <Link 
                 href="/odvlhcovac-do-bytu" 
                 onClick={closeMobileMenu}
                 className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-blue-50 rounded-md font-medium transition-colors"
               >
-                Do Bytu
+                Do bytu
               </Link>
               <Link 
                 href="/kontakt" 
