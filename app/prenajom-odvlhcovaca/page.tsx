@@ -4,7 +4,7 @@ import CTA from "../components/CTA";
 import { SITE_URL, SERVICE_JSON_LD } from "../lib/seo";
 
 const title = "Prenájom odvlhčovača Trenčín | 8 € za deň";
-const description = "Požičovňa odvlhčovačov a vysúšačov v Trenčíne a okolí. Cena 8 € / deň, minimálne 10 dní. Na stavbu, po zatopení, do bytu aj pivnice. Overte dostupnosť.";
+const description = "Prenájom odvlhčovačov a vysúšačov pre Trenčín a Trenčiansky kraj. Na stavbu, do bytu, pivnice aj po zatopení. 8 € / deň, min. 10 dní. Overte dostupnosť.";
 export const metadata: Metadata = {title,description,alternates:{canonical:`${SITE_URL}/prenajom-odvlhcovaca`},openGraph:{title,description,url:`${SITE_URL}/prenajom-odvlhcovaca`}};
 const breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList",itemListElement:[{"@type":"ListItem",position:1,name:"Domov",item:SITE_URL},{"@type":"ListItem",position:2,name:"Prenájom odvlhčovača",item:`${SITE_URL}/prenajom-odvlhcovaca`}]};
 export default function Prenajom() {
@@ -18,6 +18,7 @@ export default function Prenajom() {
       <a href="tel:+421911911876" className="inline-flex min-h-12 items-center rounded-lg bg-blue-700 px-5 py-3 text-white font-bold">Overiť dostupnosť: +421 911 911 876</a>
     </div></section>
     <section className="bg-white py-10"><div className="site-container mx-auto space-y-8 text-lg text-gray-700 leading-relaxed">
+      <div><h2 className="text-2xl text-gray-900 font-bold mb-3">Prenájom pre Trenčín aj širšie okolie</h2><p>Požičovňa vysúšačov je určená pre domácnosti a firmy z Trenčína a Trenčianskeho kraja. Ak riešite vlhkosť mimo Trenčína, zavolajte nám a povedzte, kde a aký priestor potrebujete vysúšať. Spoločne preberieme vhodnosť použitia a aktuálnu dostupnosť.</p><p className="mt-3">Pri telefonáte pomôže približná plocha priestoru, jeho teplota, príčina vlhkosti a plánovaný začiatok prenájmu. <Link href="/vysusanie-stavieb" className="text-blue-700 underline">Prenájom na vysúšanie stavieb</Link> sa hodí na iné podmienky než <Link href="/odvlhcovac-do-bytu" className="text-blue-700 underline">odvlhčovanie obývaného bytu</Link>.</p></div>
       <div><h2 className="text-2xl text-gray-900 font-bold mb-3">Kedy sa oplatí prenájom vysúšača?</h2><p>Pri dočasnom probléme s vlhkosťou nemusíte kupovať vlastný odvlhčovač. Prenájom môže pomôcť po mokrých stavebných prácach, pri vlhkom interiéri alebo po havárii vody. Vhodnosť použitia závisí od podmienok v priestore.</p></div>
       <div><h2 className="text-2xl text-gray-900 font-bold mb-3">Vyberte podľa situácie</h2><ul className="list-disc pl-6 space-y-3">
         <li><Link className="text-blue-700 underline" href="/vysusanie-stavieb">Vysúšanie stavieb a novostavieb</Link> – po omietkach, poteroch a rekonštrukcii.</li>
